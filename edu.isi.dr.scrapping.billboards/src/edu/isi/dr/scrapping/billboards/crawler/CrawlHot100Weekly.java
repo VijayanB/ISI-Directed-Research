@@ -125,5 +125,7 @@ public class CrawlHot100Weekly implements ICrawlUrls {
 	 * 1995-01-21
 1995-01-14
 1995-01-07
+
+1975-11-08
 	 */
 }
