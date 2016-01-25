@@ -30,11 +30,11 @@ public class CrawlHot100Weekly implements ICrawlUrls {
 	}
 
 	private Map<Date, Set<Article>> crawlHot100Songs() throws IOException,
-			ParseException, InterruptedException {
+			 InterruptedException {
 		// public static void main(String args[]) throws IOException,
 		// ParseException {
 
-		int ITERATION = 1000;
+		int ITERATION = 500;
 		int count = 0;
 		String crawlUrl = BILLBOARD_CHART_100_START_URL;
 		Map<Date, Set<Article>> dataSet = new HashMap<>();
@@ -83,7 +83,12 @@ public class CrawlHot100Weekly implements ICrawlUrls {
 				String pattern = "yyyy-MM-dd";
 				String[] urlSegments = crawlUrl.split("/");
 				SimpleDateFormat df = new SimpleDateFormat(pattern);
-				Date date = df.parse(urlSegments[urlSegments.length - 1]);
+				Date date;
+				try {
+					date = df.parse(urlSegments[urlSegments.length - 1]);
+				} catch (ParseException e) {
+					break;
+				}
 				System.out.println(urlSegments[urlSegments.length - 1]);
 				dataSet.put(date, articleList);
 			//}
@@ -95,6 +100,9 @@ public class CrawlHot100Weekly implements ICrawlUrls {
 				} else {
 					crawlUrl = BILL_BOARD + link;
 				}
+			}
+			else {
+				break;
 			}
 			count++;
 
@@ -118,7 +126,7 @@ public class CrawlHot100Weekly implements ICrawlUrls {
 			root.put(date, lists);
 
 		}
-		obj.writeToFile(root, "/home/vijay/Desktop/billboard_dec_31_1994" + ".json");
+		obj.writeToFile(root, "/home/vijay/Desktop/billboard_1966_04_02" + ".json");
 	}
 // till
 	/*

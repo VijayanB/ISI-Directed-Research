@@ -57,4 +57,20 @@ public class Article {
 		this.artistName = artistName;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		Article article1 = (Article) obj;
+		if (this.artistName.equals(article1.artistName)
+				&& this.title.equals(article1.title))
+			return true;
+		else
+			return false;
+	}
+
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return new String(this.artistName + "-" + this.title).hashCode();
+	}
+
 }
