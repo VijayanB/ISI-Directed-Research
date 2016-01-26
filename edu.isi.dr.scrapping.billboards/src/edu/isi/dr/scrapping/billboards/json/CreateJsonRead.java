@@ -17,7 +17,20 @@ public class CreateJsonRead {
 		obj.put("rank", article.getRank());
 		obj.put("title", article.getTitle());
 		obj.put("totalWeeksOnChart", article.getWeaksOnChart());
-		
+
+		return obj;
+	}
+
+	public Article createArticle(JSONObject article) {
+		Article obj = new Article();
+
+		obj.setArtistName(((String) article.get("artistName")).replace(" Watch","").trim());
+		obj.setLastWeekRank((String) article.get("lastWeekRank"));
+		obj.setPeakPositionRank((String) article.get("peakPositionRank"));
+		obj.setRank((String) article.get("rank"));
+		obj.setTitle((String) article.get("title"));
+		obj.setWeaksOnChart((String) article.get("totalWeeksOnChart"));
+
 		return obj;
 	}
 
@@ -25,7 +38,7 @@ public class CreateJsonRead {
 		try {
 
 			FileWriter file = new FileWriter(location);
-				file.write(results.toJSONString());
+			file.write(results.toJSONString());
 			file.close();
 
 		} catch (IOException e) {
