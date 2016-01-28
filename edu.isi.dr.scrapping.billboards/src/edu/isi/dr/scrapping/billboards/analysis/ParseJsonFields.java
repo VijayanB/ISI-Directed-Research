@@ -29,10 +29,10 @@ public class ParseJsonFields {
 		this.folder = folder;
 	}
 
-	public Map<Article, Article> convertFileToJsonObject(int startYear,
+	public Map<Article, Integer> convertFileToJsonObject(int startYear,
 			int endYear) throws FileNotFoundException, IOException,
 			ParseException {
-		Map<Article, Article> songLists = new HashMap<>();
+		Map<Article, Integer> songLists = new HashMap<>();
 		CreateJsonRead jread = new CreateJsonRead();
 		JSONParser parser = new JSONParser();
 		File[] listFiles = new File(folder).listFiles();
@@ -56,16 +56,11 @@ public class ParseJsonFields {
 					JSONArray songs = (JSONArray) root.get(songDate);
 					Iterator<JSONObject> ll = songs.iterator();
 					while (ll.hasNext()) {
-						Article createArticle = jread.createArticle(ll.next());
+						Article createArticle = jread.createArticle(ll.next(),(String)songDate);
 						if (songLists.containsKey(createArticle)) {
-							Article old = songLists.get(createArticle);
-							int oldWeek = getIntegerValue(old);
-							int newWeek = getIntegerValue(createArticle);
-							if (newWeek > oldWeek) {
-								songLists.put(createArticle, createArticle);
-							}
+							songLists.put(createArticle, songLists.get(createArticle)+1);
 						} else {
-							songLists.put(createArticle, createArticle);
+							songLists.put(createArticle, 1);
 						}
 
 					}
@@ -90,19 +85,19 @@ public class ParseJsonFields {
 	}
 
 	public void processWeeksOnChart(String fileLocation,
-			Map<Article, Article> filteredList) throws FileNotFoundException,
+			Map<Article, Integer> filteredList) throws FileNotFoundException,
 			UnsupportedEncodingException {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
 		StringBuilder contents = new StringBuilder();
-		/*
-		 * for (Article art : filteredList.keySet()) {
-		 * contents.append(art.getTitle() + ":" + art.getArtistName() + ":" +
-		 * filteredList.get(art).getWeaksOnChart() + "\n"); }
-		 */
+		
+		 for (Article art : filteredList.keySet()) {
+		  contents.append(art.getTitle() + ":" + art.getArtistName() + ":" +
+		  filteredList.get(art) +":"+art.getWeek()+ "\n"); }
+		 
 
-		for (Article art : filteredList.keySet()) {
-			contents.append(" " + filteredList.get(art).getWeaksOnChart() + ",");
-		}
+	/*	for (Article art : filteredList.keySet()) {
+			contents.append(" " + filteredList.get(art) + ",");
+		}*/
 
 		String finalContent = contents.toString();
 		finalContent = finalContent.substring(0, finalContent.length() - 1);
@@ -114,11 +109,11 @@ public class ParseJsonFields {
 	public static void main(String[] args) throws FileNotFoundException,
 			IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/data");
-		Map<Article, Article> objLists = obj
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/test");
+		Map<Article, Integer> objLists = obj
 				.convertFileToJsonObject(2010, 2016);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/result_2010.txt",
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/test/result_11.txt",
 				objLists);
 	}
 

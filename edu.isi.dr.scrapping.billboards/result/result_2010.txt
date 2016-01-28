@@ -1,1 +1,2742 @@
- 1, 2, 10, 2, 17, 1, 10, 1, 3, 4, 2, 1, 3, 2, 3, 1, 12, 1, 20, 24, 14, 11, 34, 2, 22, 30, 20, 19, 16, 26, 1, 1, 1, 1, 1, 20, 1, 28, 18, 2, 14, 24, 16, 1, 1, 21, 1, 16, 1, 9, 8, 1, 18, 1, 3, 1, 11, 18, 1, 20, 24, 1, 35, 14, 5, 24, 18, 4, 13, 1, 20, 2, 2, 1, 39, 16, 13, 18, 6, 1, 9, 20, 3, 1, 5, 2, 7, 19, 3, 20, 1, 58, 18, 45, 16, 2, 10, 20, 20, 28, 1, 15, 2, 4, 15, 17, 1, 17, 19, 65, 1, 31, 3, 33, 1, 1, 4, 20, 1, 11, 1, 1, 1, 13, 1, 8, 5, 13, 32, 20, 20, 7, 1, 7, 2, 10, 8, 1, 1, 1, 2, 8, 20, 25, 24, 20, 1, 1, 48, 36, 20, 30, 1, 2, 1, 1, 6, 24, 10, 25, 20, 2, 9, 1, 11, 20, 1, 31, 1, 2, 6, 20, 3, 18, 1, 1, 21, 1, 3, 3, 39, 9, 4, 12, 20, 3, 12, 2, 2, 31, 20, 7, 1, 1, 24, 44, 32, 20, 2, 9, 1, 1, 1, 6, 6, 4, 25, 2, 6, 1, 1, 20, 18, 5, 9, 1, 3, 19, 9, 1, 50, 16, 1, 12, 20, 10, 20, 20, 20, 22, 20, 18, 1, 6, 43, 1, 8, 6, 41, 19, 30, 32, 7, 2, 20, 29, 1, 23, 2, 1, 20, 12, 1, 20, 4, 20, 15, 3, 1, 20, 2, 1, 20, 2, 1, 14, 31, 20, 20, 2, 18, 20, 1, 15, 1, 20, 1, 12, 1, 8, 1, 1, 1, 12, 1, 25, 5, 1, 20, 18, 9, 4, 4, 10, 17, 1, 20, 7, 1, 26, 4, 34, 19, 5, 1, 1, 1, 1, 12, 1, 1, 25, 36, 19, 1, 1, 19, 2, 20, 1, 33, 16, 18, 1, 4, 1, 20, 1, 1, 20, 1, 10, 1, 11, 23, 22, 8, 26, 20, 20, 29, 42, 20, 20, 3, 2, 20, 1, 24, 9, 12, 17, 20, 20, 18, 1, 8, 1, 29, 1, 8, 1, 20, 20, 13, 40, 20, 1, 20, 4, 8, 20, 11, 6, 1, 18, 2, 16, 26, 21, 20, 27, 1, 35, 1, 30, 3, 1, 1, 3, 12, 34, 2, 1, 10, 1, 5, 5, 15, 4, 1, 13, 1, 20, 20, 23, 7, 4, 20, 18, 18, 20, 1, 16, 1, 1, 1, 20, 13, 2, 2, 1, 3, 1, 20, 10, 8, 1, 17, 20, 27, 1, 27, 1, 35, 1, 15, 20, 1, 2, 18, 1, 9, 4, 20, 16, 12, 2, 10, 3, 19, 20, 20, 7, 1, 1, 20, 17, 20, 2, 20, 34, 21, 1, 3, 1, 7, 15, 37, 18, 14, 1, 1, 20, 1, 1, 4, 1, 1, 22, 15, 1, 1, 26, 36, 4, 7, 23, 38, 20, 1, 33, 1, 7, 1, 15, 3, 12, 1, 1, 1, 1, 15, 29, 19, 20, 1, 1, 5, 20, 1, 12, 6, 24, 12, 2, 1, 20, 1, 9, 1, 27, 30, 4, 20, 1, 2, 20, 1, 29, 7, 1, 20, 14, 11, 1, 1, 20, 13, 1, 2, 20, 12, 20, 1, 36, 2, 1, 26, 1, 6, 24, 8, 15, 20, 2, 8, 1, 13, 1, 7, 18, 20, 19, 1, 1, 2, 3, 31, 21, 13, 27, 2, 21, 36, 25, 1, 2, 24, 7, 1, 1, 20, 20, 46, 20, 1, 13, 2, 13, 17, 20, 25, 12, 10, 1, 19, 42, 1, 24, 20, 9, 1, 20, 8, 4, 36, 5, 1, 2, 1, 3, 4, 19, 2, 1, 15, 20, 1, 11, 26, 15, 14, 25, 3, 27, 52, 31, 20, 1, 21, 1, 24, 20, 29, 17, 6, 1, 21, 16, 22, 20, 1, 1, 3, 1, 20, 12, 15, 1, 7, 23, 15, 1, 18, 1, 3, 20, 26, 20, 12, 18, 1, 1, 13, 1, 11, 2, 1, 33, 1, 1, 20, 2, 2, 1, 2, 1, 1, 26, 10, 8, 11, 1, 4, 1, 26, 26, 1, 11, 13, 9, 19, 1, 16, 1, 26, 18, 2, 20, 5, 23, 2, 1, 1, 20, 43, 2, 18, 2, 12, 1, 4, 2, 18, 5, 15, 20, 2, 24, 2, 10, 5, 20, 18, 1, 15, 1, 3, 20, 13, 20, 10, 14, 30, 3, 3, 1, 1, 7, 1, 1, 1, 20, 19, 2, 20, 53, 17, 3, 19, 8, 4, 6, 6, 20, 2, 23, 16, 1, 1, 3, 25, 1, 1, 1, 1, 7, 10, 7, 15, 20, 1, 1, 1, 5, 1, 1, 39, 20, 1, 1, 3, 20, 3, 1, 6, 22, 27, 1, 14, 30, 5, 20, 11, 3, 13, 1, 18, 10, 20, 9, 20, 20, 1, 1, 31, 1, 1, 3, 1, 1, 27, 12, 20, 21, 2, 22, 13, 21, 19, 14, 1, 11, 2, 20, 1, 1, 1, 20, 10, 1, 37, 1, 1, 16, 1, 20, 1, 22, 23, 20, 2, 15, 18, 20, 5, 20, 1, 23, 35, 3, 1, 1, 11, 2, 1, 28, 8, 20, 1, 1, 18, 20, 6, 20, 7, 27, 3, 18, 28, 2, 8, 42, 20, 54, 1, 20, 32, 20, 20, 1, 20, 2, 15, 2, 3, 1, 17, 22, 12, 17, 1, 20, 7, 18, 20, 20, 20, 20, 1, 17, 17, 21, 9, 4, 2, 1, 4, 2, 1, 20, 5, 21, 12, 3, 2, 2, 25, 2, 16, 20, 50, 20, 17, 1, 20, 34, 2, 11, 2, 68, 18, 13, 1, 14, 20, 15, 18, 30, 20, 15, 1, 20, 21, 14, 1, 1, 32, 1, 22, 20, 12, 16, 1, 19, 1, 62, 20, 11, 18, 9, 22, 20, 22, 20, 22, 1, 29, 27, 22, 1, 20, 1, 15, 1, 1, 1, 1, 20, 33, 1, 21, 24, 26, 20, 1, 20, 20, 20, 18, 21, 11, 36, 13, 17, 20, 20, 1, 45, 17, 1, 14, 1, 20, 21, 33, 1, 1, 20, 18, 1, 20, 1, 1, 1, 2, 18, 18, 19, 1, 1, 20, 20, 16, 1, 4, 26, 1, 2, 1, 15, 34, 1, 2, 20, 19, 20, 20, 1, 22, 1, 14, 1, 4, 20, 2, 20, 1, 20, 11, 3, 1, 20, 14, 15, 31, 16, 2, 20, 1, 1, 1, 3, 20, 2, 1, 20, 6, 5, 1, 14, 1, 1, 28, 20, 5, 14, 36, 20, 48, 20, 20, 8, 20, 2, 5, 37, 1, 32, 20, 11, 1, 1, 1, 1, 1, 1, 18, 2, 33, 1, 15, 12, 3, 1, 6, 17, 26, 20, 21, 1, 5, 20, 3, 48, 1, 25, 2, 20, 13, 20, 2, 1, 5, 2, 1, 20, 2, 7, 1, 8, 16, 14, 20, 1, 12, 5, 6, 9, 2, 21, 6, 16, 1, 20, 14, 18, 1, 9, 1, 1, 1, 20, 1, 1, 1, 12, 15, 32, 20, 7, 3, 47, 1, 20, 27, 1, 9, 24, 20, 22, 39, 1, 24, 4, 1, 1, 10, 2, 20, 7, 1, 2, 44, 35, 20, 2, 2, 12, 1, 16, 2, 17, 8, 6, 8, 20, 24, 22, 1, 1, 53, 29, 3, 1, 20, 1, 26, 16, 20, 15, 13, 46, 6, 1, 11, 43, 20, 1, 15, 21, 30, 1, 4, 20, 20, 35, 20, 1, 20, 4, 2, 13, 14, 20, 1, 18, 20, 1, 59, 12, 1, 8, 1, 20, 8, 24, 1, 1, 1, 4, 20, 4, 20, 20, 26, 25, 20, 20, 11, 25, 20, 2, 1, 57, 17, 6, 22, 1, 20, 17, 20, 23, 19, 23, 20, 29, 1, 37, 1, 9, 2, 28, 8, 13, 21, 10, 42, 9, 18, 6, 1, 1, 1, 15, 1, 8, 2, 1, 20, 6, 20, 7, 10, 26, 4, 13, 3, 18, 26, 1, 2, 13, 20, 1, 20, 1, 23, 9, 2, 3, 39, 27, 2, 54, 20, 17, 20, 1, 39, 19, 32, 56, 1, 1, 9, 1, 18, 18, 1, 20, 10, 21, 1, 11, 1, 2, 8, 23, 5, 22, 33, 15, 3, 2, 20, 2, 12, 8, 2, 20, 1, 1, 2, 33, 15, 19, 9, 1, 10, 35, 3, 1, 3, 12, 1, 14, 3, 19, 20, 25, 20, 13, 3, 5, 1, 20, 20, 20, 20, 38, 1, 1, 5, 18, 5, 3, 14, 1, 1, 1, 15, 2, 1, 1, 1, 20, 2, 1, 15, 32, 19, 1, 2, 1, 14, 11, 2, 11, 1, 14, 9, 4, 1, 1, 1, 15, 1, 20, 1, 2, 1, 15, 16, 20, 31, 29, 8, 1, 6, 24, 18, 16, 15, 2, 18, 5, 9, 1, 22, 1, 37, 1, 40, 1, 48, 20, 27, 3, 1, 1, 1, 1, 20, 40, 1, 1, 1, 20, 19, 21, 29, 1, 21, 18, 29, 23, 20, 8, 5, 29, 1, 2, 18, 20, 3, 20, 1, 20, 20, 32, 20, 1, 16, 20, 1, 20, 4, 16, 1, 18, 12, 2, 2, 20, 14, 33, 25, 19, 16, 1, 1, 26, 4, 29, 15, 6, 10, 1, 1, 1, 1, 1, 7, 1, 11, 20, 22, 28, 18, 16, 1, 2, 2, 20, 9, 1, 19, 20, 16, 17, 26, 20, 1, 25, 1, 20, 19, 20, 3, 4, 35, 20, 15, 31, 15, 20, 1, 20, 2, 1, 22, 9, 1, 1, 2, 14, 16, 20, 1, 18, 42, 2, 20, 20, 17, 20, 2, 53, 10, 15, 22, 20, 6, 20, 2, 1, 1, 18, 25, 24, 1, 3, 6, 2, 3, 13, 2, 3, 1, 1, 28, 14, 47, 20, 24, 1, 1, 6, 37, 2, 2, 9, 1, 2, 1, 2, 21, 20, 20, 1, 20, 14, 2, 8, 23, 23, 44, 33, 24, 1, 11, 1, 13, 1, 5, 20, 21, 1, 20, 20, 12, 18, 10, 2, 2, 15, 16, 29, 1, 1, 13, 17, 1, 34, 4, 18, 10, 13, 3, 1, 10, 29, 1, 1, 1, 21, 23, 2, 39, 1, 1, 2, 1, 1, 1, 1, 22, 13, 1, 21, 4, 6, 33, 16, 20, 7, 3, 32, 1, 10, 20, 1, 1, 25, 1, 18, 2, 21, 1, 15, 29, 2, 26, 24, 20, 1, 15, 24, 20, 2, 20, 16, 19, 20, 14, 1, 17, 1, 17, 5, 4, 1, 22, 6, 1, 18, 8, 1, 31, 20, 20, 9, 36, 1, 1, 12, 1, 1, 1, 20, 1, 12, 32, 60, 20, 1, 47, 1, 4, 54, 30, 13, 20, 10, 2, 36, 25, 20, 1, 36, 20, 8, 47, 1, 1, 20, 2, 16, 1, 2, 19, 39, 1, 9, 20, 1, 20, 1, 11, 1, 7, 33, 11, 3, 19, 1, 1, 1, 8, 1, 2, 1, 1, 17, 1, 44, 12, 20, 13, 29, 1, 2, 15, 20, 1, 20, 18, 15, 20, 20, 3, 1, 56, 34, 1, 2, 1, 7, 2, 9, 2, 1, 1, 7, 12, 21, 59, 13, 11, 6, 2, 1, 23, 20, 3, 1, 1, 9, 20, 1, 20, 9, 19, 18, 1, 49, 1, 7, 15, 20, 2, 32, 1, 20, 20, 7, 1, 19, 37, 1, 21, 20, 18, 1, 2, 6, 1, 35, 23, 14, 16, 19, 31, 20, 20, 22, 24, 1, 1, 14, 4, 1, 22, 17, 3, 1, 29, 1, 53, 2, 3, 20, 20, 20, 1, 5, 20, 17, 1, 2, 5, 20, 12, 2, 11, 1, 20, 9, 20, 1, 9, 20, 8, 2, 1, 20, 20, 15, 26, 20, 11, 1, 20, 13, 20, 3, 2, 26, 2, 1, 37, 18, 12, 20, 18, 12, 2, 1, 9, 20, 20, 44, 1, 1, 18, 12, 1, 1, 36, 17, 1, 5, 18, 1, 2, 30, 7, 10, 8, 9, 9, 5, 1, 20, 20, 79, 20, 20, 3, 1, 1, 12, 20, 15, 42, 21, 7, 11, 1, 3, 27, 20, 2, 2, 1, 28, 3, 20, 2, 3, 8, 4, 3, 1, 1, 19, 1, 1, 20, 2, 5, 20, 1, 1, 16, 1, 6, 1, 1, 7, 2, 20, 20, 17, 57, 1, 2, 20, 18, 20, 1, 17, 23, 22, 18, 10, 1, 24, 1, 34, 21, 3, 2, 15, 20, 31, 6, 3, 19, 20, 12, 16, 11, 1, 23, 8, 1, 6, 20, 7, 55, 20, 1, 28, 1, 43, 20, 1, 1, 1, 16, 6, 26, 18, 1, 1, 22, 1, 20, 7, 17, 27, 20, 1, 16, 2, 1, 20, 22, 14, 18, 7, 25, 11, 26, 20, 4, 20, 49, 20, 1, 20, 20, 1, 25, 14, 20, 6, 20, 20, 20, 1, 11, 20, 20, 20, 9, 2, 20, 33, 20, 14, 20, 1, 22, 4, 20, 1, 1, 11, 16, 8, 20, 57, 24, 2, 20, 17, 20, 20, 1, 3, 1, 1, 32, 16, 9, 1, 1, 20, 1, 23, 1, 1, 38, 8, 1, 20, 3, 10, 38, 26, 23, 20, 20, 3, 12, 14, 18, 31, 15, 7, 1, 20, 31, 5, 3, 2, 1, 3, 27, 20, 1, 3, 20, 10, 10, 20, 6, 20, 41, 25, 1, 20, 1, 1, 2, 20, 13, 16, 2, 24, 11, 13, 3, 20, 5, 20, 10, 46, 20, 2, 20, 1, 17, 5, 44, 3, 26, 1, 5, 4, 87, 20, 1, 23, 20, 3, 32, 22, 16, 2, 2, 5, 45, 68, 1, 25, 1, 22, 20, 6, 1, 1, 1, 1, 9, 1, 1, 24, 3, 20, 16, 3, 20, 1, 3, 23, 1, 15, 1, 18, 20, 1, 26, 30, 7, 1, 11, 1, 8, 5, 33, 15, 1, 2, 1, 32, 1, 18, 1, 14, 1, 3, 14, 1, 9, 1, 9, 3, 22, 22, 34, 3, 20, 2, 16, 1, 1, 1, 1, 14, 20, 1, 31, 16, 2, 22, 2, 14, 1, 10, 1, 12, 9, 47, 4, 20, 20, 25, 5, 15, 2, 3, 1, 1, 10, 15, 8, 1, 1, 21, 20, 20, 22, 20, 1, 20, 1, 3, 41, 13, 11, 20, 4, 25, 20, 20, 2, 1, 15, 11, 3, 3, 21, 18, 18, 17, 27, 16, 1, 1, 20, 5, 20, 3, 20, 21, 14, 1, 20, 6, 18, 20, 22, 17, 2, 1, 17, 5, 16, 1, 50, 20, 2, 20, 34, 1, 26, 20, 16, 20, 29, 4, 20, 27, 28, 29, 1, 1, 25, 1, 10, 13, 6, 19, 21, 8, 20, 1, 18, 2, 5, 1, 19, 11, 29, 19, 20, 1, 37, 4, 22, 24, 1, 1, 2, 1, 25, 1, 28, 2, 2, 30, 30, 15, 1, 1, 6, 22, 18, 33, 36, 6, 36, 14, 1, 2, 20, 30, 27, 34, 20, 19, 1, 3, 20, 4, 15, 20, 20, 1, 2, 1, 20, 14, 1, 1, 20, 16, 1, 12, 1, 1, 19, 1, 1, 20, 24, 17, 18, 9, 1, 1, 5, 7, 1, 4, 1, 3, 1, 1, 9, 20, 9, 24, 1, 1, 7, 2, 2, 2, 1, 20, 1, 20, 1, 3, 25, 18, 3, 5, 4, 20, 23, 1, 9, 1, 1, 20, 1, 20, 11, 14, 1, 6, 5, 31, 29, 28, 20, 20, 16, 19, 20, 18, 1, 4, 36, 1, 1, 1, 22, 1, 3, 1, 1, 5, 1, 41, 20, 15, 1, 7, 1, 2, 20, 1, 18, 19, 1, 1, 1, 1, 20, 7, 1, 30, 1, 40, 4, 2, 11, 10, 39, 2, 1, 29, 20, 20, 18, 1, 6, 20, 1, 30, 2, 22, 2, 39, 1, 18, 4, 1, 1, 21, 20, 20, 26, 1, 2, 1, 13, 1, 17, 26, 1, 2, 2, 20, 6, 20, 20, 4, 20, 3, 1, 1, 8, 1, 20, 3, 22, 1, 22, 19, 14, 20, 2, 43, 20, 17, 1, 1, 7, 9, 20, 1, 20, 1, 11, 1, 1, 20, 20, 2, 17, 25, 20, 6, 2, 3, 30, 10, 27, 5, 28, 34, 1, 1, 1, 28, 1, 3, 3, 27, 3, 1, 7, 8, 25, 1, 12, 1, 20, 15, 20, 17, 26, 20, 4, 1, 20, 20, 19, 12, 20, 1, 35, 16, 1, 42, 16, 22, 1, 4, 2, 1, 25, 29, 3, 1, 20, 6, 26, 20, 20, 2, 14, 20, 1, 12, 15, 1, 1, 1, 61, 9, 1, 21, 10, 2, 2, 5, 11, 5, 1, 9, 19, 21, 15, 3, 2, 1, 8, 20, 1, 9, 1, 1, 13, 15, 13, 36, 24, 1, 10, 1, 7, 20
+Diana:One Direction:1:Sat Dec 07 00:00:00 PST 2013
+You Changed Me:Jamie Foxx Featuring Chris Brown:2:Sat Jun 20 00:00:00 PDT 2015
+XO:Beyonce:9:Sat Feb 22 00:00:00 PST 2014
+Maybe It Was Memphis:Danielle Bradbery:2:Sat Jul 06 00:00:00 PDT 2013
+The Hanging Tree:James Newton Howard Featuring Jennifer Lawrence:17:Sat Mar 21 00:00:00 PDT 2015
+History:One Direction:1:Sat Nov 28 00:00:00 PST 2015
+Pound Cake / Paris Morton Music 2:Drake Featuring Jay Z:7:Sat Dec 28 00:00:00 PST 2013
+Errrbody:Yo Gotti:1:Sat Oct 25 00:00:00 PDT 2014
+Rain:Creed:2:Sat Mar 13 00:00:00 PST 2010
+Till I'm Gone:Tinie Tempah Featuring Wiz Khalifa:4:Sat Aug 20 00:00:00 PDT 2011
+Wake Up Lovin' You:Craig Morgan:2:Sat May 10 00:00:00 PDT 2014
+Stutter:Maroon 5:1:Sat Oct 09 00:00:00 PDT 2010
+Alice:Avril Lavigne:3:Sat Mar 27 00:00:00 PDT 2010
+Hold Each Other:A Great Big World Featuring FUTURISTIC:2:Sat Oct 10 00:00:00 PDT 2015
+Glory And Gore:Lorde:3:Sat Mar 22 00:00:00 PDT 2014
+Hallelujah:Panic! At The Disco:1:Sat May 09 00:00:00 PDT 2015
+Ice:Kelly Rowland Featuring Lil Wayne:12:Sat Dec 22 00:00:00 PST 2012
+Where You Belong:The Weeknd:1:Sat Feb 28 00:00:00 PST 2015
+Hey Pretty Girl:Kip Moore:20:Sat Apr 13 00:00:00 PDT 2013
+Good Time::24:Sat Nov 03 00:00:00 PDT 2012
+Kiss You In The Morning:Michael Ray:14:Sat Jul 18 00:00:00 PDT 2015
+1994:Jason Aldean:11:Sat Apr 13 00:00:00 PDT 2013
+What Makes You Beautiful::1:Sat May 26 00:00:00 PDT 2012
+Preach:Drake Featuring PARTYNEXTDOOR:2:Sat Feb 28 00:00:00 PST 2015
+Part Of Me:Katy Perry:22:Sat May 26 00:00:00 PDT 2012
+Without You:David Guetta Featuring Usher:30:Sat Nov 05 00:00:00 PDT 2011
+Marry Me:Train:20:Sat Jan 01 00:00:00 PST 2011
+Ain't Worth The Whiskey:Cole Swindell:19:Sat Mar 21 00:00:00 PDT 2015
+Hell Of A Night:Dustin Lynch:16:Sat Jul 18 00:00:00 PDT 2015
+Bottoms Up:Trey Songz Featuring Nicki Minaj:26:Sat Jan 01 00:00:00 PST 2011
+Here's To Us::1:Sat Mar 10 00:00:00 PST 2012
+Lost Stars:Matt McAndrew & Adam Levine:1:Sat Jan 03 00:00:00 PST 2015
+Can't Sleep Love:Pentatonix:1:Sat Nov 07 00:00:00 PST 2015
+I'll Be Home For Christmas:Kelly Clarkson:1:Sat Dec 24 00:00:00 PST 2011
+A Case Of You::1:Sat Nov 23 00:00:00 PST 2013
+Creepin':Eric Church:20:Sat Nov 03 00:00:00 PDT 2012
+Unbroken:Demi Lovato:1:Sat Oct 08 00:00:00 PDT 2011
+Thinkin Bout You:Frank Ocean:28:Sat Nov 03 00:00:00 PDT 2012
+The Boys of Fall:Kenny Chesney:18:Sat Nov 20 00:00:00 PST 2010
+Atlas:Coldplay:2:Sat Sep 28 00:00:00 PDT 2013
+Bad Habits:Maxwell:2:Sat Jan 02 00:00:00 PST 2010
+Here:Alessia Cara:24:Sat Nov 28 00:00:00 PST 2015
+Gorilla:Bruno Mars:16:Sat Oct 12 00:00:00 PDT 2013
+Today Is Your Day:Shania Twain:1:Sat Jul 02 00:00:00 PDT 2011
+MegaMan:Lil Wayne:1:Sat Sep 17 00:00:00 PDT 2011
+Hey Girl:Billy Currington:21:Sat Oct 12 00:00:00 PDT 2013
+Charged Up:Drake:1:Sat Aug 22 00:00:00 PDT 2015
+Beg For It:Iggy Azalea Featuring M0:16:Sat Jan 03 00:00:00 PST 2015
+Blackstar:David Bowie:1:null
+Wings:Little Mix:9:Sat Apr 27 00:00:00 PDT 2013
+Round Of Applause:Waka Flocka Flame Featuring Drake:8:Sat Dec 24 00:00:00 PST 2011
+Throw That:Slaughterhouse Featuring Eminem:1:Sat Sep 08 00:00:00 PDT 2012
+Memories:David Guetta Featuring Kid Cudi:18:Sat Jan 01 00:00:00 PST 2011
+Uptown Girl::1:Sat Nov 26 00:00:00 PST 2011
+L$D:A$AP Rocky:3:Sat Jun 20 00:00:00 PDT 2015
+We Are:Justin Bieber Featuring Nas:1:Sat Dec 05 00:00:00 PST 2015
+I Can't Love You Back:Easton Corbin:11:Sat May 07 00:00:00 PDT 2011
+Whip My Hair:Willow:18:Sat Jan 01 00:00:00 PST 2011
+Listen::1:Sat Oct 09 00:00:00 PDT 2010
+Miss Me:Drake Featuring Lil Wayne:20:Sat Jul 10 00:00:00 PDT 2010
+The Edge Of Glory:Lady Gaga:24:Sat Nov 05 00:00:00 PDT 2011
+Stay:Miley Cyrus:1:Sat Jul 10 00:00:00 PDT 2010
+Want To Want Me:Jason Derulo:35:Sat May 09 00:00:00 PDT 2015
+Scary Monsters And Nice Sprites:Skrillex:14:Sat Mar 03 00:00:00 PST 2012
+Santa Tell Me:Ariana Grande:5:Sat Jan 03 00:00:00 PST 2015
+Beauty And A Beat:Justin Bieber Featuring Nicki Minaj:24:Sat Feb 09 00:00:00 PST 2013
+River Bank:Brad Paisley:18:Sat Jul 19 00:00:00 PDT 2014
+Trailerhood:Toby Keith:4:Sat Sep 11 00:00:00 PDT 2010
+Real Life:Jake Owen:13:Sat Jul 18 00:00:00 PDT 2015
+Dumb Love:Sean Kingston:1:Sat Sep 25 00:00:00 PDT 2010
+Berzerk:Eminem:20:Sat Dec 28 00:00:00 PST 2013
+Gangnam Style:Psy:2:Sat Sep 22 00:00:00 PDT 2012
+Touchin On My:3OH!3:2:Sat Jun 12 00:00:00 PDT 2010
+(I've Had) The Time Of My Life::1:Sat Dec 18 00:00:00 PST 2010
+Fancy:Iggy Azalea Featuring Charli XCX:39:Sat Nov 15 00:00:00 PST 2014
+Don't:Bryson Tiller:16:Sat Nov 28 00:00:00 PST 2015
+Top Of The World:Tim McGraw:13:Sat Nov 28 00:00:00 PST 2015
+Country Song:Seether:18:Sat Jul 16 00:00:00 PDT 2011
+Powerful:Major Lazer Featuring Ellie Goulding & Tarrus Riley:6:Sat Oct 17 00:00:00 PDT 2015
+Infinity:Mariah Carey:1:Sat May 16 00:00:00 PDT 2015
+Mr. Wrong::9:Sat Mar 17 00:00:00 PDT 2012
+Back In Time::1:Sat May 26 00:00:00 PDT 2012
+Hail To The King:Avenged Sevenfold:3:Sat Aug 03 00:00:00 PDT 2013
+Kiss::1:Sat Mar 26 00:00:00 PDT 2011
+Radioactive:Kings Of Leon:5:Sat Nov 20 00:00:00 PST 2010
+Crazy Kids::2:Sat Jun 15 00:00:00 PDT 2013
+Women Lie, Men Lie:Yo Gotti Featuring Lil Wayne:7:Sat Mar 13 00:00:00 PST 2010
+Never Say Never:Justin Bieber Featuring Jaden Smith:19:Sat Jul 10 00:00:00 PDT 2010
+Scream & Shout:will.i.am Featuring Britney Spears:3:Sat Dec 22 00:00:00 PST 2012
+Colder Weather:Zac Brown Band:20:Sat Feb 05 00:00:00 PST 2011
+Come Home:Faith Hill:1:Sat Nov 26 00:00:00 PST 2011
+Thinking Out Loud:Ed Sheeran:58:Sat Mar 21 00:00:00 PDT 2015
+Dance Again:Jennifer Lopez Featuring Pitbull:18:Sat May 26 00:00:00 PDT 2012
+See You Again:Wiz Khalifa Featuring Charlie Puth:45:Sat Nov 28 00:00:00 PST 2015
+Beamer, Benz, Or Bentley:Lloyd Banks Featuring Juelz Santana:16:Sat May 22 00:00:00 PDT 2010
+Baby, It's Cold Outside::2:Sat Jan 01 00:00:00 PST 2011
+Work B**ch!::4:Sat Nov 09 00:00:00 PST 2013
+Drink A Beer:Luke Bryan:20:Sat Dec 28 00:00:00 PST 2013
+Work:Iggy Azalea:20:Sat Jul 19 00:00:00 PDT 2014
+Party In The U.S.A.:Miley Cyrus:10:Sat Jan 30 00:00:00 PST 2010
+Rise Above 1:Reeve Carney Featuring Bono & The Edge:1:Sat Jun 11 00:00:00 PDT 2011
+I'm Back::15:Sat Jul 10 00:00:00 PDT 2010
+Ronan:Taylor Swift:2:Sat Sep 22 00:00:00 PDT 2012
+Tighten Up:The Black Keys:4:Sat Feb 05 00:00:00 PST 2011
+Levitate:Hadouken!:15:Sat Apr 13 00:00:00 PDT 2013
+This Is How We Roll:Florida Georgia Line Featuring Luke Bryan:17:Sat Mar 01 00:00:00 PST 2014
+Blank Space:I Prevail:1:Sat Jan 24 00:00:00 PST 2015
+Mirror:Lil Wayne Featuring Bruno Mars:17:Sat Sep 24 00:00:00 PDT 2011
+Antidote:Travi$ Scott:19:Sat Nov 28 00:00:00 PST 2015
+Rolling In The Deep:Adele:65:Sat Nov 05 00:00:00 PDT 2011
+Physical::1:Sat May 22 00:00:00 PDT 2010
+Just Can't Get Enough:The Black Eyed Peas:31:Sat Aug 20 00:00:00 PDT 2011
+Gonorrhea:Lil Wayne Featuring Drake:3:Sat Oct 16 00:00:00 PDT 2010
+Clarity:Zedd Featuring Foxes:33:Sat Apr 13 00:00:00 PDT 2013
+Big Night:Big Time Rush:1:Sat Jan 15 00:00:00 PST 2011
+Fire N Gold:Bea Miller:1:Sat Aug 15 00:00:00 PDT 2015
+Whispers In The Dark:Mumford & Sons:4:Sat Nov 03 00:00:00 PDT 2012
+Hit The Quan:iLoveMemphis:13:Sat Nov 28 00:00:00 PST 2015
+You And I / You And I::1:Sat Dec 03 00:00:00 PST 2011
+Nobody Love:Tori Kelly:11:Sat Mar 21 00:00:00 PDT 2015
+Moves Like Jagger / Jumpin' Jack Flash::1:Sat Feb 04 00:00:00 PST 2012
+ABC::1:Sat Dec 24 00:00:00 PST 2011
+Hate Sleeping Alone:Drake:1:Sat Dec 03 00:00:00 PST 2011
+Roses:The Chainsmokers Featuring ROZES:13:Sat Nov 28 00:00:00 PST 2015
+She Don't Put It Down::1:Sat Mar 02 00:00:00 PST 2013
+Headlights:Eminem Featuring Nate Ruess:8:Sat Apr 12 00:00:00 PDT 2014
+Wanted You More:Lady Antebellum:5:Sat Sep 24 00:00:00 PDT 2011
+Oceans (Where Feet May Fail):Hillsong UNITED:13:Sat Feb 22 00:00:00 PST 2014
+Story Of My Life:One Direction:32:Sat Dec 28 00:00:00 PST 2013
+We No Speak Americano:Yolanda Be Cool & Dcup:20:Sat Jan 01 00:00:00 PST 2011
+Lose My Mind:Brett Eldredge:20:Sat Jul 18 00:00:00 PDT 2015
+White Walls::1:Sat Nov 09 00:00:00 PST 2013
+Major Tom:Shiny Toy Guns:1:Sat Feb 20 00:00:00 PST 2010
+My Moment:DJ Drama, 2 Chainz, Meek Mill, Jeremih:7:Sat Nov 03 00:00:00 PDT 2012
+Opposite Of Adults:Chiddy Bang:2:Sat Jul 31 00:00:00 PDT 2010
+Young & Gettin' It:Meek Mill Featuring Kirko Bangz:10:Sat Dec 22 00:00:00 PST 2012
+Diamonds Dancing:Drake & Future:8:Sat Nov 28 00:00:00 PST 2015
+It's Not Unusual::1:Sat Oct 08 00:00:00 PDT 2011
+Roxanne:Juliet Simms:1:Sat Apr 28 00:00:00 PDT 2012
+I Am Not A Human Being:Lil Wayne:1:Sat Oct 16 00:00:00 PDT 2010
+TTYLXOX:Bella Thorne:2:Sat Apr 07 00:00:00 PDT 2012
+Best Friend:Young Thug:8:Sat Jan 16 00:00:00 PST 2016
+Still Into You:Paramore:20:Sat Oct 12 00:00:00 PDT 2013
+Get Ur Freak On:Missy "Misdemeanor" Elliott:1:Sat Feb 21 00:00:00 PST 2015
+Drunk On You::1:Sat May 26 00:00:00 PDT 2012
+Turn On The Lights:Future:20:Sat Nov 03 00:00:00 PDT 2012
+All Or Nothing:Theory Of A Deadman:1:Sat May 22 00:00:00 PDT 2010
+Keep Your Money:Empire Cast Featuring Jussie Smollett:1:Sat Feb 28 00:00:00 PST 2015
+F**k You (Forget You):Cee Lo Green:47:Sat Jan 01 00:00:00 PST 2011
+Wild Ones:Flo Rida Featuring Sia:36:Sat May 26 00:00:00 PDT 2012
+Dirt:Florida Georgia Line:20:Sat Nov 15 00:00:00 PST 2014
+Whataya Want From Me:Adam Lambert:30:Sat Jan 30 00:00:00 PST 2010
+Chasing The Sun:Hilary Duff:1:Sat Aug 16 00:00:00 PDT 2014
+Popular Song:MIKA Featuring Ariana Grande:2:Sat Sep 28 00:00:00 PDT 2013
+Jar Of Hearts::1:Sat May 28 00:00:00 PDT 2011
+Fight For You:Jason Derulo:1:Sat Oct 15 00:00:00 PDT 2011
+American Girl:Bonnie McKee:6:Sat Oct 12 00:00:00 PDT 2013
+El Perdon:Nicky Jam & Enrique Iglesias:24:Sat May 09 00:00:00 PDT 2015
+Body Language::1:Sat Dec 27 00:00:00 PST 2014
+Where Ya At:Future Featuring Drake:25:Sat Nov 28 00:00:00 PST 2015
+Turn Up The Music::1:Sat May 26 00:00:00 PDT 2012
+Seen It All:Jeezy Featuring Jay Z:2:Sat Sep 27 00:00:00 PDT 2014
+Camouflage:Brad Paisley:9:Sat Dec 24 00:00:00 PST 2011
+Long Live A$AP:A$AP Rocky:1:Sat Feb 02 00:00:00 PST 2013
+Dibs:Kelsea Ballerini:11:Sat Nov 28 00:00:00 PST 2015
+Gimmie That Girl:Joe Nichols:20:Sat Jul 10 00:00:00 PDT 2010
+25 To Life:Eminem:1:Sat Jul 10 00:00:00 PDT 2010
+Rather Be:Clean Bandit Featuring Jess Glynne:31:Sat Jan 03 00:00:00 PST 2015
+100 Grandkids:Mac Miller:1:Sat Aug 29 00:00:00 PDT 2015
+Work:A$AP Ferg:2:Sat Jun 22 00:00:00 PDT 2013
+We Are One (Ole Ola) [The 2014 FIFA World Cup Official Song]:Pitbull Featuring Jennifer Lopez & Claudia Leitte:6:Sat Jul 19 00:00:00 PDT 2014
+I Luv This Sh*t:August Alsina Featuring Trinidad James:9:Sat Dec 28 00:00:00 PST 2013
+Jessie's Girl::3:Sat Jun 12 00:00:00 PDT 2010
+Tennis Court:Lorde:18:Sat Nov 09 00:00:00 PST 2013
+Trust:Justin Bieber:1:Sat Dec 05 00:00:00 PST 2015
+Hello, I Love You::1:Sat May 01 00:00:00 PDT 2010
+Boys 'Round Here:Blake Shelton Featuring Pistol Annies & Friends:21:Sat Apr 13 00:00:00 PDT 2013
+Reverse Cowgirl:T-Pain:1:Sat Apr 10 00:00:00 PDT 2010
+I Hit It First:Ray J Featuring Bobby Brackins:3:Sat Apr 27 00:00:00 PDT 2013
+Let There Be Cowgirls:Chris Cagle:3:Sat Feb 09 00:00:00 PST 2013
+Can't Hold Us::1:Sat Nov 09 00:00:00 PST 2013
+Later On:The Swon Brothers:9:Sat Oct 18 00:00:00 PDT 2014
+Can't Shake You:Gloriana:4:Sat Jun 15 00:00:00 PDT 2013
+Cups:Anna Kendrick:12:Sat Feb 09 00:00:00 PST 2013
+Cool For The Summer:Demi Lovato:20:Sat Nov 28 00:00:00 PST 2015
+Hallelujah::3:Sat Feb 20 00:00:00 PST 2010
+Sorry:Justin Bieber:12:Sat Nov 28 00:00:00 PST 2015
+Hit The Lights:Jay Sean Featuring Lil Wayne:2:Sat Feb 26 00:00:00 PST 2011
+Feelin' Myself:will.i.am Featuring Miley Cyrus, French Montana, Wiz Khalifa & DJ Mustard:2:Sat Apr 26 00:00:00 PDT 2014
+Starships:Nicki Minaj:31:Sat May 26 00:00:00 PDT 2012
+Nothing:The Script:20:Sat Nov 05 00:00:00 PDT 2011
+The Christmas Song (Merry Christmas To You):Nat King Cole:2:Sat Jan 04 00:00:00 PST 2014
+Billionaire::1:Sat Oct 09 00:00:00 PDT 2010
+Sorry:Rick Ross Featuring Chris Brown:1:Sat Dec 26 00:00:00 PST 2015
+Right Above It:Lil Wayne Featuring Drake:24:Sat Jan 01 00:00:00 PST 2011
+Cups (Pitch Perfect's When I'm Gone):Anna Kendrick:32:Sat Apr 13 00:00:00 PDT 2013
+Wrecking Ball:Miley Cyrus:32:Sat Dec 28 00:00:00 PST 2013
+Two Black Cadillacs:Carrie Underwood:20:Sat Feb 09 00:00:00 PST 2013
+I Luh Ya Papi:Jennifer Lopez Featuring French Montana:2:Sat Mar 29 00:00:00 PDT 2014
+Bubble Butt:Major Lazer Featuring Bruno Mars, Tyga & Mystic:9:Sat Aug 03 00:00:00 PDT 2013
+Telephone::1:Sat Oct 09 00:00:00 PDT 2010
+Lost In Paradise:Evanescence:1:Sat Oct 29 00:00:00 PDT 2011
+Focused:Wale Featuring Kid Cudi:1:Sat Nov 05 00:00:00 PDT 2011
+The Body:Wale Featuring Jeremih:6:Sat Jan 31 00:00:00 PST 2015
+Amen:Edens Edge:6:Sat Dec 24 00:00:00 PST 2011
+Poker Face::4:Sat Jun 12 00:00:00 PDT 2010
+Tonight (I'm Lovin' You):Enrique Iglesias Featuring Ludacris & DJ Frank E:25:Sat Jan 01 00:00:00 PST 2011
+What If:Jason Derulo:2:Sat Dec 04 00:00:00 PST 2010
+Thinking About You:Calvin Harris Featuring Ayah Marar:6:Sat Feb 22 00:00:00 PST 2014
+Wild Boy:MGK Featuring Waka Flocka Flame:1:Sat Jan 28 00:00:00 PST 2012
+Cheerleader::1:Sat May 09 00:00:00 PDT 2015
+The Language:Drake:20:Sat Dec 28 00:00:00 PST 2013
+Unstoppable:Rascal Flatts:17:Sat May 22 00:00:00 PDT 2010
+G.D.F.R.::1:Sat Dec 27 00:00:00 PST 2014
+Hold My Hand::9:Sat Jan 01 00:00:00 PST 2011
+On My Own::1:Sat Jan 19 00:00:00 PST 2013
+Papi:Jennifer Lopez:3:Sat Oct 22 00:00:00 PDT 2011
+I See You:Luke Bryan:19:Sat Mar 21 00:00:00 PDT 2015
+Superheroes:The Script:9:Sat Nov 15 00:00:00 PST 2014
+Wasted::1:Sat Jun 21 00:00:00 PDT 2014
+Call Me Maybe:Carly Rae Jepsen:50:Sat May 26 00:00:00 PDT 2012
+I Love You This Big:Scotty McCreery:16:Sat Aug 20 00:00:00 PDT 2011
+Black Rain:Soundgarden:1:Sat Sep 04 00:00:00 PDT 2010
+Ai Se Eu Te Pego:Michel Telo:12:Sat May 26 00:00:00 PDT 2012
+Studio:ScHoolboy Q Featuring BJ The Chicago Kid:20:Sat Jul 19 00:00:00 PDT 2014
+Monster:Kanye West Featuring Jay-Z, Rick Ross, Bon Iver & Nicki Minaj:10:Sat Nov 20 00:00:00 PST 2010
+Boyfriend:Justin Bieber:19:Sat Jun 16 00:00:00 PDT 2012
+Paranoid:Ty Dolla $ign Featuring B.o.B:20:Sat Feb 22 00:00:00 PST 2014
+Why Don't We Just Dance:Josh Turner:15:Sat Jan 30 00:00:00 PST 2010
+More:Usher:22:Sat Jan 01 00:00:00 PST 2011
+September:Daughtry:20:Sat Jan 01 00:00:00 PST 2011
+Just Gettin' Started:Jason Aldean:18:Sat Mar 21 00:00:00 PDT 2015
+Make It Rain::1:Sat May 09 00:00:00 PDT 2015
+Got 2 Luv U:Sean Paul Featuring Alexis Jordan:6:Sat Nov 05 00:00:00 PDT 2011
+Set Fire To The Rain:Adele:43:Sat Nov 05 00:00:00 PDT 2011
+The Creep:The Lonely Island Featuring Nicki Minaj:1:Sat Feb 19 00:00:00 PST 2011
+Wildflower:The JaneDear Girls:8:Sat Feb 05 00:00:00 PST 2011
+Bed Of Lies:Nicki Minaj Featuring Skylar Grey:2:Sat Jan 17 00:00:00 PST 2015
+Take Me To Church:Hozier:41:Sat Mar 21 00:00:00 PDT 2015
+Love More::5:Sat Nov 09 00:00:00 PST 2013
+OMG:Usher Featuring will.i.am:30:Sat Jul 10 00:00:00 PDT 2010
+Stay:Rihanna Featuring Mikky Ekko:32:Sat Apr 13 00:00:00 PDT 2013
+Flashlight:Jessie J:7:Sat Jul 18 00:00:00 PDT 2015
+Friday::2:Sat Jun 04 00:00:00 PDT 2011
+Beat Of The Music:Brett Eldredge:20:Sat Feb 22 00:00:00 PST 2014
+As Long As You Love Me:Justin Bieber Featuring Big Sean:29:Sat Nov 03 00:00:00 PDT 2012
+It's A Beautiful Day:Michael Buble:1:Sat Mar 16 00:00:00 PDT 2013
+23:Mike WiLL Made-It Featuring Miley Cyrus, Wiz Khalifa & Juicy J:22:Sat Dec 28 00:00:00 PST 2013
+Stay Schemin:Rick Ross Featuring Drake & French Montana:2:Sat May 12 00:00:00 PDT 2012
+Gone:Kanye West Featuring Cam'ron & Consequence:1:Sat Oct 19 00:00:00 PDT 2013
+Temporary Home:Carrie Underwood:19:Sat Jan 30 00:00:00 PST 2010
+Dirty Dancer::12:Sat Jul 16 00:00:00 PDT 2011
+We Found Love::1:Sat Feb 04 00:00:00 PST 2012
+FourFiveSeconds:Rihanna & Kanye West & Paul McCartney:20:Sat Mar 21 00:00:00 PDT 2015
+Mockingbird:Rob Thomas:4:Sat Aug 28 00:00:00 PDT 2010
+Rap God:Eminem:20:Sat Dec 28 00:00:00 PST 2013
+Wild Child:Kenny Chesney With Grace Potter:15:Sat May 09 00:00:00 PDT 2015
+Sick::3:Sat Nov 20 00:00:00 PST 2010
+Lover Of The Light:Mumford & Sons:1:Sat Oct 20 00:00:00 PDT 2012
+Goodbye In Her Eyes:Zac Brown Band:20:Sat Feb 09 00:00:00 PST 2013
+Jersey:Future:2:Sat Oct 17 00:00:00 PDT 2015
+Oh Santa!:Mariah Carey:1:Sat Jan 01 00:00:00 PST 2011
+Southern Girl:Tim McGraw:20:Sat Oct 12 00:00:00 PDT 2013
+Pyramid:Charice Featuring Iyaz:2:Sat Jun 05 00:00:00 PDT 2010
+Mary Did You Know:Jordan Smith:1:Sat Jan 02 00:00:00 PST 2016
+I Can Only Imagine:David Guetta Featuring Chris Brown & Lil Wayne:14:Sat Nov 03 00:00:00 PDT 2012
+Don't Tell 'Em:Jeremih Featuring YG:31:Sat Jan 03 00:00:00 PST 2015
+The One That Got Away:Jake Owen:20:Sat Nov 03 00:00:00 PDT 2012
+Til My Last Day:Justin Moore:20:Sat Feb 09 00:00:00 PST 2013
+Whiskey:Jana Kramer:2:Sat May 14 00:00:00 PDT 2011
+One More Drinkin' Song:Jerrod Niemann:18:Sat Nov 05 00:00:00 PDT 2011
+Best Thing I Never Had:Beyonce:20:Sat Aug 20 00:00:00 PDT 2011
+Heaven::1:Sat May 31 00:00:00 PDT 2014
+Dangerous:David Guetta Featuring Sam Martin:15:Sat Jan 03 00:00:00 PST 2015
+Lamborghini Angels:Lupe Fiasco:1:Sat Sep 01 00:00:00 PDT 2012
+Highway 20 Ride:Zac Brown Band:20:Sat Jan 30 00:00:00 PST 2010
+My Man::1:Sat Jun 04 00:00:00 PDT 2011
+Celebration:Game Featuring Chris Brown, Tyga, Wiz Khalifa & Lil Wayne:12:Sat Feb 09 00:00:00 PST 2013
+Stay The Night:James Blunt:1:Sat Feb 05 00:00:00 PST 2011
+Alone Together:Fall Out Boy:8:Sat Dec 28 00:00:00 PST 2013
+Where Do Broken Hearts Go:One Direction:1:Sat Nov 29 00:00:00 PST 2014
+Any Way You Want It/Lovin' Touchin' Squeezin'::1:Sat Jun 26 00:00:00 PDT 2010
+Little More (Royalty):Chris Brown:1:Sat Jan 09 00:00:00 PST 2016
+Darte Un Beso:Prince Royce:12:Sat Nov 09 00:00:00 PST 2013
+Isn't She Lovely::1:Sat May 28 00:00:00 PDT 2011
+I Need Your Love:Calvin Harris Featuring Ellie Goulding:25:Sat Oct 12 00:00:00 PDT 2013
+Vivir Mi Vida:Marc Anthony:5:Sat Sep 28 00:00:00 PDT 2013
+The Boxer:Lee DeWyze:1:Sat Jun 12 00:00:00 PDT 2010
+Honey Bee:Blake Shelton:20:Sat Aug 20 00:00:00 PDT 2011
+Today Was A Fairytale:Taylor Swift:18:Sat May 22 00:00:00 PDT 2010
+Got My Country On:Chris Cagle:9:Sat May 26 00:00:00 PDT 2012
+You're So Beautiful:Empire Cast Featuring Jussie Smollett & Yazz:4:Sat Mar 21 00:00:00 PDT 2015
+Good Good Night:Roscoe Dash:4:Sat Jan 07 00:00:00 PST 2012
+Angel:Akon:10:Sat Nov 20 00:00:00 PST 2010
+Die A Happy Man:Thomas Rhett:17:Sat Nov 28 00:00:00 PST 2015
+Ships In The Night:Mat Kearney:1:Sat Aug 20 00:00:00 PDT 2011
+HYFR (Hell Yeah F*****g Right)::1:Sat May 26 00:00:00 PDT 2012
+H*A*M::7:Sat Feb 05 00:00:00 PST 2011
+Reflektor:Arcade Fire:1:Sat Sep 28 00:00:00 PDT 2013
+Summer:Calvin Harris:26:Sat Jul 19 00:00:00 PDT 2014
+Double Vision:3OH!3:4:Sat Nov 20 00:00:00 PST 2010
+In My Head:Jason Derulo:33:Sat Jan 30 00:00:00 PST 2010
+Water:Brad Paisley:19:Sat Jul 10 00:00:00 PDT 2010
+Back To Sleep:Chris Brown:5:Sat Jan 16 00:00:00 PST 2016
+Sparks:Hilary Duff:1:Sat Jul 04 00:00:00 PDT 2015
+My Body:Young The Giant:1:Sat Sep 17 00:00:00 PDT 2011
+Dancing Queen::1:Sat May 28 00:00:00 PDT 2011
+Songbird::1:Sat May 21 00:00:00 PDT 2011
+The Walker:Fitz And The Tantrums:12:Sat Mar 22 00:00:00 PDT 2014
+Helluva Night:Ludacris:1:Sat Sep 07 00:00:00 PDT 2013
+Gonna Get This:Hannah Montana Featuring Iyaz:1:Sat Nov 06 00:00:00 PDT 2010
+All Of The Lights:Kanye West:25:Sat Feb 05 00:00:00 PST 2011
+I Knew You Were Trouble.:Taylor Swift:36:Sat Feb 09 00:00:00 PST 2013
+Point At You:Justin Moore:19:Sat Oct 12 00:00:00 PDT 2013
+Bailando::1:Sat May 17 00:00:00 PDT 2014
+Miss Jackson::1:Sat Aug 03 00:00:00 PDT 2013
+Wasted:Gucci Mane Featuring Plies Or OJ Da Juiceman:4:Sat Jan 09 00:00:00 PST 2010
+Up All Night:Blink-182:2:Sat Aug 06 00:00:00 PDT 2011
+I Don't Dance:Lee Brice:20:Sat Jul 19 00:00:00 PDT 2014
+Sweat:Bow Wow Featuring Lil Wayne:1:Sat Nov 12 00:00:00 PST 2011
+Down On Me:Jeremih Featuring 50 Cent:33:Sat Jan 01 00:00:00 PST 2011
+The Fix:Nelly Featuring Jeremih:16:Sat Nov 28 00:00:00 PST 2015
+Pound The Alarm:Nicki Minaj:18:Sat Nov 03 00:00:00 PDT 2012
+All By Myself::1:Sat May 07 00:00:00 PDT 2011
+Out Of The Woods:Taylor Swift:4:Sat Jan 23 00:00:00 PST 2016
+Lo Mejor De Mi Vida Eres Tu/The Best Thing About Me Is You:Ricky Martin Featuring Natalia Jimenez:1:Sat Nov 20 00:00:00 PST 2010
+Round Here:Florida Georgia Line:20:Sat Oct 12 00:00:00 PDT 2013
+I Got You:Jack Johnson:1:Sat Jun 29 00:00:00 PDT 2013
+Oh Sweet Lorraine::1:Sat Sep 14 00:00:00 PDT 2013
+Home:Dierks Bentley:20:Sat Dec 24 00:00:00 PST 2011
+That Should Be Me:Justin Bieber:1:Sat Apr 10 00:00:00 PDT 2010
+I Got Nothin':Darius Rucker:10:Sat Nov 05 00:00:00 PDT 2011
+I Won't Let You Down:OK Go:1:Sat Nov 15 00:00:00 PST 2014
+Break My Bank:New Boyz Featuring Iyaz:11:Sat Aug 07 00:00:00 PDT 2010
+Mine:Taylor Swift:23:Sat Jan 01 00:00:00 PST 2011
+Come & Get It:Selena Gomez:22:Sat Aug 03 00:00:00 PDT 2013
+T.H.E (The Hardest Ever)::6:Sat Jan 28 00:00:00 PST 2012
+No Lie:2 Chainz Featuring Drake:26:Sat May 26 00:00:00 PDT 2012
+Amnesia:5 Seconds Of Summer:20:Sat Nov 15 00:00:00 PST 2014
+Every Storm (Runs Out Of Rain):Gary Allan:20:Sat Feb 09 00:00:00 PST 2013
+Love The Way You Lie:Eminem Featuring Rihanna:29:Sat Jan 01 00:00:00 PST 2011
+One More Night:Maroon 5:42:Sat Feb 09 00:00:00 PST 2013
+Hope You Get Lonely Tonight:Cole Swindell:20:Sat Nov 15 00:00:00 PST 2014
+Skyfall:Adele:20:Sat Feb 09 00:00:00 PST 2013
+High By The Beach:Lana Del Rey:3:Sat Sep 05 00:00:00 PDT 2015
+Hold On:Alabama Shakes:2:Sat Mar 09 00:00:00 PST 2013
+Don't Stop The Party:Pitbull Featuring TJR:20:Sat Feb 09 00:00:00 PST 2013
+Christmas Song (Chestnuts Roasting On An Open Fire):Justin Bieber Featuring Usher:1:Sat Nov 12 00:00:00 PST 2011
+Catch My Breath:Kelly Clarkson:24:Sat Feb 09 00:00:00 PST 2013
+Beautiful Monster:Ne-Yo:9:Sat Jul 10 00:00:00 PDT 2010
+***Flawless::1:Sat Dec 27 00:00:00 PST 2014
+Doin' What She Likes:Blake Shelton:17:Sat Feb 22 00:00:00 PST 2014
+Body Party:Ciara:20:Sat Aug 03 00:00:00 PDT 2013
+7/11:Beyonce:20:Sat Mar 21 00:00:00 PDT 2015
+Tonight Looks Good On You:Jason Aldean:18:Sat Jul 18 00:00:00 PDT 2015
+Bohemian Rhapsody::1:Sat Jun 26 00:00:00 PDT 2010
+All That Matters:Justin Bieber:8:Sat Dec 28 00:00:00 PST 2013
+Phenomenal:Eminem:1:Sat Jun 20 00:00:00 PDT 2015
+I Don't F**k With You:Big Sean Featuring E-40:29:Sat Mar 21 00:00:00 PDT 2015
+Where It's At:Dustin Lynch:1:Sat May 03 00:00:00 PDT 2014
+What Now:Rihanna:8:Sat Dec 28 00:00:00 PST 2013
+Cold Wind Blows:Eminem:1:Sat Jul 10 00:00:00 PDT 2010
+I Want Crazy:Hunter Hayes:20:Sat Aug 03 00:00:00 PDT 2013
+Neon Lights:Demi Lovato:20:Sat Feb 22 00:00:00 PST 2014
+Feds Watching:2 Chainz Featuring Pharrell:13:Sat Oct 12 00:00:00 PDT 2013
+Sexy Chick:David Guetta Featuring Akon:21:Sat Jan 30 00:00:00 PST 2010
+Bugatti:Ace Hood Featuring Future & Rick Ross:20:Sat Apr 13 00:00:00 PDT 2013
+21st Century Girl:Willow:1:Sat Mar 19 00:00:00 PDT 2011
+How Deep Is Your Love:Calvin Harris & Disciples:20:Sat Nov 28 00:00:00 PST 2015
+She Knows::1:Sat Dec 27 00:00:00 PST 2014
+Ready:Fabolous Featuring Chris Brown:7:Sat Apr 27 00:00:00 PDT 2013
+Are You Gonna Kiss Me Or Not:Thompson Square:20:Sat Jan 01 00:00:00 PST 2011
+King Kunta:Kendrick Lamar:11:Sat May 09 00:00:00 PDT 2015
+Yoga:Janelle Monae & Jidenna:6:Sat Jul 18 00:00:00 PDT 2015
+The End:Kings Of Leon:1:Sat Nov 06 00:00:00 PDT 2010
+That Way:Wale Featuring Jeremih & Rick Ross:18:Sat Nov 05 00:00:00 PDT 2011
+Total Eclipse Of The Heart::2:Sat May 22 00:00:00 PDT 2010
+Part II (On The Run):Jay Z Featuring Beyonce:16:Sat Jul 27 00:00:00 PDT 2013
+Carry Out:Timbaland Featuring Justin Timberlake:24:Sat Jan 30 00:00:00 PST 2010
+My Last:Big Sean Featuring Chris Brown:21:Sat Aug 20 00:00:00 PDT 2011
+Try Sleeping With A Broken Heart:Alicia Keys:16:Sat Jan 30 00:00:00 PST 2010
+Rumour Has It:Adele:27:Sat May 26 00:00:00 PDT 2012
+XO:John Mayer:1:Sat Jun 14 00:00:00 PDT 2014
+The Motto::34:Sat Dec 24 00:00:00 PST 2011
+Y.U. MAD:Birdman Featuring Nicki Minaj & Lil Wayne:1:Sat Oct 08 00:00:00 PDT 2011
+Girl On Fire:Alicia Keys Featuring Nicki Minaj:30:Sat Feb 09 00:00:00 PST 2013
+Little Drummer Boy:Pentatonix:3:Sat Dec 28 00:00:00 PST 2013
+Too Much:Drake:1:Sat Oct 12 00:00:00 PDT 2013
+Love Me:The 1975:1:Sat Oct 31 00:00:00 PDT 2015
+Tell Your Friends:The Weeknd:3:Sat Sep 19 00:00:00 PDT 2015
+I Love This Life:LoCash:12:Sat Nov 28 00:00:00 PST 2015
+Love Me Like You Do:Ellie Goulding:34:Sat Mar 21 00:00:00 PDT 2015
+Without Me:Fantasia Featuring Kelly Rowland & Missy Elliott:2:Sat Jul 20 00:00:00 PDT 2013
+Taboo:Don Omar:1:Sat Jul 23 00:00:00 PDT 2011
+Song About A Girl:Eric Paslay:10:Sat Jul 19 00:00:00 PDT 2014
+Come Thru:Drake:1:Sat Oct 12 00:00:00 PDT 2013
+Burnin' Up::1:Sat Dec 27 00:00:00 PST 2014
+Games:Luke Bryan:5:Sat May 16 00:00:00 PDT 2015
+I'm Into You:Jennifer Lopez Featuring Lil Wayne:15:Sat Aug 20 00:00:00 PDT 2011
+Ain't Leavin Without You:Jaheim:4:Sat Feb 20 00:00:00 PST 2010
+Safety Dance::1:Sat Jun 05 00:00:00 PDT 2010
+This Summer's Gonna Hurt...:Maroon 5:13:Sat Jul 18 00:00:00 PDT 2015
+Boots:The Killers:1:Sat Dec 18 00:00:00 PST 2010
+She Looks So Perfect:5 Seconds Of Summer:20:Sat Jul 19 00:00:00 PDT 2014
+Old Alabama:Brad Paisley Featuring Alabama:20:Sat Aug 20 00:00:00 PDT 2011
+Cool Kids:Echosmith:23:Sat Nov 15 00:00:00 PST 2014
+Wish You Were Here:Avril Lavigne:7:Sat Dec 24 00:00:00 PST 2011
+Let It Go:James Bay:4:Sat Jan 16 00:00:00 PST 2016
+Drink In My Hand:Eric Church:20:Sat Nov 05 00:00:00 PDT 2011
+Without You:Keith Urban:18:Sat Jul 16 00:00:00 PDT 2011
+Far Away:Marsha Ambrosius:18:Sat Jun 18 00:00:00 PDT 2011
+Burnin' It Down:Jason Aldean:20:Sat Nov 15 00:00:00 PST 2014
+Bridge Over Troubled Water:Tessanne Chin:1:Sat Dec 28 00:00:00 PST 2013
+I Want You To Know:Zedd Featuring Selena Gomez:16:Sat Mar 21 00:00:00 PDT 2015
+Heads Carolina, Tails California:Danielle Bradbery:1:Sat Jun 08 00:00:00 PDT 2013
+Shake It Out::1:Sat May 19 00:00:00 PDT 2012
+Let It Be:Jennifer Hudson Featuring The Roots:1:Sat Feb 13 00:00:00 PST 2010
+Day Drinking:Little Big Town:20:Sat Nov 15 00:00:00 PST 2014
+Crazy Kids:Ke$ha Featuring will.i.am Or Juicy J:11:Sat Aug 03 00:00:00 PDT 2013
+Die In Your Arms:Justin Bieber:2:Sat Jun 16 00:00:00 PDT 2012
+Who I Am:Nick Jonas & The Administration:1:Sat Feb 20 00:00:00 PST 2010
+Rock Me:One Direction:1:Sat Jan 12 00:00:00 PST 2013
+Dark Times:The Weeknd Featuring Ed Sheeran:3:Sat Sep 19 00:00:00 PDT 2015
+3500:Travi$ Scott Featuring Future & 2 Chainz:1:Sat Jun 27 00:00:00 PDT 2015
+One Thing:One Direction:19:Sat Jun 16 00:00:00 PDT 2012
+Should've Been Us:Tori Kelly:10:Sat Sep 05 00:00:00 PDT 2015
+Collard Greens:ScHoolboy Q Featuring Kendrick Lamar:8:Sat Dec 14 00:00:00 PST 2013
+Light Up The World::1:Sat Jun 11 00:00:00 PDT 2011
+On My Mind:Ellie Goulding:17:Sat Nov 28 00:00:00 PST 2015
+Lemme See:Usher Featuring Rick Ross:20:Sat May 26 00:00:00 PDT 2012
+Billionaire:Travie McCoy Featuring Bruno Mars:27:Sat Jul 10 00:00:00 PDT 2010
+Blame It (On The Alcohol)::1:Sat Mar 12 00:00:00 PST 2011
+Blow Me (One Last Kiss):P!nk:27:Sat Nov 03 00:00:00 PDT 2012
+Ultraviolence:Lana Del Rey:1:Sat Jun 21 00:00:00 PDT 2014
+Renegades:X Ambassadors:35:Sat Nov 28 00:00:00 PST 2015
+WooHoo:Christina Aguilera Featuring Nicki Minaj:1:Sat Jun 05 00:00:00 PDT 2010
+Comfortable:K Camp:15:Sat Nov 28 00:00:00 PST 2015
+Better Dig Two:The Band Perry:20:Sat Feb 09 00:00:00 PST 2013
+Hello Goodbye::1:Sat May 01 00:00:00 PDT 2010
+Hey:Lil Jon Featuring 3OH!3:2:Sat Jun 26 00:00:00 PDT 2010
+Heartbeat:The Fray:18:Sat Nov 05 00:00:00 PDT 2011
+Something About The Sunshine::1:Sat Mar 06 00:00:00 PST 2010
+F*ckwithmeyouknowigotit:Jay Z Featuring Rick Ross:9:Sat Aug 03 00:00:00 PDT 2013
+Lookin' For That Girl:Tim McGraw:4:Sat Apr 12 00:00:00 PDT 2014
+DONE.:The Band Perry:20:Sat Apr 13 00:00:00 PDT 2013
+B.M.F. (Blowin' Money Fast):Rick Ross Featuring Styles P:16:Sat Aug 07 00:00:00 PDT 2010
+All The Way Turnt Up:Roscoe Dash Featuring Soulja Boy Tell'em:12:Sat Mar 13 00:00:00 PST 2010
+What Doesn't Kill You (Stronger):Kelly Clarkson:2:Sat Dec 03 00:00:00 PST 2011
+That's Why I Pray:Big & Rich:10:Sat Sep 22 00:00:00 PDT 2012
+Summertime Sadness:Lana Del Rey:3:Sat Aug 03 00:00:00 PDT 2013
+The Matrimony:Wale Featuring Usher:19:Sat May 09 00:00:00 PDT 2015
+Drag Me Down:One Direction:20:Sat Nov 28 00:00:00 PST 2015
+I Drive Your Truck:Lee Brice:20:Sat Feb 09 00:00:00 PST 2013
+Shinin' On Me:Jerrod Niemann:7:Sat Sep 22 00:00:00 PDT 2012
+I Almost Do:Taylor Swift:1:Sat Nov 10 00:00:00 PST 2012
+Naked::1:Sat Apr 14 00:00:00 PDT 2012
+Backseat:New Boyz Featuring The Cataracs & Dev:20:Sat Jul 16 00:00:00 PDT 2011
+Lonely Tonight:Blake Shelton Featuring Ashley Monroe:17:Sat Mar 21 00:00:00 PDT 2015
+Red Solo Cup:Toby Keith:20:Sat Dec 24 00:00:00 PST 2011
+Fast Lane:Bad Meets Evil:2:Sat May 21 00:00:00 PDT 2011
+I Won't Let Go:Rascal Flatts:20:Sat Mar 19 00:00:00 PDT 2011
+The Hills:The Weeknd:34:Sat Nov 28 00:00:00 PST 2015
+Homeboy:Eric Church:21:Sat Aug 20 00:00:00 PDT 2011
+El Verdadero Amor Perdona:Mana Featuring Prince Royce:1:Sat Dec 10 00:00:00 PST 2011
+Sweater Weather::3:Sat Jun 22 00:00:00 PDT 2013
+We'll Be Fine:Drake Featuring Birdman:1:Sat Dec 03 00:00:00 PST 2011
+Cheyenne:Jason Derulo:7:Sat Sep 05 00:00:00 PDT 2015
+Come Get It Bae:Pharrell Williams:14:Sat Jul 19 00:00:00 PDT 2014
+Turn Down For What:DJ Snake & Lil Jon:37:Sat Feb 22 00:00:00 PST 2014
+Little Things:One Direction:18:Sat Feb 09 00:00:00 PST 2013
+I Bet:Ciara:14:Sat Mar 21 00:00:00 PDT 2015
+Smile Back:Mac Miller:1:Sat Nov 26 00:00:00 PST 2011
+4 Minutes::1:Sat May 08 00:00:00 PDT 2010
+Don't Judge Me:Chris Brown:20:Sat Feb 09 00:00:00 PST 2013
+Love Is Your Name:Steven Tyler:1:Sat Jul 25 00:00:00 PDT 2015
+Drive:Miley Cyrus:1:Sat Oct 26 00:00:00 PDT 2013
+Bed Of Lies:Nicki Minaj Featruing Skylar Grey:4:Sat Jan 03 00:00:00 PST 2015
+These Walls:Kendrick Lamar Featuring Bilal. Anna Wise & Thundercat:1:Sat Apr 04 00:00:00 PDT 2015
+Bet I:B.o.B Featuring T.I. & Playboy Tre:1:Sat May 08 00:00:00 PDT 2010
+Drinking Class:Lee Brice:22:Sat Jan 03 00:00:00 PST 2015
+Dark Side:Kelly Clarkson:15:Sat Sep 22 00:00:00 PDT 2012
+Up Out My Face:Mariah Carey Featuring Nicki Minaj:1:Sat Mar 06 00:00:00 PST 2010
+Sanctified:Rick Ross Featuring Kanye West & Big Sean:1:Sat Mar 22 00:00:00 PDT 2014
+Bad:Wale Featuring Tiara Thomas Or Rihanna:10:Sat Aug 03 00:00:00 PDT 2013
+Crazy Girl:Eli Young Band:36:Sat Nov 05 00:00:00 PDT 2011
+Shake Me Down:Cage The Elephant:4:Sat Feb 05 00:00:00 PST 2011
+Nothing But Trouble (Instagram Models):Lil Wayne & Charlie Puth:7:Sat Oct 17 00:00:00 PDT 2015
+Summertime Sadness:Lana Del Rey & Cedric Gervais:20:Sat Dec 28 00:00:00 PST 2013
+Love You Like A Love Song:Selena Gomez & The Scene:38:Sat Nov 05 00:00:00 PDT 2011
+This Afternoon:Nickelback:20:Sat Jul 10 00:00:00 PDT 2010
+Tik Tok::1:Sat Mar 12 00:00:00 PST 2011
+Talk Dirty:Jason Derulo Featuring 2 Chainz:33:Sat Feb 22 00:00:00 PST 2014
+Last Friday Night::1:Sat Nov 19 00:00:00 PST 2011
+Hit The Quan:iHeartMemphis:3:Sat Oct 17 00:00:00 PDT 2015
+Wanna Be Startin' Somethin'::1:Sat Feb 18 00:00:00 PST 2012
+Kissin U:Miranda Cosgrove:15:Sat Jul 10 00:00:00 PDT 2010
+We Are Young::3:Sat Dec 24 00:00:00 PST 2011
+Princess Of China:Coldplay Featuring Rihanna:12:Sat Mar 03 00:00:00 PST 2012
+I'm Not Gonna Teach Your Boyfriend To Dance With You::1:Sat May 28 00:00:00 PDT 2011
+Ready To Love Again:Lady Antebellum:1:Sat Jan 30 00:00:00 PST 2010
+Video Games:Lana Del Rey:1:Sat Jan 28 00:00:00 PST 2012
+Ambition:Wale Featuring Meek Mill & Rick Ross:1:Sat Nov 19 00:00:00 PST 2011
+Stoner:Young Thug:15:Sat Mar 01 00:00:00 PST 2014
+Cooler Than Me:Mike Posner:28:Sat Jul 10 00:00:00 PDT 2010
+Smoke Break:Carrie Underwood:19:Sat Nov 28 00:00:00 PST 2015
+Good Girl:Carrie Underwood:20:Sat May 26 00:00:00 PDT 2012
+Scott Mescudi Vs. The World::1:Sat Nov 27 00:00:00 PST 2010
+Hair:Lady Gaga:1:Sat Jun 04 00:00:00 PDT 2011
+Set The Fire To The Third Bar:Snow Patrol Featuring Martha Wainwright:5:Sat Jan 30 00:00:00 PST 2010
+Remind Me::20:Sat Nov 05 00:00:00 PDT 2011
+Don't You Want Me::1:Sat Mar 12 00:00:00 PST 2011
+Storm Warning:Hunter Hayes:12:Sat Dec 24 00:00:00 PST 2011
+Party On Fifth Ave.:Mac Miller:6:Sat Jan 07 00:00:00 PST 2012
+Scream & Shout:will.i.am & Britney Spears:21:Sat Feb 09 00:00:00 PST 2013
+Everything I Shouldn't Be Thinking About:Thompson Square:12:Sat Feb 22 00:00:00 PST 2014
+Is Anybody Out There?:K'Naan Featuring Nelly Furtado:2:Sat Apr 21 00:00:00 PDT 2012
+Take Over Control:AfroJack Featuring Eva Simons:1:Sat Jul 02 00:00:00 PDT 2011
+Tattoos On This Town:Jason Aldean:20:Sat Nov 05 00:00:00 PDT 2011
+This Is Gospel:Panic! At The Disco:1:Sat Aug 31 00:00:00 PDT 2013
+She's Kinda Hot:5 Seconds Of Summer:9:Sat Sep 05 00:00:00 PDT 2015
+Shine On:Sawyer Fredericks:1:Sat May 23 00:00:00 PDT 2015
+Get Lucky:Daft Punk Featuring Pharrell Williams:27:Sat Oct 12 00:00:00 PDT 2013
+Bailando:Enrique Iglesias Featuring Descemer Bueno & Gente de Zona:29:Sat Nov 15 00:00:00 PST 2014
+Flicka Da Wrist:Chedda Da Connect:4:Sat May 16 00:00:00 PDT 2015
+Tom Ford:Jay Z:20:Sat Oct 12 00:00:00 PDT 2013
+You Make Me:Avicii:1:Sat Oct 05 00:00:00 PDT 2013
+Writing's On The Wall:Sam Smith:2:Sat Nov 28 00:00:00 PST 2015
+Am I The Only One:Dierks Bentley:20:Sat Aug 20 00:00:00 PDT 2011
+Achy Breaky 2::1:Sat Mar 01 00:00:00 PST 2014
+It Will Rain:Bruno Mars:29:Sat Nov 05 00:00:00 PDT 2011
+Propuesta Indecente:Romeo Santos:7:Sat Oct 12 00:00:00 PDT 2013
+Institutionalized:Kendrick Lamar Featuring Bilal, Anna Wise & Snoop Dogg:1:Sat Apr 04 00:00:00 PDT 2015
+Let It Rain:David Nail Featuring Sarah Buxton:4:Sat Jan 28 00:00:00 PST 2012
+Survival:Eminem:14:Sat Dec 28 00:00:00 PST 2013
+Unusual:Trey Songz Featuring Drake:11:Sat Aug 20 00:00:00 PDT 2011
+I Do It:2 Chainz Featuring Drake & Lil Wayne:1:Sat Sep 28 00:00:00 PDT 2013
+Finding My Way Back:Jaheim:1:Sat Jul 03 00:00:00 PDT 2010
+Give Me Back My Hometown:Eric Church:20:Sat Feb 22 00:00:00 PST 2014
+The Heart Of Dixie:Danielle Bradbery:13:Sat Dec 28 00:00:00 PST 2013
+Bridge Over Troubled Water::2:Sat Feb 20 00:00:00 PST 2010
+Wit Me:T.I. Featuring Lil Wayne:2:Sat Jun 15 00:00:00 PDT 2013
+Sunshine & Whiskey:Frankie Ballard:20:Sat Nov 15 00:00:00 PST 2014
+Lemonade:Gucci Mane:12:Sat Mar 13 00:00:00 PST 2010
+Take Over Control:Afrojack Featuring Eva Simons:19:Sat Nov 05 00:00:00 PDT 2011
+Still:Tim McGraw:1:Sat May 08 00:00:00 PDT 2010
+Loyal:Chris Brown Featuring Lil Wayne & French Montana Or Too $hort Or Tyga:26:Sat Jul 19 00:00:00 PDT 2014
+Thriller / Heads Will Roll::2:Sat Feb 26 00:00:00 PST 2011
+Innocent:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+My Songs Know What You Did In The Dark (Light Em Up):Fall Out Boy:26:Sat Apr 13 00:00:00 PDT 2013
+Let It Be::1:Sat Dec 29 00:00:00 PST 2012
+Live It Up:Jennifer Lopez Featuring Pitbull:6:Sat Jun 15 00:00:00 PDT 2013
+Forever:Drake Featuring Kanye West, Lil Wayne & Eminem:11:Sat Jan 30 00:00:00 PST 2010
+Acapella:Karmin:8:Sat Aug 03 00:00:00 PDT 2013
+Merry Go 'Round:Kacey Musgraves:15:Sat Feb 09 00:00:00 PST 2013
+American Honey:Lady Antebellum:20:Sat May 22 00:00:00 PDT 2010
+Like My Mother Does:Lauren Alaina:2:Sat Jun 18 00:00:00 PDT 2011
+Changed:Rascal Flatts:8:Sat Apr 13 00:00:00 PDT 2013
+Random:G-Eazy:1:Sat Dec 26 00:00:00 PST 2015
+Say It:Tory Lanez:13:Sat Nov 28 00:00:00 PST 2015
+Title:Meghan Trainor:1:Sat Jan 10 00:00:00 PST 2015
+Loyal:Chris Brown Featuring Lil Wayne & French Montana Or & Too $hort:7:Sat Feb 22 00:00:00 PST 2014
+Bleed Red:Ronnie Dunn:18:Sat Mar 19 00:00:00 PDT 2011
+5-1-5-0:Dierks Bentley:19:Sat Sep 22 00:00:00 PDT 2012
+Anything Like Me:Brad Paisley:19:Sat Jan 01 00:00:00 PST 2011
+I Can't Make You Love Me:Josh Kaufman:1:Sat May 24 00:00:00 PDT 2014
+Act Right:Yo Gotti Featuring Jeezy & YG:1:Sat Sep 21 00:00:00 PDT 2013
+Footloose:Blake Shelton:2:Sat Dec 03 00:00:00 PST 2011
+Don't Rush:Kelly Clarkson Featuring Vince Gill:3:Sat Apr 27 00:00:00 PDT 2013
+Already Gone:Kelly Clarkson:11:Sat Jan 30 00:00:00 PST 2010
+I Cry:Flo Rida:21:Sat Feb 09 00:00:00 PST 2013
+Ready Or Not:Bridgit Mendler:13:Sat Nov 03 00:00:00 PDT 2012
+Bulletproof:La Roux:27:Sat Jul 10 00:00:00 PDT 2010
+30 For 30 Freestyle:Drake:1:Sat Oct 17 00:00:00 PDT 2015
+You Know You Like It:DJ Snake & AlunaGeorge:21:Sat May 09 00:00:00 PDT 2015
+Just Give Me A Reason:P!nk Featuring Nate Ruess:36:Sat Apr 13 00:00:00 PDT 2013
+Not Afraid:Eminem:25:Sat Jul 10 00:00:00 PDT 2010
+It's Time::1:Sat Sep 29 00:00:00 PDT 2012
+Blood On The Leaves:Kanye West:2:Sat Jul 06 00:00:00 PDT 2013
+Hotline Bling:Drake:24:Sat Nov 28 00:00:00 PST 2015
+Down In The DM:Yo Gotti:7:Sat Jan 16 00:00:00 PST 2016
+Dear John:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+Under And Over It:Five Finger Death Punch:1:Sat Aug 20 00:00:00 PDT 2011
+Ayo:Chris Brown & Tyga:20:Sat Mar 21 00:00:00 PDT 2015
+Dog Days Are Over:Florence + The Machine:20:Sat Jan 01 00:00:00 PST 2011
+Wanted:Hunter Hayes:45:Sat Feb 09 00:00:00 PST 2013
+Magic:B.o.B Featuring Rivers Cuomo:20:Sat Jul 10 00:00:00 PDT 2010
+Misery::1:Sat Apr 02 00:00:00 PDT 2011
+Snap Backs & Tattoos:Driicky Graham:13:Sat Sep 22 00:00:00 PDT 2012
+On Fire:Lil Wayne:1:Sat Jan 02 00:00:00 PST 2010
+Ain't Back Yet:Kenny Chesney:13:Sat May 22 00:00:00 PDT 2010
+Loving You Easy:Zac Brown Band:17:Sat Jul 18 00:00:00 PDT 2015
+Climax:Usher:20:Sat May 26 00:00:00 PDT 2012
+Bad Blood:Taylor Swift Featuring Kendrick Lamar:22:Sat Jul 18 00:00:00 PDT 2015
+Hell On The Heart:Eric Church:12:Sat May 22 00:00:00 PDT 2010
+WTF (Where They From):Missy Elliott Featuring Pharrell Williams:10:Sat Nov 28 00:00:00 PST 2015
+Fairly Local:Twenty One Pilots:1:Sat Apr 04 00:00:00 PDT 2015
+Nothin' Like You:Dan + Shay:19:Sat Nov 28 00:00:00 PST 2015
+Just A Kiss:Lady Antebellum:42:Sat Nov 05 00:00:00 PDT 2011
+Born To Be Somebody:Justin Bieber:1:Sat Mar 05 00:00:00 PST 2011
+Feel This Moment:Pitbull Featuring Christina Aguilera:24:Sat Feb 09 00:00:00 PST 2013
+U.O.E.N.O.:Rocko Featuring Future & Rick Ross:20:Sat Aug 03 00:00:00 PDT 2013
+Booty:Jennifer Lopez Featuring Iggy Azalea Or Pitbull:9:Sat Oct 18 00:00:00 PDT 2014
+The Story::1:Sat Apr 16 00:00:00 PDT 2011
+Energy:Drake:20:Sat Mar 21 00:00:00 PDT 2015
+Lay Me Down:The Dirty Heads Featuring Rome:8:Sat Jul 10 00:00:00 PDT 2010
+U Guessed It:OG Maco Featuring 2 Chainz:3:Sat Nov 08 00:00:00 PST 2014
+Grenade:Bruno Mars:36:Sat Jan 01 00:00:00 PST 2011
+Trouble:Iggy Azalea Featuring Jennifer Hudson:5:Sat May 09 00:00:00 PDT 2015
+Hold Tight:Justin Bieber:1:Sat Nov 09 00:00:00 PST 2013
+Back It Up:Prince Royce Featuring Jennifer Lopez & Pitbull:2:Sat Jun 27 00:00:00 PDT 2015
+Tonight I'm Getting Over You:Carly Rae Jepsen Featuring Nicki Minaj:1:Sat May 25 00:00:00 PDT 2013
+4 My Town (Play Ball):Birdman Featuring Drake & Lil Wayne:2:Sat Apr 24 00:00:00 PDT 2010
+Boom:Snoop Dogg Featuring T-Pain:4:Sat Apr 23 00:00:00 PDT 2011
+We Are Tonight:Billy Currington:19:Sat Jul 19 00:00:00 PDT 2014
+2 Phones:Kevin Gates:2:Sat Jan 23 00:00:00 PST 2016
+6 Man:Drake:1:Sat Mar 07 00:00:00 PST 2015
+Rockin' Around The Christmas Tree:Brenda Lee:4:Sat Jan 04 00:00:00 PST 2014
+Ride:Ciara Featuring Ludacris:20:Sat Jul 10 00:00:00 PDT 2010
+Bad Blood:Bastille:1:Sat Apr 26 00:00:00 PDT 2014
+Give It Up To Me:Shakira Featuring Lil Wayne:6:Sat Jan 30 00:00:00 PST 2010
+We Can't Stop:Miley Cyrus:26:Sat Oct 12 00:00:00 PDT 2013
+The Fighter::15:Sat Jun 16 00:00:00 PDT 2012
+Little Miss:Sugarland:14:Sat Feb 05 00:00:00 PST 2011
+Motivation:Kelly Rowland Featuring Lil Wayne:25:Sat Aug 20 00:00:00 PDT 2011
+No Sense:Justin Bieber Featuring Travi$ Scott:3:Sat Dec 19 00:00:00 PST 2015
+Deuces:Chris Brown Featuring Tyga & Kevin McCall:27:Sat Jan 01 00:00:00 PST 2011
+Trap Queen:Fetty Wap:52:Sat Mar 21 00:00:00 PDT 2015
+Fireflies:Owl City:14:Sat Jan 30 00:00:00 PST 2010
+I Am:Mary J. Blige:19:Sat Jan 30 00:00:00 PST 2010
+Turn To You (Mother's Day Dedication)::1:Sat May 26 00:00:00 PDT 2012
+According To You:Orianthi:19:Sat Jan 30 00:00:00 PST 2010
+Papa Can You Hear Me?::1:Sat Oct 23 00:00:00 PDT 2010
+All I Do Is Win:DJ Khaled Featuring T-Pain, Ludacris, Snoop Dogg & Rick Ross:24:Sat Jul 10 00:00:00 PDT 2010
+The House That Built Me:Miranda Lambert:20:Sat Jul 10 00:00:00 PDT 2010
+679:Fetty Wap Featuring Remy Boyz:29:Sat Nov 28 00:00:00 PST 2015
+Banjo:Rascal Flatts:16:Sat Jun 16 00:00:00 PDT 2012
+We'll Be A Dream:WE the Kings Featuring Demi Lovato:6:Sat Aug 07 00:00:00 PDT 2010
+Recovery:Justin Bieber:1:Sat Nov 16 00:00:00 PST 2013
+Fifteen:Taylor Swift:6:Sat Jan 30 00:00:00 PST 2010
+Hustle Hard:Ace Hood:16:Sat Jul 16 00:00:00 PDT 2011
+Lighters:Bad Meets Evil Featuring Bruno Mars:22:Sat Nov 05 00:00:00 PDT 2011
+Anything Could Happen:Ellie Goulding:20:Sat Feb 09 00:00:00 PST 2013
+El Perdedor::1:Sat Feb 08 00:00:00 PST 2014
+Dog Days Are Over::1:Sat Dec 18 00:00:00 PST 2010
+Baby I:Ariana Grande:3:Sat Sep 28 00:00:00 PDT 2013
+XO::1:Sat Jan 04 00:00:00 PST 2014
+CoCo:O.T. Genasis:20:Sat Mar 21 00:00:00 PDT 2015
+Levels:Nick Jonas:12:Sat Nov 28 00:00:00 PST 2015
+Fun:Pitbull Featuring Chris Brown:14:Sat Jul 18 00:00:00 PDT 2015
+Take Me To Church::1:Sat Dec 06 00:00:00 PST 2014
+Love Don't Run:Steve Holy:7:Sat Sep 24 00:00:00 PDT 2011
+Burn It Down:Linkin Park:19:Sat May 26 00:00:00 PDT 2012
+Where Are U Now:Skrillex & Diplo Featuring Justin Bieber:15:Sat Mar 21 00:00:00 PDT 2015
+Superman:Taylor Swift:1:Sat Nov 26 00:00:00 PST 2011
+Wild Wild Love:Pitbull Featuring G.R.L.:18:Sat Mar 22 00:00:00 PDT 2014
+How To Hate:Lil Wayne Featuring T-Pain:1:Sat Sep 17 00:00:00 PDT 2011
+Change Locations:Drake & Future:3:Sat Oct 17 00:00:00 PDT 2015
+Money To Blow:Birdman Featuring Lil Wayne & Drake:10:Sat Jan 30 00:00:00 PST 2010
+Work It:Missy "Misdemeanor" Elliott:1:Sat Feb 21 00:00:00 PST 2015
+Me And My Broken Heart:Rixton:20:Sat Jul 19 00:00:00 PDT 2014
+From A Table Away:Sunny Sweeney:12:Sat Feb 05 00:00:00 PST 2011
+Little Toy Guns:Carrie Underwood:18:Sat May 09 00:00:00 PDT 2015
+Teenage Daughters:Martina McBride:1:Sat Jun 25 00:00:00 PDT 2011
+After Midnight:Blink-182:1:Sat Oct 15 00:00:00 PDT 2011
+1901:Phoenix:11:Sat Jan 30 00:00:00 PST 2010
+Start Me Up / Livin' On A Prayer::1:Sat Nov 27 00:00:00 PST 2010
+Dirt Road Anthem:Jason Aldean Featuring Ludacris:1:Sat Jul 02 00:00:00 PDT 2011
+Infinity:One Direction:2:Sat Oct 17 00:00:00 PDT 2015
+Ima Boss:Meek Mill Featuring T.I., Birdman Lil Wayne, DJ Khaled, Rick Ross & Swizz Beatz:1:Sat Feb 25 00:00:00 PST 2012
+Smile:Uncle Kracker:14:Sat Jan 30 00:00:00 PST 2010
+For You, And Your Denial:Yellowcard:1:Sat Feb 05 00:00:00 PST 2011
+The First Time Ever I Saw Your Face::1:Sat Feb 04 00:00:00 PST 2012
+You And Tequila:Kenny Chesney Featuring Grace Potter:20:Sat Aug 20 00:00:00 PDT 2011
+Yeah Ya Know (Takers):T.I.:2:Sat Jun 26 00:00:00 PDT 2010
+Boyz-N-The Hood:Eazy-E:2:Sat Sep 05 00:00:00 PDT 2015
+Somewhere::1:Sat Oct 15 00:00:00 PDT 2011
+Could It Be:Charlie Worsham:2:Sat Sep 28 00:00:00 PDT 2013
+Raise Your Weapon:deadmau5 Featuring Greta Svabo Bech:1:Sat Mar 03 00:00:00 PST 2012
+One Less Bell To Answer / A House Is Not A Home::1:Sat May 15 00:00:00 PDT 2010
+International Love:Pitbull Featuring Chris Brown:26:Sat Dec 24 00:00:00 PST 2011
+Keep Them Kisses Comin':Craig Campbell:10:Sat Jul 19 00:00:00 PDT 2014
+Beautiful Drug:Zac Brown Band:8:Sat Nov 28 00:00:00 PST 2015
+I Just Had Sex:The Lonely Island Featuring Akon:11:Sat Feb 05 00:00:00 PST 2011
+Tell Me Something Good::1:Sat Jun 19 00:00:00 PDT 2010
+I Mean It:G-Eazy Featuring Remo:4:Sat Jan 31 00:00:00 PST 2015
+Major Minus:Coldplay:1:Sat Jul 16 00:00:00 PDT 2011
+S&M:Rihanna:25:Sat Feb 05 00:00:00 PST 2011
+Feel So Close:Calvin Harris:25:Sat Jun 16 00:00:00 PDT 2012
+Loca:Shakira Featuring El Cata:1:Sat Oct 23 00:00:00 PDT 2010
+Loca:Shakira Featuring El Cata or Dizzee Rascal:10:Sat Jan 01 00:00:00 PST 2011
+Backwoods:Justin Moore:13:Sat May 22 00:00:00 PDT 2010
+What About Love:Austin Mahone:9:Sat Aug 03 00:00:00 PDT 2013
+Do What U Want:Lady Gaga Featuring R. Kelly:19:Sat Dec 28 00:00:00 PST 2013
+I Wouldn't Be A Man:Josh Turner:1:Sat Jul 23 00:00:00 PDT 2011
+Close Your Eyes:Parmalee:16:Sat Jan 03 00:00:00 PST 2015
+Stay With Me:Josh Kaufman:1:Sat May 10 00:00:00 PDT 2014
+Wide Awake:Katy Perry:26:Sat Nov 03 00:00:00 PDT 2012
+Shots:LMFAO Featuring Lil Jon:16:Sat Jan 30 00:00:00 PST 2010
+To The World::2:Sat Oct 06 00:00:00 PDT 2012
+If I Didn't Have You:Thompson Square:20:Sat Feb 09 00:00:00 PST 2013
+Danza Kuduro::5:Sat Jun 18 00:00:00 PDT 2011
+Run This Town::3:Sat Jan 09 00:00:00 PST 2010
+Jack Sparrow:The Lonely Island Featuring Michael Bolton:2:Sat Jun 04 00:00:00 PDT 2011
+YOLO:The Lonely Island Featuring Adam Levine & Kendrick Lamar:1:Sat Feb 16 00:00:00 PST 2013
+Runaway Baby:Bruno Mars:1:Sat Mar 03 00:00:00 PST 2012
+Smoke:A Thousand Horses:20:Sat Mar 21 00:00:00 PDT 2015
+Breakeven:The Script:41:Sat Jan 30 00:00:00 PST 2010
+Ordinary Girl:Hannah Montana:2:Sat Aug 07 00:00:00 PDT 2010
+Birthday:Katy Perry:18:Sat Jul 19 00:00:00 PDT 2014
+The Shape I'm In:Joe Nichols:2:Sat Mar 19 00:00:00 PDT 2011
+Right There:Nicole Scherzinger Featuring 50 Cent:12:Sat Aug 20 00:00:00 PDT 2011
+F**k Him He's A DJ:Ke$ha:1:Sat Apr 09 00:00:00 PDT 2011
+Company:Justin Bieber:4:Sat Dec 19 00:00:00 PST 2015
+Who Gon Stop Me::2:Sat Sep 03 00:00:00 PDT 2011
+L.A.LOVE (la la):Fergie:18:Sat Jan 03 00:00:00 PST 2015
+Dedication To My Ex (Miss That):Lloyd Featuring Andre 3000 & Lil Wayne:5:Sat Nov 05 00:00:00 PDT 2011
+Radio:Darius Rucker:15:Sat Dec 28 00:00:00 PST 2013
+Crooked Smile:J. Cole Featuring TLC:20:Sat Oct 12 00:00:00 PDT 2013
+Bully:Shinedown:2:Sat Apr 07 00:00:00 PDT 2012
+Meet Me Halfway:The Black Eyed Peas:11:Sat Jan 30 00:00:00 PST 2010
+Think Like A Man::2:Sat May 05 00:00:00 PDT 2012
+Dope:Tyga Featuring Rick Ross:10:Sat Feb 09 00:00:00 PST 2013
+Walking:Mary Mary:5:Sat Mar 19 00:00:00 PDT 2011
+Downtown:Lady Antebellum:20:Sat Apr 13 00:00:00 PDT 2013
+Say You Do:Dierks Bentley:18:Sat Mar 21 00:00:00 PDT 2015
+Look It Up:Ashton Shepherd:1:Sat Jun 04 00:00:00 PDT 2011
+Higher:Taio Cruz Featuring Travie McCoy:15:Sat Jan 01 00:00:00 PST 2011
+Help Is On The Way:Rise Against:1:Sat Feb 12 00:00:00 PST 2011
+Dance (A$$):Big Sean:3:Sat Nov 05 00:00:00 PDT 2011
+Something In The Water:Carrie Underwood:20:Sat Jan 03 00:00:00 PST 2015
+Take Back The Night:Justin Timberlake:13:Sat Oct 12 00:00:00 PDT 2013
+Pontoon:Little Big Town:20:Sat Nov 03 00:00:00 PDT 2012
+Crawling Back To You:Daughtry:10:Sat Nov 05 00:00:00 PDT 2011
+Shut It Down:Pitbull Featuring Akon:12:Sat Jan 30 00:00:00 PST 2010
+Black Widow:Iggy Azalea Featuring Rita Ora:30:Sat Jan 03 00:00:00 PST 2015
+Georgia Clay:Josh Kelley:3:Sat Apr 09 00:00:00 PDT 2011
+Teenage Dream::3:Sat Dec 04 00:00:00 PST 2010
+Simple Man:Sawyer Fredericks:1:Sat May 16 00:00:00 PDT 2015
+Wonderland:Taylor Swift:1:Sat Mar 07 00:00:00 PST 2015
+Smile:Avril Lavigne:7:Sat Aug 20 00:00:00 PDT 2011
+I'm A Slave 4 U::1:Sat Oct 16 00:00:00 PDT 2010
+Inventing Shadows:Dia Frampton:1:Sat Jul 16 00:00:00 PDT 2011
+E.T.:Katy Perry:1:Sat Sep 04 00:00:00 PDT 2010
+Sure Be Cool If You Did:Blake Shelton:20:Sat Feb 09 00:00:00 PST 2013
+Only Prettier:Miranda Lambert:19:Sat Jan 01 00:00:00 PST 2011
+Word Crimes:"Weird Al" Yankovic:1:Sat Aug 09 00:00:00 PDT 2014
+History In The Making:Darius Rucker:13:Sat Jan 30 00:00:00 PST 2010
+If I Die Young:The Band Perry:53:Sat Nov 05 00:00:00 PDT 2011
+She's So Mean:matchbox twenty:17:Sat Nov 03 00:00:00 PDT 2012
+Confession:Florida Georgia Line:3:Sat Jan 16 00:00:00 PST 2016
+Consider Me Gone:Reba:8:Sat Jan 30 00:00:00 PST 2010
+When We Were Young:Adele:8:Sat Jan 16 00:00:00 PST 2016
+Lolly:Maejor Ali Featuring Juicy J & Justin Bieber:4:Sat Oct 12 00:00:00 PDT 2013
+Criminal:Britney Spears:6:Sat Nov 05 00:00:00 PDT 2011
+Blunt Blowin:Lil Wayne:6:Sat Sep 24 00:00:00 PDT 2011
+Touchin, Lovin:Trey Songz Featuring Nicki Minaj:20:Sat Jan 03 00:00:00 PST 2015
+Buzzkill:Luke Bryan:2:Sat Mar 23 00:00:00 PDT 2013
+I'm Comin' Over:Chris Young:23:Sat Nov 28 00:00:00 PST 2015
+No Hurry:Zac Brown Band:16:Sat May 26 00:00:00 PDT 2012
+Cannonball:Lea Michele:1:Sat Dec 28 00:00:00 PST 2013
+6 God:Drake:1:Sat Mar 07 00:00:00 PST 2015
+Break The Rules:Charli XCX:3:Sat Jan 03 00:00:00 PST 2015
+BedRock:Young Money Featuring Lloyd:22:Sat Jan 30 00:00:00 PST 2010
+Black Or White::1:Sat Feb 18 00:00:00 PST 2012
+Runnin' (Lose It All):Naughty Boy Featuring Beyonce & Arrow Benjamin:1:Sat Oct 10 00:00:00 PDT 2015
+Snitches Ain't...::1:Sat Feb 25 00:00:00 PST 2012
+Won't Back Down:Eminem Featuring Pink:1:Sat Jul 10 00:00:00 PDT 2010
+Numb:Usher:7:Sat Nov 03 00:00:00 PDT 2012
+100:The Game Featuring Drake:10:Sat Sep 05 00:00:00 PDT 2015
+No New Friends:DJ Khaled Featuring Drake, Rick Ross & Lil Wayne:7:Sat May 18 00:00:00 PDT 2013
+Crushin' It:Brad Paisley:15:Sat Jul 18 00:00:00 PDT 2015
+Where Them Girls At:David Guetta Featuring Flo Rida & Nicki Minaj:20:Sat Aug 20 00:00:00 PDT 2011
+Cooler Than Me:Mike Posner Featuring Big Sean:1:Sat May 15 00:00:00 PDT 2010
+Change Me:Justin Bieber:1:Sat Dec 21 00:00:00 PST 2013
+Sirens:Pearl Jam:1:Sat Oct 26 00:00:00 PDT 2013
+If I Lose Myself:OneRepublic:5:Sat Apr 13 00:00:00 PDT 2013
+Bad B*tch:French Montana Featuring Jeremih:1:Sat Jan 10 00:00:00 PST 2015
+Stars:Grace Potter & The Nocturnals:1:Sat Dec 08 00:00:00 PST 2012
+Super Bass:Nicki Minaj:39:Sat Nov 05 00:00:00 PDT 2011
+Somethin' Bad:Miranda Lambert Duet With Carrie Underwood:20:Sat Jul 19 00:00:00 PDT 2014
+One:Usher & Michelle Chamuel:1:Sat Jul 06 00:00:00 PDT 2013
+Live My Life::1:Sat Mar 17 00:00:00 PDT 2012
+I Won:Future Featuring Kanye West:3:Sat May 10 00:00:00 PDT 2014
+No Flex Zone:Rae Sremmurd:19:Sat Nov 15 00:00:00 PST 2014
+As Your Friend:Afrojack Featuring Chris Brown:3:Sat Mar 23 00:00:00 PDT 2013
+I Put A Spell On You:Annie Lennox:1:Sat Feb 28 00:00:00 PST 2015
+Another Round:Fat Joe Featuring Chris Brown:6:Sat May 26 00:00:00 PDT 2012
+New Flame:Chris Brown Featuring Usher & Rick Ross:22:Sat Nov 15 00:00:00 PST 2014
+Holy Grail:Jay Z Featuring Justin Timberlake:27:Sat Dec 28 00:00:00 PST 2013
+Yuck!:2 Chainz Featuring Lil Wayne:1:Sat Sep 01 00:00:00 PDT 2012
+Magic:Coldplay:14:Sat Mar 22 00:00:00 PDT 2014
+E.T.::29:Sat Aug 20 00:00:00 PDT 2011
+Ballin':Young Jeezy Featuring Lil Wayne:5:Sat Aug 06 00:00:00 PDT 2011
+A Woman Like You:Lee Brice:20:Sat Mar 03 00:00:00 PST 2012
+Roger That:Young Money:11:Sat May 22 00:00:00 PDT 2010
+Cruisin' For A Bruisin':Ross Lynch, Grace Phipps And Jason Evigan:3:Sat Aug 10 00:00:00 PDT 2013
+Perfect:One Direction:13:Sat Nov 28 00:00:00 PST 2015
+My Baby's Guns N' Roses:Brantley Gilbert:1:Sat May 17 00:00:00 PDT 2014
+This Is How We Do:Katy Perry:18:Sat Nov 15 00:00:00 PST 2014
+One Man Can Change The World:Big Sean Featuring Kanye West & John Legend:10:Sat Sep 05 00:00:00 PDT 2015
+Hard:Rihanna Featuring Jeezy:16:Sat Jan 30 00:00:00 PST 2010
+Get Low:Dillon Francis & DJ Snake:9:Sat May 09 00:00:00 PDT 2015
+Carry On:fun.:20:Sat Feb 09 00:00:00 PST 2013
+Buy Me A Boat:Chris Janson:20:Sat Jul 18 00:00:00 PDT 2015
+Burning House:Emily Ann Roberts:1:Sat Jan 02 00:00:00 PST 2016
+Hope She Cheats On You (With A Basketball Player):Marsha Ambrosius:1:Sat Oct 16 00:00:00 PDT 2010
+Am I Wrong:Nico & Vinz:31:Sat Nov 15 00:00:00 PST 2014
+Remedy:Adele:1:Sat Dec 12 00:00:00 PST 2015
+Fireworks:Drake Featuring Alicia Keys:1:Sat Jul 03 00:00:00 PDT 2010
+Cough Syrup:Young The Giant:3:Sat Mar 17 00:00:00 PDT 2012
+Hopeless Wanderer:Mumford & Sons:1:Sat Aug 24 00:00:00 PDT 2013
+When You're Young:3 Doors Down:1:Sat Feb 19 00:00:00 PST 2011
+Paparazzi:Lady Gaga:11:Sat Jan 30 00:00:00 PST 2010
+Holding You Down (Goin In Circles):Jazmine Sullivan:12:Sat Nov 20 00:00:00 PST 2010
+Trophies:Young Money Featuring Drake:20:Sat Jul 19 00:00:00 PDT 2014
+Wildest Dreams:Taylor Swift:21:Sat Nov 28 00:00:00 PST 2015
+Get It Started:Pitbull Featuring Shakira:2:Sat Jul 28 00:00:00 PDT 2012
+Started From The Bottom:Drake:22:Sat Apr 13 00:00:00 PDT 2013
+Run The World (Girls):Beyonce:13:Sat Jul 16 00:00:00 PDT 2011
+Ready Set Roll:Chase Rice:21:Sat Oct 26 00:00:00 PDT 2013
+Carolina:Parmalee:19:Sat Dec 28 00:00:00 PST 2013
+Quickie:Miguel:14:Sat Nov 05 00:00:00 PDT 2011
+Fat Bottomed Girls::1:Sat Feb 26 00:00:00 PST 2011
+The Wind:Zac Brown Band:11:Sat Sep 22 00:00:00 PDT 2012
+Haunted:Taylor Swift:2:Sat Nov 26 00:00:00 PST 2011
+You Da One:Rihanna:20:Sat Dec 24 00:00:00 PST 2011
+Human Nature::1:Sat Feb 18 00:00:00 PST 2012
+You Are In Love:Taylor Swift:1:Sat Mar 14 00:00:00 PDT 2015
+The Scientist::1:Sat Oct 20 00:00:00 PDT 2012
+The Heart Wants What It Wants:Selena Gomez:20:Sat Mar 21 00:00:00 PDT 2015
+Promises:Nero:10:Sat Sep 22 00:00:00 PDT 2012
+I Am Woman:Jordin Sparks:1:Sat May 28 00:00:00 PDT 2011
+Stronger (What Doesn't Kill You):Kelly Clarkson:35:Sat May 26 00:00:00 PDT 2012
+Leave Your Lover:Sam Smith:1:Sat Jun 07 00:00:00 PDT 2014
+The Prayer::1:Sat May 26 00:00:00 PDT 2012
+Remember You:Wiz Khalifa Featuring The Weeknd:16:Sat Feb 09 00:00:00 PST 2013
+Way Too Cold:Kanye West Featuring DJ Khaled:1:Sat May 05 00:00:00 PDT 2012
+Country Girl (Shake It For Me):Luke Bryan:20:Sat Aug 20 00:00:00 PDT 2011
+New Romantics:Taylor Swift:1:Sat Mar 21 00:00:00 PDT 2015
+Anaconda:Nicki Minaj:22:Sat Jan 03 00:00:00 PST 2015
+Again:Fetty Wap:23:Sat Nov 28 00:00:00 PST 2015
+I Wanna Go:Britney Spears:20:Sat Nov 05 00:00:00 PDT 2011
+No Sleeep:Janet Featuring J. Cole:1:Sat Aug 15 00:00:00 PDT 2015
+Stay A Little Longer:Brothers Osborne:15:Sat Nov 28 00:00:00 PST 2015
+Do You Want To Build A Snowman?:Kristen Bell, Agatha Lee Monn & Katie Lopez:18:Sat Feb 22 00:00:00 PST 2014
+Up Down (Do This All Day):T-Pain Featuring B.o.B:20:Sat Dec 28 00:00:00 PST 2013
+Best I Ever Had:Gavin DeGraw:5:Sat Oct 12 00:00:00 PDT 2013
+Aston Martin Music:Rick Ross Featuring Drake & Chrisette Michele:20:Sat Jan 01 00:00:00 PST 2011
+Little Bad Girl:David Guetta Featuring Taio Cruz & Ludacris:1:Sat Jul 16 00:00:00 PDT 2011
+B**** Better Have My Money:Rihanna:23:Sat May 09 00:00:00 PDT 2015
+Roar:Katy Perry:35:Sat Dec 28 00:00:00 PST 2013
+Mr. Misunderstood:Eric Church:3:Sat Jan 16 00:00:00 PST 2016
+Bumpin' The Night:Florida Georgia Line:1:Sat Oct 18 00:00:00 PDT 2014
+Olivia:One Direction:1:Sat Dec 05 00:00:00 PST 2015
+I Luv This Sh*t::4:Sat Nov 09 00:00:00 PST 2013
+Police Dog Blues:Hugh Laurie:2:Sat Sep 24 00:00:00 PDT 2011
+Animal::1:Sat Mar 26 00:00:00 PDT 2011
+Just A Dream:Nelly:28:Sat Jan 01 00:00:00 PST 2011
+Immortals:Fall Out Boy:8:Sat Mar 21 00:00:00 PDT 2015
+Love And War:Tamar Braxton:20:Sat Apr 13 00:00:00 PDT 2013
+18:One Direction:1:Sat Nov 29 00:00:00 PST 2014
+Hit Me With Your Best Shot / One Way Or Another::1:Sat Dec 03 00:00:00 PST 2011
+So Good:B.o.B:18:Sat May 26 00:00:00 PDT 2012
+Tornado:Little Big Town:20:Sat Feb 09 00:00:00 PST 2013
+Bound 2:Kanye West:6:Sat Dec 28 00:00:00 PST 2013
+Loveeeeeee Song:Rihanna Featuring Future:20:Sat Apr 13 00:00:00 PDT 2013
+The Feeling:Justin Bieber Featuring Halsey:7:Sat Jan 16 00:00:00 PST 2016
+Dirt Road Anthem:Jason Aldean:26:Sat Aug 20 00:00:00 PDT 2011
+Fever:The Black Keys:3:Sat Apr 12 00:00:00 PDT 2014
+My First Kiss:3OH!3 Featuring Ke$ha:18:Sat Jul 10 00:00:00 PDT 2010
+Your Love Is My Drug:Ke$ha:28:Sat Jan 30 00:00:00 PST 2010
+Life Is Worth Living:Justin Bieber:2:Sat Dec 12 00:00:00 PST 2015
+Raging Fire:Phillip Phillips:8:Sat Mar 22 00:00:00 PDT 2014
+We Are Young:fun. Featuring Janelle Monae:36:Sat May 26 00:00:00 PDT 2012
+Mama's Broken Heart:Miranda Lambert:20:Sat Feb 09 00:00:00 PST 2013
+Hey, Soul Sister:Train:43:Sat Jan 30 00:00:00 PST 2010
+Monster:Meek Mill:1:Sat Mar 21 00:00:00 PDT 2015
+Mean To Me:Brett Eldredge:20:Sat Mar 21 00:00:00 PDT 2015
+Take Your Time:Sam Hunt:32:Sat Mar 21 00:00:00 PDT 2015
+See You Again:Carrie Underwood:20:Sat Aug 03 00:00:00 PDT 2013
+It Won't Stop:Sevyn Streeter Featuring Chris Brown:20:Sat Dec 28 00:00:00 PST 2013
+Goodbye:Who Is Fancy:1:Sat Apr 25 00:00:00 PDT 2015
+How Country Feels:Randy Houser:20:Sat Feb 09 00:00:00 PST 2013
+Landslide::2:Sat Mar 26 00:00:00 PDT 2011
+Who Dat Girl:Flo Rida Featuring Akon:15:Sat Jan 01 00:00:00 PST 2011
+Hot Boy::2:Sat Aug 16 00:00:00 PDT 2014
+m.A.A.d City:Kendrick Lamar Featuring MC Eiht:3:Sat Feb 15 00:00:00 PST 2014
+Introducing Me:Nick Jonas:1:Sat Sep 25 00:00:00 PDT 2010
+Marry Me:Jason Derulo:17:Sat Dec 28 00:00:00 PST 2013
+Rude Boy:Rihanna:22:Sat Jul 10 00:00:00 PDT 2010
+Hello:Adele:12:Sat Nov 28 00:00:00 PST 2015
+Sing:My Chemical Romance:17:Sat Mar 19 00:00:00 PDT 2011
+Breathless:Taylor Swift:1:Sat Feb 13 00:00:00 PST 2010
+One Last Time:Ariana Grande:20:Sat Mar 21 00:00:00 PDT 2015
+I Luv This Sh*t:August Alsina/Trinidad James:7:Sat Oct 12 00:00:00 PDT 2013
+Body Language:Kid Ink Featuring Usher & Tinashe:17:Sat Jan 03 00:00:00 PST 2015
+Half Of My Heart:John Mayer:18:Sat Jul 10 00:00:00 PDT 2010
+Harlem Shake:Baauer:20:Sat Apr 13 00:00:00 PDT 2013
+Teach Me How To Dougie:Cali Swag District:20:Sat Jul 10 00:00:00 PDT 2010
+Mean:Taylor Swift:20:Sat Jul 16 00:00:00 PDT 2011
+Just Keep Breathing:WE the Kings:1:Sat Apr 27 00:00:00 PDT 2013
+Stressed Out:twenty one pilots:17:Sat Nov 28 00:00:00 PST 2015
+Like Jesus Does:Eric Church:17:Sat Apr 13 00:00:00 PDT 2013
+Two Is Better Than One:Boys Like Girls Featuring Taylor Swift:13:Sat Jan 30 00:00:00 PST 2010
+Crawl:Chris Brown:6:Sat Jan 30 00:00:00 PST 2010
+Love Is An Open Door:Kristen Bell & Santino Fontana:4:Sat Apr 12 00:00:00 PDT 2014
+No Tellin':Drake:2:Sat Mar 14 00:00:00 PDT 2015
+New Morning:Alpha Rev:1:Sat May 15 00:00:00 PDT 2010
+Strip Me:Natasha Bedingfield:4:Sat Dec 04 00:00:00 PST 2010
+Don't Think They Know:Chris Brown Featuring Aaliyah:2:Sat Jul 20 00:00:00 PDT 2013
+I Have Nothing:Tessanne Chin:1:Sat Jan 04 00:00:00 PST 2014
+She Ain't You:Chris Brown:20:Sat Aug 20 00:00:00 PDT 2011
+Rockstar 101:Rihanna Featuring Slash:5:Sat Aug 28 00:00:00 PDT 2010
+A Little Bit Stronger:Sara Evans:21:Sat Feb 05 00:00:00 PST 2011
+Faster:Matt Nathanson:12:Sat Aug 20 00:00:00 PDT 2011
+I Like How It Feels:Enrique Iglesias Featuring Pitbull & The WAV.s:3:Sat Oct 22 00:00:00 PDT 2011
+Rolling In The Deep::2:Sat Jun 04 00:00:00 PDT 2011
+Good Girls:5 Seconds Of Summer:2:Sat Dec 06 00:00:00 PST 2014
+Gas Pedal:Sage The Gemini Featuring IamSu!:8:Sat Dec 28 00:00:00 PST 2013
+Runaways:The Killers:2:Sat Aug 11 00:00:00 PDT 2012
+Jingle Bell Rock:Bobby Helms:1:Sat Jan 09 00:00:00 PST 2016
+Fireball:Pitbull Featuring John Ryan:19:Sat Jan 03 00:00:00 PST 2015
+Shake It Off:Taylor Swift:50:Sat Mar 21 00:00:00 PDT 2015
+Believe Me:Lil Wayne Featuring Drake:20:Sat Jul 19 00:00:00 PDT 2014
+Crazy Town:Jason Aldean:17:Sat Jul 10 00:00:00 PDT 2010
+I Am The Champion:B.o.B:1:Sat Jan 08 00:00:00 PST 2011
+Take It To The Head:DJ Khaled Featuring Chris Brown, Rick Ross, Nicki Minaj & Lil Wayne:20:Sat May 26 00:00:00 PDT 2012
+DJ Got Us Fallin' In Love:Usher Featuring Pitbull:34:Sat Jan 01 00:00:00 PST 2011
+Country Boy:Aaron Lewis Featuring George Jones & Charlie Daniels:2:Sat Mar 19 00:00:00 PDT 2011
+Do It Again:Pia Mia Featuring Chris Brown & Tyga:11:Sat Jul 18 00:00:00 PDT 2015
+Never Let You Go:Justin Bieber:2:Sat Mar 27 00:00:00 PDT 2010
+Party Rock Anthem:LMFAO Featuring Lauren Bennett & GoonRock:68:Sat Nov 05 00:00:00 PDT 2011
+Cheers (Drink To That):Rihanna:18:Sat Nov 05 00:00:00 PDT 2011
+I Gotta Get To You:George Strait:13:Sat May 22 00:00:00 PDT 2010
+Dancing Crazy:Miranda Cosgrove:1:Sat Apr 02 00:00:00 PDT 2011
+All I Want For Christmas Is You:Mariah Carey:13:Sat Dec 28 00:00:00 PST 2013
+Get Me Some Of That:Thomas Rhett:20:Sat Feb 22 00:00:00 PST 2014
+I Do:Young Jeezy Featuring Jay-Z & Andre 3000:15:Sat Mar 03 00:00:00 PST 2012
+Let Me See Ya Girl:Cole Swindell:18:Sat Nov 28 00:00:00 PST 2015
+Raise Your Glass:P!nk:30:Sat Jan 01 00:00:00 PST 2011
+Human:Christina Perri:20:Sat Feb 22 00:00:00 PST 2014
+Sledgehammer:Fifth Harmony:15:Sat Mar 21 00:00:00 PDT 2015
+What The Water Gave Me:Florence + The Machine:1:Sat Sep 10 00:00:00 PDT 2011
+Shotgun Rider:Tim McGraw:20:Sat Jan 03 00:00:00 PST 2015
+She Will:Lil Wayne Featuring Drake:21:Sat Nov 05 00:00:00 PDT 2011
+Hideaway:Kiesza:14:Sat Aug 09 00:00:00 PDT 2014
+Talkin' 2 Myself:Eminem Featuring Kobe:1:Sat Jul 10 00:00:00 PDT 2010
+I'm All Yours:Jay Sean Featuring Pitbull:1:Sat Jun 16 00:00:00 PDT 2012
+Can't Feel My Face:The Weeknd:32:Sat Nov 28 00:00:00 PST 2015
+All The Way Home:Tamar Braxton:1:Sat Dec 21 00:00:00 PST 2013
+No Role Modelz:J. Cole:22:Sat Nov 28 00:00:00 PST 2015
+Planes:Jeremih Featuring J. Cole:20:Sat Jul 18 00:00:00 PDT 2015
+Karate Chop (Remix):Future Featuring Lil Wayne:12:Sat Apr 13 00:00:00 PDT 2013
+Hot Tottie:Usher Featuring Jay-Z:16:Sat Nov 20 00:00:00 PST 2010
+My Eyes::1:Sat May 17 00:00:00 PDT 2014
+Mama's Song:Carrie Underwood:18:Sat Jan 01 00:00:00 PST 2011
+I'm Flexin':T.I. Featuring Big K.R.I.T.:1:Sat Oct 22 00:00:00 PDT 2011
+Ho Hey:The Lumineers:62:Sat Feb 09 00:00:00 PST 2013
+Bandz A Make Her Dance:Juicy J Featuring Lil Wayne & 2 Chainz:20:Sat Feb 09 00:00:00 PST 2013
+Me, Myself & I:G-Eazy x Bebe Rexha:11:Sat Nov 28 00:00:00 PST 2015
+19 You + Me:Dan + Shay:18:Sat Feb 22 00:00:00 PST 2014
+Magic:Future Featuring T.I.:9:Sat May 12 00:00:00 PDT 2012
+I Bet My Life:Imagine Dragons:22:Sat Mar 21 00:00:00 PDT 2015
+Pray For You:Jaron And The Long Road To Love:20:Sat Jul 10 00:00:00 PDT 2010
+What's My Name?:Rihanna Featuring Drake:22:Sat Jan 01 00:00:00 PST 2011
+Fly:Nicki Minaj Featuring Rihanna:20:Sat Nov 05 00:00:00 PDT 2011
+King Of Anything:Sara Bareilles:22:Sat Jul 10 00:00:00 PDT 2010
+High:Big Sean Featuring Wiz Khalifa:1:Sat Jul 16 00:00:00 PDT 2011
+Domino:Jessie J:29:Sat Nov 05 00:00:00 PDT 2011
+F**kin Problems:A$AP Rocky Featuring Drake, 2 Chainz & Kendrick Lamar:27:Sat Feb 09 00:00:00 PST 2013
+White Walls:Macklemore & Ryan Lewis Featuring ScHoolboy Q & Hollis:21:Sat Dec 28 00:00:00 PST 2013
+Hallelujah:Lindsey Stirling:1:Sat Jan 09 00:00:00 PST 2016
+We Owned The Night:Lady Antebellum:20:Sat Nov 05 00:00:00 PDT 2011
+Soldier:Damien:1:Sat Jan 03 00:00:00 PST 2015
+Confident:Demi Lovato:15:Sat Nov 28 00:00:00 PST 2015
+Get Her Back:Robin Thicke:1:Sat Jul 12 00:00:00 PDT 2014
+Bang My Head:David Guetta Featuring Sia & Fetty Wap:1:null
+A Little Too Much:Shawn Mendes:1:Sat Feb 21 00:00:00 PST 2015
+We Might Be Dead By Tomorrow:Soko:1:Sat Mar 29 00:00:00 PDT 2014
+Better Than I Used To Be:Tim McGraw:20:Sat May 26 00:00:00 PDT 2012
+Teenage Dream:Katy Perry:33:Sat Jan 01 00:00:00 PST 2011
+Last Kiss:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+Best Song Ever:One Direction:21:Sat Dec 28 00:00:00 PST 2013
+We Are Never Ever Getting Back Together:Taylor Swift:24:Sat Nov 03 00:00:00 PDT 2012
+Wagon Wheel:Darius Rucker:26:Sat Apr 13 00:00:00 PDT 2013
+The Breath You Take:George Strait:20:Sat Jan 01 00:00:00 PST 2011
+Cough Syrup::1:Sat Mar 10 00:00:00 PST 2012
+Love Never Felt So Good:Michael Jackson & Justin Timberlake:20:Sat Jul 19 00:00:00 PDT 2014
+Main Chick:Kid Ink Featuring Chris Brown:20:Sat Jul 19 00:00:00 PDT 2014
+Sangria:Blake Shelton:20:Sat May 09 00:00:00 PDT 2015
+Fall For Your Type:Jamie Foxx Featuring Drake:18:Sat Jan 01 00:00:00 PST 2011
+Find Your Love:Drake:21:Sat Jul 10 00:00:00 PDT 2010
+Miss Movin' On:Fifth Harmony:11:Sat Nov 09 00:00:00 PST 2013
+Best Day Of My Life:American Authors:36:Sat Dec 28 00:00:00 PST 2013
+Take Me Home:Cash Cash Featuring Bebe Rexha:13:Sat Feb 22 00:00:00 PST 2014
+Sweet Annie:Zac Brown Band:17:Sat Dec 28 00:00:00 PST 2013
+Neva End:Future:20:Sat Feb 09 00:00:00 PST 2013
+V. 3005:Childish Gambino:20:Sat Dec 28 00:00:00 PST 2013
+Long Live:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+Where Are U Now:Skrillex & Diplo With Justin Bieber:30:Sat Nov 28 00:00:00 PST 2015
+Banjo::1:Sat May 26 00:00:00 PDT 2012
+Stop! In The Name Of Love / Free Your Mind::1:Sat Nov 27 00:00:00 PST 2010
+I Don't Like It, I Love It:Flo Rida Featuring Robin Thicke & Verdine White:14:Sat Jul 18 00:00:00 PDT 2015
+Hey, Soul Sister::1:Sat Dec 18 00:00:00 PST 2010
+Pour It Up:Rihanna:20:Sat Feb 09 00:00:00 PST 2013
+Tomorrow:Chris Young:21:Sat Jul 16 00:00:00 PDT 2011
+Let It Go:Idina Menzel:33:Sat Dec 28 00:00:00 PST 2013
+Up On The Ridge:Dierks Bentley:1:Sat Jul 24 00:00:00 PDT 2010
+Hold On, We're Going Home:Christina Grimmie:1:Sat May 17 00:00:00 PDT 2014
+I Will Not Bow:Breaking Benjamin:5:Sat Jan 30 00:00:00 PST 2010
+Marvins Room:Drake:17:Sat Nov 05 00:00:00 PDT 2011
+Disaster:JoJo:1:Sat Sep 24 00:00:00 PDT 2011
+About The Money:T.I. Featuring Young Thug:20:Sat Jan 03 00:00:00 PST 2015
+Love This Life:T.I.:1:Sat Apr 21 00:00:00 PDT 2012
+A Man Who Was Gonna Die Young:Eric Church:1:Sat Feb 15 00:00:00 PST 2014
+Bad Day:Justin Bieber:1:Sat Nov 23 00:00:00 PST 2013
+Electric Body:A$AP Rocky Featuring ScHoolboy Q:2:Sat Jun 20 00:00:00 PDT 2015
+Adore You:Miley Cyrus:18:Sat Feb 22 00:00:00 PST 2014
+One Hell Of An Amen:Brantley Gilbert:18:Sat Jul 18 00:00:00 PDT 2015
+Get Me Bodied:Beyonce:1:Sat Nov 23 00:00:00 PST 2013
+Velvet:Chris Jamison:1:Sat Jan 03 00:00:00 PST 2015
+Wipe Your Eyes:Maroon 5:1:Sat Jul 14 00:00:00 PDT 2012
+Hillbilly Bone:Blake Shelton Featuring Trace Adkins:20:Sat Jan 30 00:00:00 PST 2010
+When She Says Baby:Jason Aldean:20:Sat Dec 28 00:00:00 PST 2013
+Lil Freak:Usher Featuring Nicki Minaj:16:Sat May 22 00:00:00 PDT 2010
+Better Than Revenge:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+Beautiful People:Chris Brown Featuring Benny Benassi:4:Sat Sep 24 00:00:00 PDT 2011
+Good For You:Selena Gomez Featuring A$AP Rocky:26:Sat Nov 28 00:00:00 PST 2015
+Lessons In Love:Kaskade Featuring Neon Trees:1:Sat Nov 12 00:00:00 PST 2011
+Frick Park Market:Mac Miller:2:Sat Sep 03 00:00:00 PDT 2011
+Lost Without U:Chris Jamison & Adam Levine:1:Sat Jan 03 00:00:00 PST 2015
+Lay It All On Me:Rudimental Featuring Ed Sheeran:15:Sat Nov 28 00:00:00 PST 2015
+Take Care:Drake Featuring Rihanna:34:Sat May 26 00:00:00 PDT 2012
+Sexy And I Know It::1:Sat Feb 25 00:00:00 PST 2012
+West Coast:Lana Del Rey:2:Sat Jul 05 00:00:00 PDT 2014
+Voices:Chris Young:20:Sat Jan 01 00:00:00 PST 2011
+Dancin' Away With My Heart:Lady Antebellum:19:Sat May 26 00:00:00 PDT 2012
+Begin Again:Taylor Swift:20:Sat Feb 09 00:00:00 PST 2013
+Parking Lot Party:Lee Brice:20:Sat Oct 12 00:00:00 PDT 2013
+I Love New York / New York, New York::1:Sat Jun 11 00:00:00 PDT 2011
+Blown Away:Carrie Underwood:22:Sat May 26 00:00:00 PDT 2012
+You Can't Stop The Beat::1:Sat Oct 08 00:00:00 PDT 2011
+Gonna Know We Were Here:Jason Aldean:14:Sat Nov 28 00:00:00 PST 2015
+Left Hand Free:alt-J:1:Sat Oct 11 00:00:00 PDT 2014
+V.S.O.P.:K. Michelle:4:Sat Nov 09 00:00:00 PST 2013
+Anywhere With You:Jake Owen:20:Sat Apr 13 00:00:00 PDT 2013
+Drummer Boy:Justin Bieber Featuring Busta Rhymes:2:Sat Jan 07 00:00:00 PST 2012
+Uprising:Muse:6:Sat Jan 30 00:00:00 PST 2010
+We Don't Get Down Like Y'all:T.I. Featuring B.o.B.:1:Sat Aug 27 00:00:00 PDT 2011
+Slow Down:Selena Gomez:20:Sat Dec 28 00:00:00 PST 2013
+Worst Behavior:Drake:11:Sat Oct 12 00:00:00 PDT 2013
+Guts Over Fear:Eminem Featuring Sia:3:Sat Sep 20 00:00:00 PDT 2014
+How Many Times::1:Sat May 30 00:00:00 PDT 2015
+Blessings:Big Sean Featuring Drake:20:Sat Mar 21 00:00:00 PDT 2015
+Love Sosa:Chief Keef:14:Sat Feb 09 00:00:00 PST 2013
+Ride:SoMo:15:Sat Feb 22 00:00:00 PST 2014
+Fallin' For You:Colbie Caillat:7:Sat Jan 30 00:00:00 PST 2010
+Spotlight:Gucci Mane Featuring Usher:9:Sat Jan 30 00:00:00 PST 2010
+Make It Nasty:Tyga:2:Sat Mar 17 00:00:00 PDT 2012
+Often:The Weeknd:20:Sat Jan 03 00:00:00 PST 2015
+Music Box:Eminem:1:Sat Jan 09 00:00:00 PST 2010
+Royals::1:Sat Dec 20 00:00:00 PST 2014
+What Doesn't Kill You (Stronger)::1:Sat Mar 10 00:00:00 PST 2012
+Next To You:Chris Brown Featuring Justin Bieber:3:Sat Apr 09 00:00:00 PDT 2011
+Take It Off:Ke$ha:20:Sat Aug 07 00:00:00 PDT 2010
+Let It Be:Kris Allen:2:Sat Mar 13 00:00:00 PST 2010
+Mutha***** Up:Tyga Featuring Nicki Minaj:1:Sat Mar 10 00:00:00 PST 2012
+Letting Go (Dutty Love):Sean Kingston Featuring Nicki Minaj:20:Sat Jan 01 00:00:00 PST 2011
+Shark In The Water::6:Sat Jul 10 00:00:00 PDT 2010
+Give Me A Sign (Forever And Ever):Breaking Benjamin:5:Sat May 22 00:00:00 PDT 2010
+Perfect::1:Sat Dec 17 00:00:00 PST 2011
+R.I.P.:Young Jeezy Featuring 2 Chainz:14:Sat Apr 13 00:00:00 PDT 2013
+Somebody::1:Sat Feb 07 00:00:00 PST 2015
+The Man Who Can't Be Moved:Xenia:1:Sat Jul 09 00:00:00 PDT 2011
+Ex's & Oh's:Elle King:28:Sat Nov 28 00:00:00 PST 2015
+Angel Eyes:Love And Theft:20:Sat Sep 22 00:00:00 PDT 2012
+Kings And Queens:Thirty Seconds To Mars:2:Sat Jan 09 00:00:00 PST 2010
+Bullets In The Gun:Toby Keith:14:Sat Jan 01 00:00:00 PST 2011
+Don't:Ed Sheeran:36:Sat Jan 03 00:00:00 PST 2015
+We Still In This B****:B.o.B Featuring T.I. & Juicy J:20:Sat Apr 13 00:00:00 PDT 2013
+Little Talks:Of Monsters And Men:48:Sat May 26 00:00:00 PDT 2012
+Get Your Shine On:Florida Georgia Line:20:Sat Feb 09 00:00:00 PST 2013
+Tapout:Rich Gang Featuring Lil Wayne, Birdman, Future, Mack Maine, Nicki Minaj:19:Sat Aug 03 00:00:00 PDT 2013
+Pretty Girls:Britney Spears & Iggy Azalea:8:Sat Jul 11 00:00:00 PDT 2015
+Rich As F**k:Lil Wayne Featuring 2 Chainz:20:Sat Apr 13 00:00:00 PDT 2013
+Who You Love:John Mayer Featuring Katy Perry:2:Sat Jan 04 00:00:00 PST 2014
+Roman's Revenge:Nicki Minaj Featuring Eminem:5:Sat Feb 05 00:00:00 PST 2011
+Glad You Came:The Wanted:36:Sat Sep 22 00:00:00 PDT 2012
+Words I Never Said:Lupe Fiasco Featuring Skylar Grey:1:Sat Feb 26 00:00:00 PST 2011
+Mercy::32:Sat May 26 00:00:00 PDT 2012
+A Little More Country Than That:Easton Corbin:20:Sat Jan 30 00:00:00 PST 2010
+I'll Show You:Justin Bieber:11:Sat Nov 28 00:00:00 PST 2015
+Make A Wave:Disney's Friends For Change:1:Sat Apr 03 00:00:00 PDT 2010
+Shut Up + Dance:Walk The Moon:1:Sat Nov 22 00:00:00 PST 2014
+Somewhere Over The Rainbow::1:Sat Dec 22 00:00:00 PST 2012
+Beautiful Lasers (2 Ways):Lupe Fiasco Featuring MDMA:1:Sat Mar 26 00:00:00 PDT 2011
+The Days:Avicii:1:Sat Oct 25 00:00:00 PDT 2014
+Over The Rainbow::1:Sat Jun 26 00:00:00 PDT 2010
+Come Get Her:Rae Sremmurd:18:Sat Nov 28 00:00:00 PST 2015
+Memories Back Then:Hustle Gang Featuring T.I., B.o.B, Kendrick Lamar & Kris Stephens:2:Sat May 18 00:00:00 PDT 2013
+The Show Goes On:Lupe Fiasco:33:Sat Feb 05 00:00:00 PST 2011
+Stay The Night::1:Sat Sep 28 00:00:00 PDT 2013
+I Wanna Rock:Snoop Dogg:14:Sat Jan 30 00:00:00 PST 2010
+Live A Little:Kenny Chesney:12:Sat May 07 00:00:00 PDT 2011
+Loser Like Me::3:Sat Apr 09 00:00:00 PDT 2011
+Love This Pain:Lady Antebellum:1:Sat Jan 23 00:00:00 PST 2010
+All I Ever Wanted:Kelly Clarkson:6:Sat May 22 00:00:00 PDT 2010
+Racks:YC Featuring Future:17:Sat Jul 16 00:00:00 PDT 2011
+A Thousand Years:Christina Perri:26:Sat Nov 05 00:00:00 PDT 2011
+Best Love Song:T-Pain Featuring Chris Brown:20:Sat Aug 20 00:00:00 PDT 2011
+6 Foot 7 Foot:Lil Wayne Featuring Cory Gunz:21:Sat Jan 01 00:00:00 PST 2011
+Too Close:Melanie Martinez:1:Sat Dec 15 00:00:00 PST 2012
+Tennessee Whiskey:Chris Stapleton:5:Sat Nov 28 00:00:00 PST 2015
+Halfway Gone:Lifehouse:19:Sat Jan 30 00:00:00 PST 2010
+Speak Now:Taylor Swift:3:Sat Nov 06 00:00:00 PDT 2010
+Blurred Lines:Robin Thicke Featuring T.I. + Pharrell:47:Sat Dec 28 00:00:00 PST 2013
+The Devil Is A Lie:Rick Ross Featuring JAY Z:1:Sat Mar 22 00:00:00 PDT 2014
+Black And Yellow:Wiz Khalifa:25:Sat Jan 01 00:00:00 PST 2011
+Feel It::2:Sat Mar 27 00:00:00 PDT 2010
+Heroes (We Could Be):Alesso Featuring Tove Lo:20:Sat Jan 03 00:00:00 PST 2015
+My Homies Still:Lil Wayne Featuring Big Sean:13:Sat Jul 14 00:00:00 PDT 2012
+Chains:Nick Jonas:20:Sat Mar 21 00:00:00 PDT 2015
+Heart Attack:Enrique Iglesias:2:Sat Dec 14 00:00:00 PST 2013
+Sing!::1:Sat Oct 30 00:00:00 PDT 2010
+Slow Me Down:Sara Evans:5:Sat Apr 12 00:00:00 PDT 2014
+Dream On::2:Sat Jun 12 00:00:00 PDT 2010
+Welcome Christmas::1:Sat Dec 25 00:00:00 PST 2010
+Battle Scars:Lupe Fiasco & Guy Sebastian:20:Sat Feb 09 00:00:00 PST 2013
+Loud:Mac Miller:2:Sat May 12 00:00:00 PDT 2012
+Wavin' Flag:K'Naan:6:Sat Jul 10 00:00:00 PDT 2010
+At Last:Will Champlin:1:Sat Dec 14 00:00:00 PST 2013
+Good Thing:Sage The Gemini Featuring Nick Jonas:8:Sat Jul 18 00:00:00 PDT 2015
+One Less Lonely Girl:Justin Bieber:7:Sat Jan 30 00:00:00 PST 2010
+Finally Found You:Enrique Iglesias Featuring Sammy Adams:14:Sat Nov 03 00:00:00 PDT 2012
+Break:Three Days Grace:6:Sat Jan 30 00:00:00 PST 2010
+Undefeated:Jason Derulo:1:Sat Jun 09 00:00:00 PDT 2012
+Legend:Drake:12:Sat Mar 21 00:00:00 PDT 2015
+Rough Water:Travie McCoy Featuring Jason Mraz:5:Sat Nov 09 00:00:00 PST 2013
+Sex Ain't Better Than Love:Trey Songz:6:Sat Apr 07 00:00:00 PDT 2012
+Marry You:Bruno Mars:9:Sat Feb 05 00:00:00 PST 2011
+Hallelujah:Lee DeWyze:2:Sat Jun 12 00:00:00 PDT 2010
+Bitch, Don't Kill My Vibe:Kendrick Lamar:21:Sat Feb 09 00:00:00 PST 2013
+Hands To Myself:Selena Gomez:6:Sat Jan 16 00:00:00 PST 2016
+C'Mon:Ke$ha:15:Sat Feb 09 00:00:00 PST 2013
+Pom Poms:Jonas Brothers:1:Sat Apr 20 00:00:00 PDT 2013
+Hello World:Lady Antebellum:20:Sat Jan 01 00:00:00 PST 2011
+Round & Round:Selena Gomez & The Scene:14:Sat Jul 10 00:00:00 PDT 2010
+Everything To Me:Monica:18:Sat May 22 00:00:00 PDT 2010
+Like A Virgin::1:Sat May 08 00:00:00 PDT 2010
+On My Level:Wiz Khalifa Featuring Too $hort:9:Sat Aug 20 00:00:00 PDT 2011
+Come Get It Bae:Pharrell:1:Sat May 24 00:00:00 PDT 2014
+Not Ready To Die:Avenged Sevenfold:1:Sat May 21 00:00:00 PDT 2011
+Red Nation:Game Featuring Lil Wayne:1:Sat Apr 30 00:00:00 PDT 2011
+Drink To That All Night:Jerrod Niemann:20:Sat Feb 22 00:00:00 PST 2014
+A Thousand Years:Sawyer Fredericks:1:Sat May 30 00:00:00 PDT 2015
+State Of Grace:Taylor Swift:1:Sat Nov 03 00:00:00 PDT 2012
+The Only Exception::1:Sat Oct 16 00:00:00 PDT 2010
+She Don't Love You:Eric Paslay:12:Sat Mar 21 00:00:00 PDT 2015
+Don't Wanna Go Home:Jason Derulo:15:Sat Aug 20 00:00:00 PDT 2011
+Trumpets:Jason Derulo:32:Sat Jan 03 00:00:00 PST 2015
+Beat This Summer:Brad Paisley:20:Sat Apr 13 00:00:00 PDT 2013
+Scholarships:Drake & Future:7:Sat Oct 17 00:00:00 PDT 2015
+Chloe (You're The One I Want):Emblem3:3:Sat Aug 10 00:00:00 PDT 2013
+Happy:Pharrell Williams:47:Sat Feb 22 00:00:00 PST 2014
+Sing::1:Sat Mar 05 00:00:00 PST 2011
+Runnin' Outta Moonlight:Randy Houser:20:Sat Aug 03 00:00:00 PDT 2013
+Imma Be:The Black Eyed Peas:25:Sat Jan 30 00:00:00 PST 2010
+Sexy People (The Fiat Song):Arianna Featuring Pitbull:1:Sat May 18 00:00:00 PDT 2013
+Love Yourself:Justin Bieber:9:Sat Jan 16 00:00:00 PST 2016
+Dear Future Husband:Meghan Trainor:24:Sat Jan 31 00:00:00 PST 2015
+HYFR (Hell Yeah F*****g Right):Drake Featuring Lil Wayne:19:Sat Jun 16 00:00:00 PDT 2012
+Like A Wrecking Ball:Eric Church:22:Sat May 09 00:00:00 PDT 2015
+Timber:Pitbull Featuring Ke$ha:39:Sat Dec 28 00:00:00 PST 2013
+God Only Knows:Jordan Smith & Adam Levine:1:Sat Jan 02 00:00:00 PST 2016
+Drunk On You:Luke Bryan:23:Sat Jun 16 00:00:00 PDT 2012
+Hit The Quan:@iHeartMemphis:4:Sat Sep 05 00:00:00 PDT 2015
+P.Y.T. (Pretty Young Thing)::1:Sat Feb 26 00:00:00 PST 2011
+Baby Blue:Action Bronson Featuring Chance The Rapper:1:Sat Apr 11 00:00:00 PDT 2015
+Don't Drop That Thun Thun!:The FiNATTiCZ:10:Sat Aug 03 00:00:00 PDT 2013
+If Only:Dove Cameron:2:Sat Aug 29 00:00:00 PDT 2015
+As She's Walking Away:Zac Brown Band Featuring Alan Jackson:20:Sat Jan 01 00:00:00 PST 2011
+Porn Star Dancing:My Darkest Days Featuring Zakk Wylde:7:Sat Nov 20 00:00:00 PST 2010
+9 AM In Dallas::1:Sat Jul 03 00:00:00 PDT 2010
+From Time:Drake Featuring Jhene Aiko:1:Sat Oct 19 00:00:00 PDT 2013
+Royals:Lorde:44:Sat Dec 28 00:00:00 PST 2013
+The Motto:Drake Featuring Lil Wayne:1:Sat May 26 00:00:00 PDT 2012
+Strip It Down:Luke Bryan:20:Sat Nov 28 00:00:00 PST 2015
+Shake Senora:Pitbull Featuring T-Pain & Sean Paul:2:Sat Jul 16 00:00:00 PDT 2011
+T.H.E. (The Hardest Ever)::2:Sat Dec 10 00:00:00 PST 2011
+Bass Down Low:Dev Featuring The Cataracs:12:Sat Jan 01 00:00:00 PST 2011
+Lost In The Echo:Linkin Park:1:Sat Jul 14 00:00:00 PDT 2012
+Sleeping With A Friend:Neon Trees:16:Sat Mar 22 00:00:00 PDT 2014
+Didn't You Know How Much I Loved You:Kellie Pickler:2:Sat Mar 13 00:00:00 PST 2010
+Perfect Storm:Brad Paisley:17:Sat Jan 03 00:00:00 PST 2015
+Champagne Life:Ne-Yo:8:Sat Aug 07 00:00:00 PDT 2010
+Bellas Finals: Price Tag / Don't You (Forget About Me)...:The Barden Bellas:5:Sat Feb 09 00:00:00 PST 2013
+Easy:Sheryl Crow:8:Sat Sep 28 00:00:00 PDT 2013
+2 Reasons:Trey Songz Featuring T.I.:20:Sat Nov 03 00:00:00 PDT 2012
+Try:P!nk:24:Sat Feb 09 00:00:00 PST 2013
+Tuesday:I LOVE MAKONNEN Featuring Drake:17:Sat Jan 03 00:00:00 PST 2015
+First Kiss:Kid Rock:1:Sat Mar 14 00:00:00 PDT 2015
+River Deep, Mountain High::1:Sat Oct 30 00:00:00 PDT 2010
+Pompeii:Bastille:53:Sat Dec 28 00:00:00 PST 2013
+Swimming Pools (Drank):Kendrick Lamar:29:Sat Feb 09 00:00:00 PST 2013
+Shots:Imagine Dragons:3:Sat Feb 28 00:00:00 PST 2015
+Angel:Javier Colon:1:Sat Jul 02 00:00:00 PDT 2011
+Do You Remember:Jay Sean Featuring Sean Paul & Lil Jon:14:Sat Jan 30 00:00:00 PST 2010
+A Light That Never Comes:Linkin Park X Steve Aoki:1:Sat Oct 05 00:00:00 PDT 2013
+Love More:Chris Brown Featuring Nicki Minaj:21:Sat Dec 28 00:00:00 PST 2013
+Did It For The Girl:Greg Bates:16:Sat Nov 03 00:00:00 PDT 2012
+Who Says:Selena Gomez & The Scene:20:Sat Jul 16 00:00:00 PDT 2011
+This Is Country Music:Brad Paisley:15:Sat Feb 05 00:00:00 PST 2011
+Funhouse:Pink:2:Sat Jan 09 00:00:00 PST 2010
+Wanted::1:Sat May 26 00:00:00 PDT 2012
+The Man Who Can't Be Moved:The Script:6:Sat Aug 28 00:00:00 PDT 2010
+I Can't Tell You Why:The Swon Brothers:1:Sat Jul 06 00:00:00 PDT 2013
+Sex Room:Ludacris Featuring Trey Songz:11:Sat Jul 10 00:00:00 PDT 2010
+Let Her Go:Passenger:43:Sat Dec 28 00:00:00 PST 2013
+Night Train:Jason Aldean:20:Sat Nov 03 00:00:00 PDT 2012
+Le Jazz Hot::1:Sat Oct 30 00:00:00 PDT 2010
+All Day:Kanye West Featuring Theophilus London, Allan Kingdom & Paul McCartney:15:Sat Mar 21 00:00:00 PDT 2015
+Classic Man:Jidenna Featuring Roman GianArthur:21:Sat Jul 18 00:00:00 PDT 2015
+Elastic Heart:Sia:30:Sat Mar 21 00:00:00 PDT 2015
+Roller Coaster::1:Sat Dec 14 00:00:00 PST 2013
+U Smile:Justin Bieber:4:Sat Oct 02 00:00:00 PDT 2010
+Baby:Justin Bieber Featuring Ludacris:20:Sat May 22 00:00:00 PDT 2010
+Love Like Crazy:Lee Brice:20:Sat Jul 10 00:00:00 PDT 2010
+G.D.F.R.:Flo Rida Featuring Sage The Gemini & Lookas:34:Sat Mar 21 00:00:00 PDT 2015
+Va Va Voom:Nicki Minaj:20:Sat Feb 09 00:00:00 PST 2013
+Own It:Drake:1:Sat Oct 12 00:00:00 PDT 2013
+Gettin' Over You::20:Sat Jul 10 00:00:00 PDT 2010
+Neon:Chris Young:4:Sat Aug 11 00:00:00 PDT 2012
+Drunk In Love:Beyonce Featuring Jay-Z:2:Sat Jan 11 00:00:00 PST 2014
+Rope:Foo Fighters:13:Sat Mar 19 00:00:00 PDT 2011
+All I Want Is You:Miguel Featuring J. Cole:14:Sat Jan 01 00:00:00 PST 2011
+Do I:Luke Bryan:5:Sat Jan 30 00:00:00 PST 2010
+Lady Is A Tramp::1:Sat May 29 00:00:00 PDT 2010
+The Fox:Ylvis:18:Sat Dec 28 00:00:00 PST 2013
+Somewhere With You:Kenny Chesney:20:Sat Jan 01 00:00:00 PST 2011
+Paradise:Big Sean:1:Sat Mar 14 00:00:00 PDT 2015
+All Of Me:John Legend:59:Sat Dec 28 00:00:00 PST 2013
+Molly:Tyga Featuring Cedric Gervais, Wiz Khalifa & Mally Mall:12:Sat Apr 13 00:00:00 PDT 2013
+Marvin's Room:Drake:1:Sat Aug 06 00:00:00 PDT 2011
+Somewhere Else:Toby Keith:8:Sat Jun 18 00:00:00 PDT 2011
+Drunk On Your Love:Brett Eldredge:1:null
+Come Over:Kenny Chesney:20:Sat Sep 22 00:00:00 PDT 2012
+Black Magic:Little Mix:8:Sat Sep 05 00:00:00 PDT 2015
+Yeah 3X:Chris Brown:24:Sat Jan 01 00:00:00 PST 2011
+Deja Vu:3OH!3:1:Sat Jun 19 00:00:00 PDT 2010
+Fade Into You::1:Sat Nov 10 00:00:00 PST 2012
+Temporary Fix:One Direction:1:Sat Dec 05 00:00:00 PST 2015
+Get Ugly:Jason Derulo:4:Sat Jan 16 00:00:00 PST 2016
+Blackout:Breathe Carolina:20:Sat Dec 24 00:00:00 PST 2011
+Hey Porsche:Nelly:4:Sat Mar 23 00:00:00 PDT 2013
+Roller Coaster:Luke Bryan:20:Sat Nov 15 00:00:00 PST 2014
+Made In America:Toby Keith:20:Sat Nov 05 00:00:00 PDT 2011
+Locked Away:R. City Featuring Adam Levine:26:Sat Nov 28 00:00:00 PST 2015
+Rack City:Tyga:25:Sat May 26 00:00:00 PDT 2012
+Heart Attack:Demi Lovato:20:Sat Apr 13 00:00:00 PDT 2013
+Let's Go:Calvin Harris Featuring Ne-Yo:20:Sat Sep 22 00:00:00 PDT 2012
+Glass:Thompson Square:11:Sat Jul 14 00:00:00 PDT 2012
+Hot Boy:Bobby Shmurda:23:Sat Jan 03 00:00:00 PST 2015
+Type Of Way:Rich Homie Quan:20:Sat Oct 12 00:00:00 PDT 2013
+Hallelujah:Matthew Schuler:2:Sat Dec 07 00:00:00 PST 2013
+When I Was Your Man:Chris Jamison:1:Sat Dec 27 00:00:00 PST 2014
+Use Somebody:Kings Of Leon:11:Sat Jan 30 00:00:00 PST 2010
+Love All Over Me:Monica:17:Sat Aug 07 00:00:00 PDT 2010
+Hold My Hand:Jess Glynne:6:Sat Nov 28 00:00:00 PST 2015
+Little Lion Man:Mumford & Sons:22:Sat Jan 01 00:00:00 PST 2011
+I'm The Only One::1:Sat Dec 17 00:00:00 PST 2011
+Wet Dreamz:J. Cole:20:Sat Jan 03 00:00:00 PST 2015
+Thriller:Michael Jackson:3:Sat Nov 16 00:00:00 PST 2013
+Beachin':Jake Owen:20:Sat Jul 19 00:00:00 PDT 2014
+Alejandro:Lady Gaga:23:Sat Jul 10 00:00:00 PDT 2010
+Drink On It:Blake Shelton:19:Sat May 26 00:00:00 PDT 2012
+Applause:Lady Gaga:23:Sat Dec 28 00:00:00 PST 2013
+Who Are You When I'm Not Looking:Blake Shelton:20:Sat Jan 01 00:00:00 PST 2011
+Break Your Heart:Taio Cruz Featuring Ludacris:29:Sat Jul 10 00:00:00 PDT 2010
+As Long As You're There::1:Sat Jun 11 00:00:00 PDT 2011
+Glad You Came::2:Sat May 26 00:00:00 PDT 2012
+Bellas Finals: Price Tag/Don't You (Forget About Me)...:The Barden Bellas:1:Sat Jan 12 00:00:00 PST 2013
+Not For Long:B.o.B Featuring Trey Songz:9:Sat Mar 21 00:00:00 PDT 2015
+B**** I'm Madonna:Madonna Featuring Nicki Minaj:2:Sat Jul 11 00:00:00 PDT 2015
+Ridin' Solo:Jason Derulo:28:Sat Jul 10 00:00:00 PDT 2010
+Settle Down:No Doubt:8:Sat Sep 22 00:00:00 PDT 2012
+R.I.C.O.:Meek Mill Featuring Drake:13:Sat Jul 18 00:00:00 PDT 2015
+Naturally:Selena Gomez & The Scene:21:Sat Jan 30 00:00:00 PST 2010
+My House:Flo Rida:10:Sat Nov 28 00:00:00 PST 2015
+Sexy And I Know It:LMFAO:42:Sat Nov 05 00:00:00 PDT 2011
+Enough Of No Love:Keyshia Cole Featuring Lil Wayne:9:Sat Sep 22 00:00:00 PDT 2012
+Turn On The Radio:Reba:18:Sat Jan 01 00:00:00 PST 2011
+Turn The Night Up:Enrique Iglesias:6:Sat Sep 07 00:00:00 PDT 2013
+Say Aah:Lindsey Pavao:1:Sat Feb 25 00:00:00 PST 2012
+This Is What It Feels Like:Armin van Buuren Featuring Trevor Guthrie:1:Sat Oct 05 00:00:00 PDT 2013
+Never Enough:One Direction:1:Sat Dec 05 00:00:00 PST 2015
+Wop:J. Dash:15:Sat Apr 13 00:00:00 PDT 2013
+What Are Words:Chris Medina:1:Sat Mar 19 00:00:00 PDT 2011
+Hey Mama:David Guetta Featuring Nicki Minaj & Afrojack:8:Sat May 09 00:00:00 PDT 2015
+Sweet Little Somethin':Jason Aldean:2:Sat Sep 27 00:00:00 PDT 2014
+How To Love:Christina Grimmie:1:Sat May 24 00:00:00 PDT 2014
+Birthday Song:2 Chainz Featuring Kanye West:20:Sat Nov 03 00:00:00 PDT 2012
+Give Me All Your Luvin':Madonna Featuring Nicki Minaj & M.I.A.:6:Sat Mar 03 00:00:00 PST 2012
+Wicked Games:The Weeknd:20:Sat Feb 09 00:00:00 PST 2013
+The Outsiders:Eric Church:7:Sat Nov 09 00:00:00 PST 2013
+Gucci Gucci:Kreayshawn:10:Sat Aug 20 00:00:00 PDT 2011
+Feel So Close::1:Sat May 26 00:00:00 PDT 2012
+Loco:Enrique Iglesias Featuring Romeo Santos:4:Sat Sep 21 00:00:00 PDT 2013
+Walk:Foo Fighters:13:Sat Aug 20 00:00:00 PDT 2011
+Pants On The Ground::3:Sat Mar 13 00:00:00 PST 2010
+Love Me Like You Mean It:Kelsea Ballerini:18:Sat May 09 00:00:00 PDT 2015
+Evacuate The Dancefloor:Cascada:8:Sat Jan 30 00:00:00 PST 2010
+Raise Your Glass::1:Sat Apr 02 00:00:00 PDT 2011
+Sugar:Robin Schulz Featuring Francesco Yates:2:Sat Jan 23 00:00:00 PST 2016
+Eight Second Ride:Jake Owen:7:Sat Jan 30 00:00:00 PST 2010
+3:Britney Spears:10:Sat Jan 30 00:00:00 PST 2010
+Closer To The Edge:Thirty Seconds To Mars:1:Sat May 21 00:00:00 PDT 2011
+She Knows:Ne-Yo Featuring Juicy J:19:Sat Mar 21 00:00:00 PDT 2015
+A.M.:One Direction:1:Sat Dec 05 00:00:00 PST 2015
+Hey Brother:Avicii:23:Sat Dec 28 00:00:00 PST 2013
+Days Of Gold:Jake Owen:9:Sat Nov 09 00:00:00 PST 2013
+Like A Prayer::2:Sat May 08 00:00:00 PDT 2010
+Closer:Tegan And Sara:3:Sat Nov 09 00:00:00 PST 2013
+I Will Wait:Mumford & Sons:39:Sat Feb 09 00:00:00 PST 2013
+Uma Thurman:Fall Out Boy:27:Sat Jan 31 00:00:00 PST 2015
+Just What I Am:Kid Cudi Featuring King Chip:2:Sat Oct 20 00:00:00 PDT 2012
+Cruise:Florida Georgia Line Featuring Nelly:28:Sat Oct 12 00:00:00 PDT 2013
+Hold You Down:DJ Khaled Featuring Chris Brown, August Alsina, Future & Jeremih:15:Sat Jan 03 00:00:00 PST 2015
+The Adventures Of Rain Dance Maggie:Red Hot Chili Peppers:17:Sat Nov 05 00:00:00 PDT 2011
+Turn Up The Music:Chris Brown:19:Sat Jun 16 00:00:00 PDT 2012
+So Special:Lil Wayne Featuring John Legend:1:Sat Sep 17 00:00:00 PDT 2011
+Firework:Katy Perry:39:Sat Jan 01 00:00:00 PST 2011
+I Can Transform Ya:Chris Brown Featuring Lil Wayne & Swizz Beatz:9:Sat Jan 30 00:00:00 PST 2010
+Give Your Heart A Break::1:Sat May 26 00:00:00 PDT 2012
+I Gotta Feeling:The Black Eyed Peas:29:Sat Jan 30 00:00:00 PST 2010
+Only::1:Sat Nov 15 00:00:00 PST 2014
+17 Again:Brantley Gilbert:1:Sat May 24 00:00:00 PDT 2014
+Who's That Chick?:David Guetta Featuring Rihanna:9:Sat Feb 05 00:00:00 PST 2011
+Somewhere Only We Know::1:Sat May 14 00:00:00 PDT 2011
+Glitter In The Air:Pink:18:Sat Jul 10 00:00:00 PDT 2010
+I Got You:Thompson Square:18:Sat Nov 05 00:00:00 PDT 2011
+I Will Always Love You::1:Sat Mar 03 00:00:00 PST 2012
+Written In The Stars:Tinie Tempah Featuring Eric Turner:20:Sat Jul 16 00:00:00 PDT 2011
+Mrs. Right::10:Sat Nov 05 00:00:00 PDT 2011
+Partition:Beyonce:21:Sat Feb 22 00:00:00 PST 2014
+Calm Down:Busta Rhymes Featuring Eminem:1:Sat Jul 19 00:00:00 PDT 2014
+Winner:Jamie Foxx Featuring Justin Timberlake & T .I.:11:Sat May 22 00:00:00 PDT 2010
+Change My Mind:Meghan Linsey:1:Sat Jun 06 00:00:00 PDT 2015
+Zero:Chris Brown:2:Sat Jan 16 00:00:00 PST 2016
+Hello:Karmin:8:Sat Nov 03 00:00:00 PDT 2012
+Easy:Rascal Flatts Featuring Natasha Bedingfield:23:Sat Nov 05 00:00:00 PDT 2011
+Video Phone:Beyonce:2:Sat Jan 09 00:00:00 PST 2010
+Break Free:Ariana Grande Featuring Zedd:22:Sat Nov 15 00:00:00 PST 2014
+Telephone:Lady Gaga Featuring Beyonce:30:Sat Jan 30 00:00:00 PST 2010
+Love Done Gone:Billy Currington:15:Sat Aug 20 00:00:00 PDT 2011
+Wu-Tang Forever:Drake:3:Sat Oct 12 00:00:00 PDT 2013
+2012 (It Ain"t The End):Jay Sean Featuring Nicki Minaj:2:Sat Aug 28 00:00:00 PDT 2010
+Love Runs Out:OneRepublic:20:Sat Jul 19 00:00:00 PDT 2014
+Conqueror:Empire Cast Featuring Estelle & Jussie Smollett:2:Sat Mar 21 00:00:00 PDT 2015
+Give Me Everything:Pitbull Featuring Ne-Yo, AfroJack & Nayer:12:Sat Jun 18 00:00:00 PDT 2011
+I Need Your Love:Shaggy Featuring Mohombi, Faydee, Costi:8:Sat Jul 11 00:00:00 PDT 2015
+Losing My Religion:Dia Frampton:2:Sat Jul 16 00:00:00 PDT 2011
+Rocketeer::20:Sat Jan 01 00:00:00 PST 2011
+From Time:Drake:1:Sat Oct 12 00:00:00 PDT 2013
+Liv Tonight:Nelly Featuring Keri Hilson:1:Sat Dec 04 00:00:00 PST 2010
+Just A Fool::2:Sat Dec 01 00:00:00 PST 2012
+Don't You Worry Child:Swedish House Mafia Featuring John Martin:30:Sat Feb 09 00:00:00 PST 2013
+Where I Come From:Montgomery Gentry:15:Sat Mar 03 00:00:00 PST 2012
+Fastest Girl In Town:Miranda Lambert:19:Sat Nov 03 00:00:00 PDT 2012
+Stand By You:Rachel Platten:9:Sat Nov 28 00:00:00 PST 2015
+Versace:Migos:1:Sat Sep 21 00:00:00 PDT 2013
+Don't You Worry Child:Swedish House Mafia Feat. John Martin:3:Sat Dec 01 00:00:00 PST 2012
+Good Life:OneRepublic:34:Sat Nov 05 00:00:00 PDT 2011
+Cecilia And The Satellite:Andrew McMahon In The Wilderness:3:Sat Oct 24 00:00:00 PDT 2015
+Hungry Like The Wolf / Rio::1:Sat Apr 28 00:00:00 PDT 2012
+About You:Trey Songz:3:Sat Sep 12 00:00:00 PDT 2015
+Dive In:Trey Songz:12:Sat Nov 03 00:00:00 PDT 2012
+Hallelujah (Vancouver Winter 2010 Version):k.d. lang:1:Sat Mar 06 00:00:00 PST 2010
+California King Bed:Rihanna:14:Sat Aug 20 00:00:00 PDT 2011
+Midnight Memories:One Direction:3:Sat Feb 22 00:00:00 PST 2014
+Rain Over Me:Pitbull Featuring Marc Anthony:19:Sat Nov 05 00:00:00 PDT 2011
+We Dem Boyz:Wiz Khalifa:20:Sat Jul 19 00:00:00 PDT 2014
+Billie Jean:Michael Jackson:1:Sat Jun 07 00:00:00 PDT 2014
+Shake It Out:Florence + The Machine:20:Sat Dec 24 00:00:00 PST 2011
+La La La:Auburn Featuring Iyaz:13:Sat Aug 07 00:00:00 PDT 2010
+Gypsy:Shakira:3:Sat May 22 00:00:00 PDT 2010
+Babel:Mumford & Sons:5:Sat Nov 03 00:00:00 PDT 2012
+Home::1:Sat May 15 00:00:00 PDT 2010
+Talladega:Eric Church:20:Sat Mar 21 00:00:00 PDT 2015
+Stay:Florida Georgia Line:20:Sat Dec 28 00:00:00 PST 2013
+Someone Else Calling You Baby:Luke Bryan:20:Sat Jan 01 00:00:00 PST 2011
+How Many Drinks?:Miguel:20:Sat Aug 03 00:00:00 PDT 2013
+TiK ToK:Ke$ha:28:Sat Jan 30 00:00:00 PST 2010
+You Sound Good To Me:Lucy Hale:1:Sat Jan 25 00:00:00 PST 2014
+Baby::1:Sat Mar 05 00:00:00 PST 2011
+Cuando Me Enamoro:Enrique Iglesias Featuring Juan Luis Guerra:5:Sat Aug 07 00:00:00 PDT 2010
+Solo:Iyaz:18:Sat May 22 00:00:00 PDT 2010
+We Are The World 25: For Haiti::5:Sat Mar 13 00:00:00 PST 2010
+Watch Out:2 Chainz:3:Sat Jan 16 00:00:00 PST 2016
+Beautiful Now:Zedd Featuring Jon Bellion:14:Sat Jul 18 00:00:00 PDT 2015
+Beautiful::2:Sat Jul 16 00:00:00 PDT 2011
+Blackbird::1:Sat Apr 02 00:00:00 PDT 2011
+Without You::1:Sat Feb 04 00:00:00 PST 2012
+American Saturday Night:Brad Paisley:13:Sat Jan 30 00:00:00 PST 2010
+Wobble Baby Wobble:V.I.C.:2:Sat Jan 07 00:00:00 PST 2012
+No Flex Zone!!:Rae Sremmurd:1:Sat Aug 16 00:00:00 PDT 2014
+Don't Hold Your Breath:Nicole Scherzinger:1:Sat Sep 03 00:00:00 PDT 2011
+All Bad:Justin Bieber:1:Sat Nov 30 00:00:00 PST 2013
+Girls Chase Boys:Ingrid Michaelson:20:Sat Jul 19 00:00:00 PDT 2014
+Falling Slowly::2:Sat Jun 12 00:00:00 PDT 2010
+Not Like The Movies:Katy Perry:1:Sat Aug 21 00:00:00 PDT 2010
+Right By My Side:Nicki Minaj Featuring Chris Brown:15:Sat May 26 00:00:00 PDT 2012
+Give Your Heart A Break:Demi Lovato:31:Sat Nov 03 00:00:00 PDT 2012
+I Hold On:Dierks Bentley:19:Sat Feb 22 00:00:00 PST 2014
+Let It Be:Tessanne Chin & Adam Levine:1:Sat Jan 04 00:00:00 PST 2014
+Bang Bang Pow Pow:T-Pain Featuring Lil Wayne:2:Sat Dec 24 00:00:00 PST 2011
+Better Than I Know Myself:Adam Lambert:1:Sat Jan 07 00:00:00 PST 2012
+I Got The Boy:Jana Kramer:14:Sat Nov 28 00:00:00 PST 2015
+i:Kendrick Lamar:11:Sat Nov 15 00:00:00 PST 2014
+Over You:Cassadee Pope:2:Sat Jan 05 00:00:00 PST 2013
+Goodbye Town:Lady Antebellum:11:Sat Aug 03 00:00:00 PDT 2013
+Go Get It:T.I.:1:Sat Aug 04 00:00:00 PDT 2012
+Make A Movie:Twista Featuring Chris Brown:14:Sat Jan 01 00:00:00 PST 2011
+I Know What You Did Last Summer:Shawn Mendes & Camila Cabello:9:Sat Jan 16 00:00:00 PST 2016
+Love Me:Justin Bieber:1:Sat Jan 09 00:00:00 PST 2010
+Venus:Lady Gaga:1:Sat Nov 16 00:00:00 PST 2013
+If I Could Fly:One Direction:1:Sat Dec 05 00:00:00 PST 2015
+Bag Of Money:Wale Featuring Rick Ross, Meek Mill, & T-Pain:1:Sat Jul 14 00:00:00 PDT 2012
+Young & Crazy:Frankie Ballard:15:Sat Jul 18 00:00:00 PDT 2015
+Wiggle::1:Sat May 17 00:00:00 PDT 2014
+The Only Exception:Paramore:20:Sat Jul 10 00:00:00 PDT 2010
+Explosions:Ellie Goulding:1:Sat Mar 01 00:00:00 PST 2014
+New Slaves:Kanye West:2:Sat Jul 06 00:00:00 PDT 2013
+Body And Soul::1:Sat Oct 01 00:00:00 PDT 2011
+Chasing The Sun:The Wanted:15:Sat Sep 22 00:00:00 PDT 2012
+Apparently:J. Cole:16:Sat Mar 21 00:00:00 PDT 2015
+Can't Be Friends:Trey Songz:20:Sat Jan 01 00:00:00 PST 2011
+Show Me:Kid Ink Featuring Chris Brown:31:Sat Dec 28 00:00:00 PST 2013
+Whistle:Flo Rida:29:Sat May 26 00:00:00 PDT 2012
+Take It On Back:Chase Bryant:8:Sat Jan 31 00:00:00 PST 2015
+Stupid Boy:Cassadee Pope:1:Sat Dec 29 00:00:00 PST 2012
+Jugg:Fetty Wap Featuring Monty:6:Sat Jan 16 00:00:00 PST 2016
+Stuck Like Glue:Sugarland:24:Sat Jan 01 00:00:00 PST 2011
+Pirate Flag:Kenny Chesney:18:Sat Apr 13 00:00:00 PDT 2013
+Wild For The Night:A$AP Rocky Featuring Skrillex:15:Sat Feb 09 00:00:00 PST 2013
+Hold You (Hold Yuh):Gyptian:15:Sat Jul 10 00:00:00 PDT 2010
+Lo Mejor De Mi Vida Eres Tu:Ricky Martin Featuring Natalia Jimenez:1:Sat Feb 19 00:00:00 PST 2011
+If We Ever Meet Again:Timbaland Featuring Katy Perry:17:Sat Jul 10 00:00:00 PDT 2010
+Bon, Bon:Pitbull:5:Sat Nov 20 00:00:00 PST 2010
+Love Don't Die:The Fray:9:Sat Feb 22 00:00:00 PST 2014
+Yesterday::1:Sat May 26 00:00:00 PDT 2012
+Springsteen:Eric Church:21:Sat Jun 16 00:00:00 PDT 2012
+Jolene:Vicci Martinez:1:Sat Jul 02 00:00:00 PDT 2011
+I'm Not The Only One:Sam Smith:37:Sat Mar 21 00:00:00 PDT 2015
+Sad::1:Sat Jun 29 00:00:00 PDT 2013
+Down:Jay Sean Featuring Lil Wayne:16:Sat Jan 30 00:00:00 PST 2010
+Wait For A Minute::1:Sat Nov 09 00:00:00 PST 2013
+Just The Way You Are:Bruno Mars:48:Sat Jan 01 00:00:00 PST 2011
+Kiss Tomorrow Goodbye:Luke Bryan:20:Sat Nov 03 00:00:00 PDT 2012
+California Gurls:Katy Perry Featuring Snoop Dogg:27:Sat Jul 10 00:00:00 PDT 2010
+Iridescent:Linkin Park:3:Sat Jul 16 00:00:00 PDT 2011
+Hallelujah:Jordan Smith:1:Sat Dec 19 00:00:00 PST 2015
+Don't Let Me Fall:B.o.B:1:Sat Apr 24 00:00:00 PDT 2010
+Make You Feel My Love::1:Sat Oct 26 00:00:00 PDT 2013
+Wesley's Theory:Kendrick Lamar Featuring George Clinton & Thundercat:1:Sat Apr 04 00:00:00 PDT 2015
+My Kinda Party:Jason Aldean:20:Sat Jan 01 00:00:00 PST 2011
+Pumped Up Kicks:Foster The People:40:Sat Nov 05 00:00:00 PDT 2011
+Run:Matt Nathanson Featuring Sugarland:1:Sat Nov 26 00:00:00 PST 2011
+Born This Way::1:Sat May 14 00:00:00 PDT 2011
+Bad::1:Sat Feb 18 00:00:00 PST 2012
+Alone With You:Jake Owen:20:Sat Dec 24 00:00:00 PST 2011
+Gangsta Luv:Snoop Dogg Featuring The-Dream:11:Sat Jan 30 00:00:00 PST 2010
+Scream:Usher:21:Sat May 26 00:00:00 PDT 2012
+On The Floor:Jennifer Lopez Featuring Pitbull:29:Sat Aug 20 00:00:00 PDT 2011
+Daddy:PSY Featuring CL:1:Sat Dec 19 00:00:00 PST 2015
+How Low:Ludacris:20:Sat Jan 30 00:00:00 PST 2010
+Whiskey In My Water:Tyler Farr:18:Sat Jul 19 00:00:00 PDT 2014
+Sweet Dreams:Beyonce:8:Sat Jan 30 00:00:00 PST 2010
+Sure Thing:Miguel:23:Sat Aug 20 00:00:00 PDT 2011
+Crash And Burn:Thomas Rhett:20:Sat Jul 18 00:00:00 PDT 2015
+A Year Without Rain:Selena Gomez & The Scene:8:Sat Oct 16 00:00:00 PDT 2010
+You Should Be Here:Cole Swindell:5:Sat Jan 16 00:00:00 PST 2016
+Power Trip:J. Cole Featuring Miguel:29:Sat Apr 13 00:00:00 PDT 2013
+Dark Fantasy:Kanye West Featuring Teyana Taylor, Nicki Minaj & Bon Iver:1:Sat Dec 11 00:00:00 PST 2010
+Real Life:The Weeknd:2:Sat Sep 19 00:00:00 PDT 2015
+See You Tonight:Scotty McCreery:18:Sat Dec 28 00:00:00 PST 2013
+Smoke A Little Smoke:Eric Church:20:Sat Jan 01 00:00:00 PST 2011
+Christmas Lights:Coldplay:3:Sat Jan 01 00:00:00 PST 2011
+Sippin' On Fire:Florida Georgia Line:20:Sat May 09 00:00:00 PDT 2015
+Borderline / Open Your Heart::1:Sat May 08 00:00:00 PDT 2010
+You And I:Lady Gaga:20:Sat Nov 05 00:00:00 PDT 2011
+Cut Her Off:KCamp Featuring 2 Chainz:20:Sat Jul 19 00:00:00 PDT 2014
+Style:Taylor Swift:32:Sat Mar 21 00:00:00 PDT 2015
+Blah Blah Blah:Ke$ha Featuring 3OH!3:20:Sat Jan 30 00:00:00 PST 2010
+Get Low:Waka Flocka Flame Featuring Nicki Minaj, Tyga & Flo Rida:1:Sat Jun 23 00:00:00 PDT 2012
+New Americana:Halsey:16:Sat Jan 16 00:00:00 PST 2016
+Drunk Last Night:Eli Young Band:20:Sat Dec 28 00:00:00 PST 2013
+Monster:Imagine Dragons:1:Sat Oct 05 00:00:00 PDT 2013
+Crew Love:Drake Featuring The Weeknd:12:Sat May 26 00:00:00 PDT 2012
+Mark My Words:Justin Bieber:4:Sat Dec 19 00:00:00 PST 2015
+Fight Night:Migos:16:Sat Aug 09 00:00:00 PDT 2014
+Halfway There:Big Time Rush:1:Sat May 15 00:00:00 PDT 2010
+All Over Me:Josh Turner:18:Sat Aug 07 00:00:00 PDT 2010
+Gonna Wanna Tonight:Chase Rice:12:Sat Sep 05 00:00:00 PDT 2015
+Somebody To Love:Jordan Smith:2:Sat Jan 02 00:00:00 PST 2016
+Kings Never Die:Eminem Featuring Gwen Stefani:2:Sat Aug 15 00:00:00 PDT 2015
+Let Me Down Easy:Billy Currington:20:Sat Jan 01 00:00:00 PST 2011
+Ginza:J Balvin:14:Sat Nov 28 00:00:00 PST 2015
+Hold On, We're Going Home:Drake Featuring Majid Jordan:33:Sat Dec 28 00:00:00 PST 2013
+Brighter Than The Sun:Colbie Caillat:25:Sat Nov 05 00:00:00 PDT 2011
+Better With The Lights Off:New Boyz Feat. Chris Brown:11:Sat Nov 05 00:00:00 PDT 2011
+Tip It On Back:Dierks Bentley:16:Sat Feb 09 00:00:00 PST 2013
+Saturday:Rebecca Black & Dave Days:1:Sat Dec 28 00:00:00 PST 2013
+Blow A Bag:Future:1:Sat Aug 08 00:00:00 PDT 2015
+Cruise:Florida Georgia Line:26:Sat Feb 09 00:00:00 PST 2013
+Oh Love:Green Day:4:Sat Sep 01 00:00:00 PDT 2012
+Get Lucky::2:Sat Nov 09 00:00:00 PST 2013
+Countdown:Beyonce:15:Sat Nov 05 00:00:00 PDT 2011
+Bills:LunchMoney Lewis:6:Sat Apr 11 00:00:00 PDT 2015
+Fire Flame:Birdman Featuring Lil Wayne:10:Sat Jan 01 00:00:00 PST 2011
+See No More:Joe Jonas:1:Sat Jul 02 00:00:00 PDT 2011
+I. Crawl:Childish Gambino:1:Sat Dec 21 00:00:00 PST 2013
+The Blower's Daughter:Matt McAndrew:1:Sat Dec 20 00:00:00 PST 2014
+So Many Girls:DJ Drama Featuring Wale, Tyga & Roscoe Dash:1:Sat Mar 30 00:00:00 PDT 2013
+Sweeter Than Fiction:Taylor Swift:1:Sat Nov 09 00:00:00 PST 2013
+One In A Million:Ne-Yo:7:Sat Nov 20 00:00:00 PST 2010
+Children:Justin Bieber:1:Sat Dec 05 00:00:00 PST 2015
+Soldier Of Love:Sade:11:Sat Jan 30 00:00:00 PST 2010
+Just Fishin':Trace Adkins:20:Sat Aug 20 00:00:00 PDT 2011
+Pop That:French Montana Featuring Rick Ross, Drake, Lil Wayne:22:Sat Nov 03 00:00:00 PDT 2012
+My Hitta:YG Featuring Jeezy & Rich Homie Quan:21:Sat Dec 28 00:00:00 PST 2013
+Long Hot Summer:Keith Urban:18:Sat Nov 05 00:00:00 PDT 2011
+Lego House:Ed Sheeran:16:Sat Apr 13 00:00:00 PDT 2013
+What I Did For Love::1:Sat Oct 09 00:00:00 PDT 2010
+I Found You:The Wanted:2:Sat Nov 24 00:00:00 PST 2012
+Make It Rain:Ed Sheeran:2:Sat Dec 27 00:00:00 PST 2014
+Otis::20:Sat Nov 05 00:00:00 PDT 2011
+Play Hard:David Guetta Featuring Ne-Yo & Akon:9:Sat Aug 03 00:00:00 PDT 2013
+Pause:Pitbull:1:Sat Jun 25 00:00:00 PDT 2011
+Ayy Ladies:Travis Porter Featuring Tyga:19:Sat May 26 00:00:00 PDT 2012
+One Of Those Nights:Tim McGraw:20:Sat Feb 09 00:00:00 PST 2013
+Baby Be My Love Song:Easton Corbin:16:Sat May 09 00:00:00 PDT 2015
+Jumpman:Drake & Future:17:Sat Nov 28 00:00:00 PST 2015
+Tie Me Down:New Boyz Featuring Ray J:14:Sat Jan 30 00:00:00 PST 2010
+We Were Us:Keith Urban And Miranda Lambert:20:Sat Dec 28 00:00:00 PST 2013
+You're Mine (Eternal):Mariah Carey:1:Sat Mar 01 00:00:00 PST 2014
+Headlines:Drake:25:Sat Nov 05 00:00:00 PDT 2011
+Happy Days Are Here Again / Get Happy::1:Sat Oct 30 00:00:00 PDT 2010
+A Guy Walks Into A Bar:Tyler Farr:20:Sat Mar 21 00:00:00 PDT 2015
+Sex Therapy:Robin Thicke:19:Sat Jan 30 00:00:00 PST 2010
+Cashin' Out:Ca$h Out:15:Sat May 26 00:00:00 PDT 2012
+Ride Out:Kid Ink, Tyga, Wale, YG & Rich Homie Quan:3:Sat May 09 00:00:00 PDT 2015
+Something To Do With My Hands:Thomas Rhett:4:Sat Jul 28 00:00:00 PDT 2012
+Not Over You:Gavin DeGraw:35:Sat Nov 05 00:00:00 PDT 2011
+Lotus Flower Bomb:Wale Featuring Miguel:20:Sat Dec 24 00:00:00 PST 2011
+Believe:Mumford & Sons:15:Sat May 09 00:00:00 PDT 2015
+Gangnam Style:PSY:29:Sat Feb 09 00:00:00 PST 2013
+Fearless:Taylor Swift:10:Sat Mar 13 00:00:00 PST 2010
+Rewind:Rascal Flatts:20:Sat Feb 22 00:00:00 PST 2014
+Somebody:Bridgit Mendler:1:Sat May 07 00:00:00 PDT 2011
+American Kids:Kenny Chesney:20:Sat Nov 15 00:00:00 PST 2014
+Home:One Direction:2:Sat Nov 14 00:00:00 PST 2015
+It's Beginning To Look A Lot Like Christmas:Michael Buble:1:Sat Dec 17 00:00:00 PST 2011
+It Girl:Jason Derulo:22:Sat Nov 05 00:00:00 PDT 2011
+Till The World Ends:Britney Spears Featuring Nicki Minaj & Ke$ha:1:Sat May 14 00:00:00 PDT 2011
+Grandpa (Tell Me 'Bout The Good Old Days)::1:Sat Jun 15 00:00:00 PDT 2013
+Lean On Me::1:Sat Feb 13 00:00:00 PST 2010
+Jungle:Jamie N Commons & X Ambassadors:2:Sat Jun 28 00:00:00 PDT 2014
+Put It Down:Brandy Featuring Chris Brown:14:Sat Nov 03 00:00:00 PDT 2012
+Goodnight Kiss:Randy Houser:16:Sat Feb 22 00:00:00 PST 2014
+Over:Drake:20:Sat Jul 10 00:00:00 PDT 2010
+Wild Life::1:Sat Aug 23 00:00:00 PDT 2014
+Party:Beyonce Featuring Andre 3000:18:Sat Nov 05 00:00:00 PDT 2011
+Brave:Sara Bareilles:42:Sat Dec 28 00:00:00 PST 2013
+Heartbreaker:Justin Bieber:2:Sat Oct 19 00:00:00 PDT 2013
+Compass:Lady Antebellum:20:Sat Dec 28 00:00:00 PST 2013
+Tonight Is The Night:Outasight:20:Sat Dec 24 00:00:00 PST 2011
+The Night Is Still Young:Nicki Minaj:17:Sat Jul 18 00:00:00 PDT 2015
+What Do You Want:Jerrod Niemann:20:Sat Jan 01 00:00:00 PST 2011
+Between The Raindrops:Lifehouse Featuring Natasha Bedingfield:2:Sat Sep 29 00:00:00 PDT 2012
+Wake Me Up!:Avicii:53:Sat Dec 28 00:00:00 PST 2013
+Wet The Bed:Chris Brown Feat. Ludacris:10:Sat Nov 05 00:00:00 PDT 2011
+Did It On'em:Nicki Minaj:15:Sat Mar 19 00:00:00 PDT 2011
+Pretty Girl Rock:Keri Hilson:22:Sat Jan 01 00:00:00 PST 2011
+Prayer In C:Lillywood & Robin Schulz:18:Sat Mar 21 00:00:00 PDT 2015
+Cold One:Eric Church:6:Sat Sep 27 00:00:00 PDT 2014
+5-1-5-0::1:Sat May 26 00:00:00 PDT 2012
+Ordinary Love:U2:2:Sat Mar 22 00:00:00 PDT 2014
+Crown:Jay Z:1:Sat Jul 27 00:00:00 PDT 2013
+I Look To You::1:Sat Oct 23 00:00:00 PDT 2010
+You Gonna Fly:Keith Urban:18:Sat Dec 24 00:00:00 PST 2011
+Hall Of Fame:The Script Featuring will.i.am:25:Sat Feb 09 00:00:00 PST 2013
+How Will I Know:Whitney Houston:1:Sat Mar 03 00:00:00 PST 2012
+Red Solo Cup::1:Sat Dec 24 00:00:00 PST 2011
+Bobby Bitch:Bobby Shmurda:3:Sat Nov 29 00:00:00 PST 2014
+Cashin Out:Ca$hOut:5:Sat May 12 00:00:00 PDT 2012
+Bad Blood:Taylor Swift:2:Sat Nov 15 00:00:00 PST 2014
+Ghosts That We Knew:Mumford & Sons:3:Sat Oct 20 00:00:00 PDT 2012
+Work B**ch!:Britney Spears:9:Sat Oct 12 00:00:00 PDT 2013
+Like I Can:Sam Smith:2:Sat Jul 11 00:00:00 PDT 2015
+Acquainted:The Weeknd:3:Sat Sep 19 00:00:00 PDT 2015
+Super High:Rick Ross Featuring Ne-Yo:1:Sat Jun 12 00:00:00 PDT 2010
+Beth::1:Sat Jun 12 00:00:00 PDT 2010
+Stereo Love::28:Sat Jan 01 00:00:00 PST 2011
+Like A Cowboy:Randy Houser:14:Sat Mar 21 00:00:00 PDT 2015
+All About That Bass:Meghan Trainor:47:Sat Mar 21 00:00:00 PDT 2015
+My Chick Bad:Ludacris Featuring Nicki Minaj:20:Sat Jul 10 00:00:00 PDT 2010
+You Don't Know Her Like I Do:Brantley Gilbert:24:Sat May 26 00:00:00 PDT 2012
+Two Night Town:Jason Aldean:1:Sat Sep 27 00:00:00 PDT 2014
+F**k You!:Cee Lo Green:1:Sat Sep 11 00:00:00 PDT 2010
+We Are Young:Fun. Featuring Janelle Monae:6:Sat Dec 24 00:00:00 PST 2011
+Good Feeling:Flo Rida:37:Sat Nov 05 00:00:00 PDT 2011
+Need You Now::2:Sat Feb 26 00:00:00 PST 2011
+Gives You Hell::2:Sat May 08 00:00:00 PDT 2010
+Crew Love:Drake Featuring The Weekend:8:Sat May 12 00:00:00 PDT 2012
+Time Warp::1:Sat Nov 13 00:00:00 PST 2010
+Calling All The Monsters::2:Sat Oct 29 00:00:00 PDT 2011
+One:Ed Sheeran:1:Sat May 31 00:00:00 PDT 2014
+A Little Party Never Killed Nobody (All We Got):Fergie, Q-Tip & GoonRock:2:Sat Jun 08 00:00:00 PDT 2013
+Leave The Night On:Sam Hunt:21:Sat Nov 15 00:00:00 PST 2014
+That's How Country Boys Roll:Billy Currington:17:Sat Jan 30 00:00:00 PST 2010
+Sun Daze:Florida Georgia Line:20:Sat Mar 21 00:00:00 PDT 2015
+Do They Know It's Christmas? (2014):Band Aid 30:1:Sat Dec 06 00:00:00 PST 2014
+Little White Church:Little Big Town:20:Sat Jul 10 00:00:00 PDT 2010
+Alright:Kendrick Lamar:14:Sat Jul 18 00:00:00 PDT 2015
+Give In To Me::2:Sat Feb 05 00:00:00 PST 2011
+Do It Like You:Diggy Featuring Jeremih:8:Sat Mar 17 00:00:00 PDT 2012
+All Your Life:The Band Perry:23:Sat Nov 05 00:00:00 PDT 2011
+Treasure:Bruno Mars:23:Sat Oct 12 00:00:00 PDT 2013
+Haven't Met You Yet:Michael Buble:33:Sat Jan 30 00:00:00 PST 2010
+Titanium:David Guetta Featuring Sia:33:Sat May 26 00:00:00 PDT 2012
+Till The World Ends:Britney Spears:23:Sat Aug 20 00:00:00 PDT 2011
+Happy Little Pill::1:Sat Aug 09 00:00:00 PDT 2014
+You & I:One Direction:11:Sat Jul 05 00:00:00 PDT 2014
+G.U.Y.:Lady Gaga:1:Sat Apr 12 00:00:00 PDT 2014
+Red Lights:Tiesto:13:Sat Apr 12 00:00:00 PDT 2014
+Pure Imagination::1:Sat Jun 04 00:00:00 PDT 2011
+Riff Off: Mickey / Like A Virgin / Hit Me With Your Best Shot...:The Barden Bellas, The Treblemakers & The BU Harmonics:5:Sat Feb 09 00:00:00 PST 2013
+Give It All We Got Tonight:George Strait:20:Sat Feb 09 00:00:00 PST 2013
+Farmer's Daughter:Rodney Atkins:21:Sat Jul 10 00:00:00 PDT 2010
+What Kind Of Man::1:Sat Feb 28 00:00:00 PST 2015
+Fancy:Drake Featuring T.I. & Swizz Beatz:20:Sat Nov 20 00:00:00 PST 2010
+You:Chris Young:20:Sat Nov 05 00:00:00 PDT 2011
+Exchange:Bryson Tiller:12:Sat Nov 28 00:00:00 PST 2015
+Amen:Meek Mill Featuring Drake:18:Sat Nov 03 00:00:00 PDT 2012
+Fine By Me:Andy Grammer:10:Sat May 26 00:00:00 PDT 2012
+Go Hard Or Go Home:Wiz Khalifa & Iggy Azalea:2:Sat Apr 25 00:00:00 PDT 2015
+Somebody That I Used To Know::2:Sat May 05 00:00:00 PDT 2012
+Dance For You:Beyonce:15:Sat Nov 03 00:00:00 PDT 2012
+I'm In:Keith Urban:15:Sat Jul 10 00:00:00 PDT 2010
+Club Can't Handle Me:Flo Rida Featuring David Guetta:29:Sat Jan 01 00:00:00 PST 2011
+Good Vibrations::1:Sat Jun 19 00:00:00 PDT 2010
+I'm To Blame:Kip Moore:1:Sat Sep 12 00:00:00 PDT 2015
+Ain't Worried About Nothin:French Montana:13:Sat Aug 03 00:00:00 PDT 2013
+Liquor:Chris Brown:17:Sat Nov 28 00:00:00 PST 2015
+We Got The Beat::1:Sat Oct 08 00:00:00 PDT 2011
+Replay:Iyaz:17:Sat Jan 30 00:00:00 PST 2010
+(It) Feels So Good:Steven Tyler:4:Sat Jun 18 00:00:00 PDT 2011
+Love Me Again:John Newman:18:Sat Dec 28 00:00:00 PST 2013
+People Like Us:Kelly Clarkson:10:Sat Aug 03 00:00:00 PDT 2013
+Baby By Me:50 Cent Featuring Ne-Yo:6:Sat Jan 30 00:00:00 PST 2010
+Watch Me::4:Sat Jul 09 00:00:00 PDT 2011
+Dreams::1:Sat May 21 00:00:00 PDT 2011
+In The Night:The Weeknd:10:Sat Jan 16 00:00:00 PST 2016
+The Monster:Eminem Featuring Rihanna:29:Sat Dec 28 00:00:00 PST 2013
+I Kissed A Girl::1:Sat Dec 17 00:00:00 PST 2011
+StarStruck:Christopher Wilde:1:Sat Mar 06 00:00:00 PST 2010
+Fix A Heart:Demi Lovato:1:Sat Oct 08 00:00:00 PDT 2011
+Hey Daddy (Daddy's Home):Usher Featuring Plies:21:Sat Jan 30 00:00:00 PST 2010
+Hard To Love:Lee Brice:23:Sat Nov 03 00:00:00 PDT 2012
+Heart Skips A Beat:Olly Murs Featuring Chiddy Bang:2:Sat Oct 06 00:00:00 PDT 2012
+Habits (Stay High):Tove Lo:39:Sat Jan 03 00:00:00 PST 2015
+Hangover:Taio Cruz Featuring Flo Rida:1:Sat Oct 22 00:00:00 PDT 2011
+Afire Love:Ed Sheeran:1:Sat Jul 05 00:00:00 PDT 2014
+Follow Me Down:3OH!3 Featuring Neon Hitch:2:Sat Mar 20 00:00:00 PDT 2010
+Losers:The Weeknd Featuring Labrinth:1:Sat Sep 19 00:00:00 PDT 2015
+It's Good:Lil Wayne Featuring Drake & Jadakiss:1:Sat Sep 17 00:00:00 PDT 2011
+The Ballad Of Mona Lisa:Panic! At The Disco:1:Sat Feb 19 00:00:00 PST 2011
+Never Going Back Again::1:Sat May 21 00:00:00 PDT 2011
+Take A Walk:Passion Pit:22:Sat Feb 09 00:00:00 PST 2013
+El Cerrito Place:Kenny Chesney:13:Sat Nov 03 00:00:00 PDT 2012
+Old Man:Sawyer Fredericks:1:Sat Jun 06 00:00:00 PDT 2015
+Rhythm of Love:Plain White T's:21:Sat Jan 01 00:00:00 PST 2011
+Nothing Without Love:Nate Ruess:4:Sat May 09 00:00:00 PDT 2015
+Backroad Song:Granger Smith:6:Sat Jan 16 00:00:00 PST 2016
+Latch:Disclosure Featuring Sam Smith:33:Sat Nov 15 00:00:00 PST 2014
+My Eyes:Blake Shelton Featuring Gwen Sebastian:15:Sat Jul 19 00:00:00 PDT 2014
+22:Taylor Swift:20:Sat Apr 13 00:00:00 PDT 2013
+I Get It In:Omarion Featuring Gucci Mane:1:Sat Jan 02 00:00:00 PST 2010
+Prisoner:The Weeknd Featuring Lana Del Rey:3:Sat Sep 19 00:00:00 PDT 2015
+No Hands:Waka Flocka Flame Featuring Roscoe Dash & Wale:32:Sat Jan 01 00:00:00 PST 2011
+Your Side Of The Bed:Little Big Town:1:Sat Aug 31 00:00:00 PDT 2013
+Adventure Of A Lifetime:Coldplay:10:Sat Nov 28 00:00:00 PST 2015
+Know Yourself:Drake:20:Sat Mar 21 00:00:00 PDT 2015
+As If We Never Said Goodbye::1:Sat May 14 00:00:00 PDT 2011
+Climb Every Mountain:Jordan Smith:1:Sat Jan 02 00:00:00 PST 2016
+There Goes My Baby:Usher:25:Sat Jul 10 00:00:00 PDT 2010
+G.R.I.N.D. (Get Ready It's A New Day):Asher Roth:1:Sat Aug 14 00:00:00 PDT 2010
+Same Old Love:Selena Gomez:18:Sat Nov 28 00:00:00 PST 2015
+Straight Outta Compton:N.W.A:2:Sat Sep 05 00:00:00 PDT 2015
+Whatever She's Got:David Nail:21:Sat Dec 28 00:00:00 PST 2013
+Move That Body:Nelly Featuring T-Pain & Akon:1:Sat Oct 30 00:00:00 PDT 2010
+Maybe:Sick Puppies:15:Sat Jan 01 00:00:00 PST 2011
+For The First Time:The Script:29:Sat Jan 01 00:00:00 PST 2011
+King Wizard:Kid Cudi:2:Sat Jan 05 00:00:00 PST 2013
+Slow Motion:Trey Songz:26:Sat Mar 21 00:00:00 PDT 2015
+Hey Mama:David Guetta Featuring Nicki Minaj, Bebe Rexha & Afrojack:16:Sat Jul 18 00:00:00 PDT 2015
+Unconditionally:Katy Perry:20:Sat Dec 28 00:00:00 PST 2013
+I Want To Know What Love Is::1:Sat Dec 22 00:00:00 PST 2012
+Mmm Yeah:Austin Mahone Featuring Pitbull:15:Sat Feb 15 00:00:00 PST 2014
+Last Friday Night (T.G.I.F.):Katy Perry:24:Sat Nov 05 00:00:00 PDT 2011
+Do I Wanna Know?:Arctic Monkeys:20:Sat Dec 28 00:00:00 PST 2013
+Heartbeat:Carrie Underwood:2:Sat Jan 23 00:00:00 PST 2016
+Your Love:Nicki Minaj:20:Sat Jul 10 00:00:00 PDT 2010
+#thatPOWER:will.i.am Featuring Justin Bieber:16:Sat Apr 13 00:00:00 PDT 2013
+Roll With It:Easton Corbin:19:Sat Aug 07 00:00:00 PDT 2010
+Ghost:Ella Henderson:20:Sat Mar 21 00:00:00 PDT 2015
+Bonfire:Craig Morgan:2:Sat Jan 09 00:00:00 PST 2010
+Can't Help Falling In Love:Christina Grimmie:1:Sat Jun 07 00:00:00 PDT 2014
+Postcard From Paris:The Band Perry:17:Sat Jun 16 00:00:00 PDT 2012
+Outta Your Mind:Lil Jon Featuring LMFAO:1:Sat Jul 17 00:00:00 PDT 2010
+Honest:Future:17:Sat Dec 28 00:00:00 PST 2013
+I'm Out:Ciara Featuring Nicki Minaj:5:Sat Aug 03 00:00:00 PDT 2013
+You And Your Heart:Jack Johnson:4:Sat Jun 12 00:00:00 PDT 2010
+Burn Slow:Wiz Khalifa Featuring Rae Sremmurd:1:Sat Sep 26 00:00:00 PDT 2015
+Stay The Night:Zedd Featuring Hayley Williams:21:Sat Dec 28 00:00:00 PST 2013
+Where You At:Jennifer Hudson:6:Sat Apr 09 00:00:00 PDT 2011
+All I Want For Christmas Is You:Michael Buble:1:Sat Dec 31 00:00:00 PST 2011
+Eenie Meenie::18:Sat Jul 10 00:00:00 PDT 2010
+Handsome And Wealthy:Migos:8:Sat Nov 15 00:00:00 PST 2014
+Fun::1:Sat May 30 00:00:00 PDT 2015
+Don't You Wanna Stay::31:Sat Jan 01 00:00:00 PST 2011
+Strip:Chris Brown Featuring Kevin K-MAC McCall:14:Sat Mar 03 00:00:00 PST 2012
+Shower:Becky G:20:Sat Jul 19 00:00:00 PDT 2014
+Way Out Here:Josh Thompson:9:Sat Oct 16 00:00:00 PDT 2010
+Ni**as in Paris::36:Sat Nov 05 00:00:00 PDT 2011
+U Guessed It::1:Sat Oct 18 00:00:00 PDT 2014
+Get On Your Knees:Nicki Minaj Featuring Ariana Grande:1:Sat Jan 03 00:00:00 PST 2015
+Shake:Jesse McCartney:12:Sat Nov 20 00:00:00 PST 2010
+Beautiful Pain:Eminem Featuring Sia:1:Sat Nov 23 00:00:00 PST 2013
+Baby It's Cold Outside:Idina Menzel Duet With Michael Buble:1:Sat Dec 06 00:00:00 PST 2014
+Somebody To Love::1:Sat Mar 05 00:00:00 PST 2011
+Aw Naw:Chris Young:20:Sat Oct 12 00:00:00 PDT 2013
+Lullaby:Nickelback:1:Sat Dec 10 00:00:00 PST 2011
+Invisible:Hunter Hayes:12:Sat Feb 22 00:00:00 PST 2014
+Whatcha Say:Jason Derulo:14:Sat Jan 30 00:00:00 PST 2010
+Need You Now:Lady Antebellum:42:Sat Jan 30 00:00:00 PST 2010
+Want U Back:Cher Lloyd:20:Sat Nov 03 00:00:00 PDT 2012
+Faithfully::1:Sat Jun 26 00:00:00 PDT 2010
+Watch Me:Silento:46:Sat Mar 21 00:00:00 PDT 2015
+30 for 30 Freestyle:Drake:1:Sat Oct 10 00:00:00 PDT 2015
+Airplanes:B.o.B Featuring Eminem & Haley Williams:2:Sat May 22 00:00:00 PDT 2010
+Stay With Me:Sam Smith:54:Sat Mar 21 00:00:00 PDT 2015
+Talking Body:Tove Lo:30:Sat Mar 21 00:00:00 PDT 2015
+Kisses Down Low:Kelly Rowland:13:Sat Apr 13 00:00:00 PDT 2013
+Girl In A Country Song:Maddie & Tae:20:Sat Jan 03 00:00:00 PST 2015
+Foreign:Trey Songz:10:Sat Jul 19 00:00:00 PDT 2014
+Danny's Song:The Swon Brothers:2:Sat Jul 06 00:00:00 PDT 2013
+Drive By::1:Sat May 26 00:00:00 PDT 2012
+Burning House:Cam:25:Sat Nov 28 00:00:00 PST 2015
+Please Don't Go:Mike Posner:20:Sat Jan 01 00:00:00 PST 2011
+Turn Around (5 4 3 2 1):Flo Rida:1:Sat Dec 04 00:00:00 PST 2010
+Drive By:Train:35:Sat Sep 22 00:00:00 PDT 2012
+Helluva Life:Frankie Ballard:20:Sat Dec 28 00:00:00 PST 2013
+Tear In My Heart:twenty one pilots:8:Sat Jul 18 00:00:00 PDT 2015
+Dynamite:Taio Cruz:47:Sat Jan 01 00:00:00 PST 2011
+Hello Kitty:Avril Lavigne:1:Sat May 10 00:00:00 PDT 2014
+The Boy Is Mine::1:Sat May 29 00:00:00 PDT 2010
+Lonely Boy:The Black Keys:20:Sat Dec 24 00:00:00 PST 2011
+Woohoo:Christina Aguilera Featuring Nicki Minaj:1:Sat Jun 26 00:00:00 PDT 2010
+Love Faces:Trey Songz:16:Sat Mar 19 00:00:00 PDT 2011
+F**k Today::1:Sat Feb 20 00:00:00 PST 2010
+I Feel Pretty / Unpretty::2:Sat May 14 00:00:00 PDT 2011
+For The First Time In Forever:Kristen Bell & Idina Menzel:19:Sat Feb 22 00:00:00 PST 2014
+Everybody Talks:Neon Trees:39:Sat May 26 00:00:00 PDT 2012
+Come Join The Murder::1:Sat Dec 27 00:00:00 PST 2014
+Used To Love You:Gwen Stefani:9:Sat Jan 16 00:00:00 PST 2016
+Be Real:Kid Ink Featuring DeJ Loaf:20:Sat May 09 00:00:00 PDT 2015
+No Sleeep:Janet:1:Sat Jul 11 00:00:00 PDT 2015
+Say Something:Timbaland Featuring Drake:20:Sat Jan 30 00:00:00 PST 2010
+Hurry Home:Jason Michael Carroll:1:Sat Feb 13 00:00:00 PST 2010
+O Let's Do It:Waka Flocka Flame:11:Sat Mar 13 00:00:00 PST 2010
+My Story::1:Sat Dec 28 00:00:00 PST 2013
+I Got A Car:George Strait:7:Sat Jul 19 00:00:00 PDT 2014
+Animals:Maroon 5:33:Sat Mar 21 00:00:00 PDT 2015
+Toot It And Boot It::11:Sat Nov 20 00:00:00 PST 2010
+First Of The Year (Equinox):Skrillex:3:Sat Jan 07 00:00:00 PST 2012
+Can't Remember To Forget You:Shakira Featuring Rihanna:19:Sat Feb 22 00:00:00 PST 2014
+I Won't Give Up:Jana Kramer:1:Sat Feb 26 00:00:00 PST 2011
+One Love (People Get Ready)::1:Sat Nov 27 00:00:00 PST 2010
+Failure:Breaking Benjamin:1:Sat Apr 11 00:00:00 PDT 2015
+Right There:Ariana Grande Featuring Big Sean:8:Sat Dec 28 00:00:00 PST 2013
+Man In The Mirror::2:Sat Dec 24 00:00:00 PST 2011
+Monster:Paramore:2:Sat Jul 02 00:00:00 PDT 2011
+Who Dat:J. Cole:1:Sat Jun 12 00:00:00 PDT 2010
+Sweet Love:Chris Brown:1:Sat May 05 00:00:00 PDT 2012
+Waiting For Superman:Daughtry:17:Sat Feb 22 00:00:00 PST 2014
+What You Want:Evanescence:1:Sat Aug 27 00:00:00 PDT 2011
+Riptide:Vance Joy:44:Sat Mar 21 00:00:00 PDT 2015
+Marry The Night:Lady Gaga:12:Sat Dec 24 00:00:00 PST 2011
+5 O'Clock:T-Pain Featuring Wiz Khalifa & Lily Allen:20:Sat Nov 05 00:00:00 PDT 2011
+Eyes Open:Taylor Swift:13:Sat May 26 00:00:00 PDT 2012
+You Make Me Feel...:Cobra Starship Featuring Sabi:29:Sat Nov 05 00:00:00 PDT 2011
+Still Got It:Tyga Featuring Drake:1:Sat Oct 29 00:00:00 PDT 2011
+Emperor's New Clothes:Panic! At The Disco:2:Sat Nov 14 00:00:00 PST 2015
+Beers Ago:Toby Keith:15:Sat May 26 00:00:00 PDT 2012
+Highway Don't Care:Tim McGraw With Taylor Swift:19:Sat Apr 13 00:00:00 PDT 2013
+I Walk The Line:Craig Wayne Boyd:1:Sat Dec 13 00:00:00 PST 2014
+Next To Me:Emeli Sande:20:Sat Apr 13 00:00:00 PDT 2013
+Lonely Eyes:Chris Young:18:Sat Mar 21 00:00:00 PDT 2015
+Skyscraper:Demi Lovato:15:Sat Nov 05 00:00:00 PDT 2011
+Mine Would Be You:Blake Shelton:20:Sat Dec 28 00:00:00 PST 2013
+Yeah:Joe Nichols:20:Sat Jul 19 00:00:00 PDT 2014
+Cryin' Like A Bitch:Godsmack:3:Sat Mar 27 00:00:00 PDT 2010
+Do You Wanna Touch Me (Oh Yeah)::1:Sat Mar 26 00:00:00 PDT 2011
+Some Nights:fun.:56:Sat May 26 00:00:00 PDT 2012
+Centuries:Fall Out Boy:34:Sat Mar 21 00:00:00 PDT 2015
+Shot For Me:Drake:1:Sat Dec 03 00:00:00 PST 2011
+Try Me::2:Sat Nov 15 00:00:00 PST 2014
+It's Not Right But It's Okay::1:Sat May 12 00:00:00 PDT 2012
+We Own It (Fast & Furious):2 Chainz & Wiz Khalifa:7:Sat Jul 20 00:00:00 PDT 2013
+9 Piece:Rick Ross Featuring Lil Wayne Or T.I.:2:Sat Jun 04 00:00:00 PDT 2011
+Crying On A Suitcase:Casey James:9:Sat Feb 09 00:00:00 PST 2013
+Jump Out The Face:Meek Mill Featuring Future:2:Sat Jul 25 00:00:00 PDT 2015
+Tuscan Leather:Drake:1:Sat Oct 12 00:00:00 PDT 2013
+Great Is Thy Faithfulness:Jordan Smith:1:Sat Dec 05 00:00:00 PST 2015
+When I See This Bar:Kenny Chesney:7:Sat Sep 07 00:00:00 PDT 2013
+The Story Of Us:Taylor Swift:12:Sat Jul 16 00:00:00 PDT 2011
+Come With Me Now:KONGOS:21:Sat Jul 19 00:00:00 PDT 2014
+Somebody That I Used To Know:Gotye Featuring Kimbra:59:Sat May 26 00:00:00 PDT 2012
+Runaway:Kanye West Featuring Pusha T:13:Sat Jan 01 00:00:00 PST 2011
+Boyfriend:Big Time Rush:11:Sat Mar 19 00:00:00 PDT 2011
+Chocolate:The 1975:6:Sat Feb 22 00:00:00 PST 2014
+How I Feel:Flo Rida:2:Sat Feb 01 00:00:00 PST 2014
+Dance Like We're Making Love:Ciara:1:Sat Aug 08 00:00:00 PDT 2015
+Moment 4 Life:Nicki Minaj Featuring Drake:23:Sat Jan 01 00:00:00 PST 2011
+Wasting All These Tears:Cassadee Pope:20:Sat Dec 28 00:00:00 PST 2013
+Holland Road:Mumford & Sons:3:Sat Oct 20 00:00:00 PDT 2012
+So In Love:Jill Scott Featuring Anthony Hamilton:1:Sat Jul 09 00:00:00 PDT 2011
+Come Away To The Water:Maroon 5 Featuring Rozzi Crane:1:Sat Apr 07 00:00:00 PDT 2012
+(If You're Wondering If I Want You To) I Want You To:Weezer:2:Sat Jan 02 00:00:00 PST 2010
+All Gold Everything::20:Sat Feb 09 00:00:00 PST 2013
+Take Me Or Leave Me::1:Sat Mar 05 00:00:00 PST 2011
+Even If It Breaks Your Heart:Eli Young Band:20:Sat May 26 00:00:00 PDT 2012
+My Hitta::6:Sat Nov 09 00:00:00 PST 2013
+Bounce It:Juicy J Featuring Wale & Trey Songz:16:Sat Dec 28 00:00:00 PST 2013
+She Won't Be Lonely Long:Clay Walker:18:Sat Jul 10 00:00:00 PDT 2010
+All I Want For Christmas Is You (SuperFestive!)::1:Sat Nov 19 00:00:00 PST 2011
+Thrift Shop:Macklemore & Ryan Lewis Featuring Wanz:49:Sat Feb 09 00:00:00 PST 2013
+My City Of Ruins (Live From The Kennedy Center Honors):Eddie Vedder:1:Sat Feb 13 00:00:00 PST 2010
+Purpose:Justin Bieber:7:Sat Jan 16 00:00:00 PST 2016
+Bo$$:Fifth Harmony:15:Sat Aug 09 00:00:00 PDT 2014
+The Time (Dirty Bit):The Black Eyed Peas:20:Sat Jan 01 00:00:00 PST 2011
+Almost Is Never Enough:Ariana Grande Featuring Nathan Sykes:2:Sat Sep 07 00:00:00 PDT 2013
+Paradise:Coldplay:32:Sat Nov 05 00:00:00 PDT 2011
+Outlaw:50 Cent:1:Sat Aug 06 00:00:00 PDT 2011
+Somewhere In My Car:Keith Urban:20:Sat Jan 03 00:00:00 PST 2015
+Make Me Proud:Drake Featuring Nicki Minaj:20:Sat Nov 05 00:00:00 PDT 2011
+They Don't Know:Rico Love:7:Sat Feb 22 00:00:00 PST 2014
+Shake Up Christmas:Train:1:Sat Jan 08 00:00:00 PST 2011
+Automatic:Miranda Lambert:19:Sat Mar 01 00:00:00 PST 2014
+Post To Be:Omarion Featuring Chris Brown & Jhene Aiko:37:Sat Mar 21 00:00:00 PDT 2015
+President Carter:Lil Wayne:1:Sat Sep 17 00:00:00 PDT 2011
+Love Like Woe:The Ready Set:21:Sat Jan 01 00:00:00 PST 2011
+Downtown:Macklemore & Ryan Lewis Featuring Eric Nally, Melle Mel, Kool Moe Dee & Grandmaster Caz:20:Sat Nov 28 00:00:00 PST 2015
+Southern Voice:Tim McGraw:10:Sat Jan 30 00:00:00 PST 2010
+Strong:One Direction:1:Sat Dec 07 00:00:00 PST 2013
+What Kind Of Man:Florence + The Machine:1:Sat Mar 07 00:00:00 PST 2015
+Make It Rain:Travis Porter:6:Sat Feb 05 00:00:00 PST 2011
+Fall Down:will.i.am Featuring Miley Cyrus:1:Sat May 04 00:00:00 PDT 2013
+Cheerleader:OMI:34:Sat Nov 28 00:00:00 PST 2015
+Waiting For The End:Linkin Park:23:Sat Jan 01 00:00:00 PST 2011
+Pretty Girls:Iyaz Featuring Travie McCoy:13:Sat Aug 20 00:00:00 PDT 2011
+POWER:Kanye West:15:Sat Aug 07 00:00:00 PDT 2010
+Fireball::1:Sat Dec 27 00:00:00 PST 2014
+Payphone:Maroon 5 Featuring Wiz Khalifa:31:Sat May 26 00:00:00 PDT 2012
+Why Wait:Rascal Flatts:20:Sat Jan 01 00:00:00 PST 2011
+Neon Light:Blake Shelton:20:Sat Nov 15 00:00:00 PST 2014
+Drank In My Cup:Kirko Bangz:22:Sat May 26 00:00:00 PDT 2012
+Coming Home:Diddy - Dirty Money Featuring Skylar Grey:24:Sat Jan 01 00:00:00 PST 2011
+Fly Away:5 Seconds Of Summer:1:Sat Sep 05 00:00:00 PDT 2015
+The Blacker The Berry:Kendrick Lamar:1:Sat Apr 04 00:00:00 PDT 2015
+RGF Island:Fetty Wap:14:Sat Nov 28 00:00:00 PST 2015
+We Went:Randy Houser:4:Sat Jan 16 00:00:00 PST 2016
+All Your Fault:Big Sean Featuring Kanye West:1:Sat Mar 14 00:00:00 PDT 2015
+Springsteen::1:Sat May 26 00:00:00 PDT 2012
+I'm Going In:Drake Featuring Lil Wayne & Young Jeezy:4:Sat Jan 09 00:00:00 PST 2010
+She Twerkin:Ca$h Out:3:Sat Aug 02 00:00:00 PDT 2014
+Water Under The Bridge:Adele:1:Sat Dec 12 00:00:00 PST 2015
+Lips Are Movin:Meghan Trainor:29:Sat Mar 21 00:00:00 PDT 2015
+One::1:Sat May 29 00:00:00 PDT 2010
+Shut Up And Dance:WALK THE MOON:52:Sat Mar 21 00:00:00 PDT 2015
+1+1:Beyonce:2:Sat Jun 18 00:00:00 PDT 2011
+Bounce It:Juicy J Featuring Wale And Trey Songz:3:Sat Sep 28 00:00:00 PDT 2013
+I'm Gonna Love You Through It:Martina McBride:20:Sat Nov 05 00:00:00 PDT 2011
+Come Back Song:Darius Rucker:20:Sat Aug 07 00:00:00 PDT 2010
+Reality:Kenny Chesney:20:Sat Dec 24 00:00:00 PST 2011
+Nightmares Of The Bottom:Lil Wayne:1:Sat Sep 17 00:00:00 PDT 2011
+I Choose You:Sara Bareilles:5:Sat May 24 00:00:00 PDT 2014
+Everything Has Changed:Taylor Swift Featuring Ed Sheeran:20:Sat Oct 12 00:00:00 PDT 2013
+Gas Pedal:Sage The Gemini Featuring IamSu:17:Sat Oct 12 00:00:00 PDT 2013
+PYD:Justin Bieber Featuring R. Kelly:1:Sat Dec 07 00:00:00 PST 2013
+Welcome To New York:Taylor Swift:2:Sat Nov 15 00:00:00 PST 2014
+Vanilla Twilight:Owl City:4:Sat Mar 13 00:00:00 PST 2010
+On Top Of The World:Imagine Dragons:20:Sat Feb 22 00:00:00 PST 2014
+Guap:Big Sean:12:Sat Feb 09 00:00:00 PST 2013
+Made In The USA:Demi Lovato:2:Sat Aug 03 00:00:00 PDT 2013
+#SELFIE:The Chainsmokers:11:Sat Mar 22 00:00:00 PDT 2014
+Check:Young Thug:1:Sat Jul 11 00:00:00 PDT 2015
+Marvin Gaye:Charlie Puth Featuring Meghan Trainor:20:Sat Jul 18 00:00:00 PDT 2015
+Right Now:Rihanna Featuring David Guetta:9:Sat Aug 03 00:00:00 PDT 2013
+Beer Money:Kip Moore:20:Sat Feb 09 00:00:00 PST 2013
+A House Is Not A Home::1:Sat May 15 00:00:00 PDT 2010
+Don't Stop (Color On The Walls):Foster The People:9:Sat Mar 03 00:00:00 PST 2012
+Leave You Alone:Young Jeezy Featuring Ne-Yo:20:Sat May 26 00:00:00 PDT 2012
+Do The John Wall:Troop 41:8:Sat Feb 05 00:00:00 PST 2011
+Stitch By Stitch:Javier Colon:2:Sat Jul 16 00:00:00 PDT 2011
+Rock N Roll:Avril Lavigne:1:Sat Sep 14 00:00:00 PDT 2013
+We R Who We R:Ke$ha:20:Sat Jan 01 00:00:00 PST 2011
+Mr. Saxobeat:Alexandra Stan:20:Sat Nov 05 00:00:00 PDT 2011
+Somebody To Love:Justin Bieber:15:Sat Jul 10 00:00:00 PDT 2010
+Diamonds:Rihanna:26:Sat Feb 09 00:00:00 PST 2013
+Where It's At (Yep, Yep):Dustin Lynch:19:Sat Jul 19 00:00:00 PDT 2014
+I'm Ready:AJR:11:Sat Jul 19 00:00:00 PDT 2014
+Marijuana:Kid Cudi:1:Sat Nov 27 00:00:00 PST 2010
+This Could Be Us:Rae Sremmurd:20:Sat Jul 18 00:00:00 PDT 2015
+Body 2 Body:Ace Hood Featuring Chris Brown:13:Sat Nov 05 00:00:00 PDT 2011
+If It's Love:Train:20:Sat Jul 10 00:00:00 PDT 2010
+My Life:50 Cent Featuring Eminem & Adam Levine:3:Sat Dec 22 00:00:00 PST 2012
+Plastic Bag:Drake & Future:2:Sat Oct 17 00:00:00 PDT 2015
+Blow:Ke$ha:26:Sat Jul 16 00:00:00 PDT 2011
+Play The Guitar:B.o.B Featuring Andre 3000:2:Sat Jan 21 00:00:00 PST 2012
+X:Chris Brown:1:Sat Oct 04 00:00:00 PDT 2014
+Sweater Weather:The Neighbourhood:34:Sat Dec 28 00:00:00 PST 2013
+Waka Waka (This Time For Africa):Shakira Featuring Freshlyground:18:Sat Jul 10 00:00:00 PDT 2010
+I Can Take It From There:Chris Young:12:Sat Apr 13 00:00:00 PDT 2013
+Boyfriend::4:Sat May 26 00:00:00 PDT 2012
+For You:Keith Urban:18:Sat Sep 22 00:00:00 PDT 2012
+Empire:Shakira:12:Sat Apr 12 00:00:00 PDT 2014
+Oath:Cher Lloyd Featuring Becky G:2:Sat Jan 12 00:00:00 PST 2013
+Out The Speakers:A-Trak + Milo & Otis Featuring Rich Kidz:1:Sat Feb 21 00:00:00 PST 2015
+Irresistible:Fall Out Boy:9:Sat Jan 16 00:00:00 PST 2016
+Here For A Good Time:George Strait:20:Sat Nov 05 00:00:00 PDT 2011
+Blame:Calvin Harris Featuring John Newman:20:Sat Jan 03 00:00:00 PST 2015
+Too Close:Alex Clare:44:Sat May 26 00:00:00 PDT 2012
+Angel::1:Sat Dec 28 00:00:00 PST 2013
+I Knew You Were Trouble:Michelle Chamuel:1:Sat Jun 22 00:00:00 PDT 2013
+Move That Doh:Future Featuring Pharrell, Pusha T & Casino:18:Sat Jul 19 00:00:00 PDT 2014
+In Your Arms:Nico & Vinz:12:Sat Jan 03 00:00:00 PST 2015
+Twisted:Gorilla Zoe Featuring Lil Jon:1:Sat Mar 19 00:00:00 PDT 2011
+Losing My Religion::1:Sat Oct 23 00:00:00 PDT 2010
+Worth It:Fifth Harmony Featuring Kid Ink:36:Sat Mar 21 00:00:00 PDT 2015
+Kush:Dr. Dre Featuring Snoop Dogg & Akon:17:Sat Jan 01 00:00:00 PST 2011
+Me Against The Music::1:Sat Oct 16 00:00:00 PDT 2010
+I'm The Plug:Drake & Future:5:Sat Oct 17 00:00:00 PDT 2015
+Over:Blake Shelton:18:Sat Sep 22 00:00:00 PDT 2012
+Born To Fly:Danielle Bradbery:1:Sat Jul 06 00:00:00 PDT 2013
+Life Of The Party:Shawn Mendes:2:Sat Jul 19 00:00:00 PDT 2014
+Airplanes:B.o.B Featuring Hayley Williams:26:Sat Jul 10 00:00:00 PDT 2010
+24 Hours:TeeFLii Featuring 2 Chainz:7:Sat Oct 18 00:00:00 PDT 2014
+Fish:Craig Campbell:10:Sat Aug 20 00:00:00 PDT 2011
+Home Alone Tonight:Luke Bryan Featuring Karen Fairchild:8:Sat Jan 16 00:00:00 PST 2016
+Chainsaw:The Band Perry:9:Sat Jul 19 00:00:00 PDT 2014
+Grove St. Party::9:Sat May 07 00:00:00 PDT 2011
+Stupid Hoe:Nicki Minaj:5:Sat Mar 03 00:00:00 PST 2012
+I Believe I Can Fly:Jermaine Paul:1:Sat May 26 00:00:00 PDT 2012
+This:Darius Rucker:20:Sat Feb 05 00:00:00 PST 2011
+Back In Time:Pitbull:19:Sat Jun 16 00:00:00 PDT 2012
+Sail:AWOLNATION:79:Sat Nov 05 00:00:00 PDT 2011
+Love You Like That:Canaan Smith:20:Sat May 09 00:00:00 PDT 2015
+Feeling Myself:Nicki Minaj Featuring Beyonce:20:Sat Mar 21 00:00:00 PDT 2015
+Bad Blood::1:Sat May 30 00:00:00 PDT 2015
+Ice Ice Baby::1:Sat May 22 00:00:00 PDT 2010
+New Day:50 Cent Featuring Dr. Dre & Alicia Keys:1:Sat Aug 18 00:00:00 PDT 2012
+Give It 2 U:Robin Thicke Featuring Kendrick Lamar:12:Sat Oct 12 00:00:00 PDT 2013
+The Truth:Jason Aldean:14:Sat Jan 30 00:00:00 PST 2010
+Body Language:Jesse McCartney Featuring T-Pain:4:Sat Jan 09 00:00:00 PST 2010
+Mirrors:Justin Timberlake:42:Sat Apr 13 00:00:00 PDT 2013
+The Other Side:Jason Derulo:21:Sat Aug 03 00:00:00 PDT 2013
+Welcome To My Hood:DJ Khaled Featuring Rick Ross, Plies, Lil Wayne & T-Pain:7:Sat Mar 19 00:00:00 PDT 2011
+143:Bobby Brackins Featuring Ray J:11:Sat Jul 10 00:00:00 PDT 2010
+All Too Well:Taylor Swift:1:Sat Nov 10 00:00:00 PST 2012
+Singing In The Rain / Umbrella::3:Sat Dec 04 00:00:00 PST 2010
+Only Girl (In The World):Rihanna:27:Sat Jan 01 00:00:00 PST 2011
+Got Your Back:T.I. Featuring Keri Hilson:20:Sat Jul 10 00:00:00 PDT 2010
+Up All Night:Drake Featuring Nicki Minaj:2:Sat Jul 10 00:00:00 PDT 2010
+Ima Boss:Meek Mill Featuring T.I., Birdman, Lil Wayne, DJ Khaled, Rick Ross & Swizz Beatz:1:Sat Mar 03 00:00:00 PST 2012
+Crazy Beautiful Life:Ke$ha:1:Sat Dec 11 00:00:00 PST 2010
+Like I'm Gonna Lose You:Meghan Trainor Featuring John Legend:28:Sat Nov 28 00:00:00 PST 2015
+Already Callin' You Mine:Parmalee:3:Sat Dec 19 00:00:00 PST 2015
+Impossible:Shontelle:20:Sat Jul 10 00:00:00 PDT 2010
+Sleazy Remix 2.0 Get Sleazier::1:Sat Dec 31 00:00:00 PST 2011
+Hell On Heels:Pistol Annies:3:Sat Sep 24 00:00:00 PDT 2011
+One Way Or Another (Teenage Kicks):One Direction:8:Sat Apr 13 00:00:00 PDT 2013
+All About It:Hoodie Allen Featuring Ed Sheeran:4:Sat Jan 31 00:00:00 PST 2015
+Nightmare:Avenged Sevenfold:3:Sat Jun 12 00:00:00 PDT 2010
+The Old Rugged Cross:Craig Wayne Boyd:1:Sat Dec 27 00:00:00 PST 2014
+Seven Nation Army:Melanie Martinez:1:Sat Dec 08 00:00:00 PST 2012
+White Iverson:Post Malone:19:Sat Nov 28 00:00:00 PST 2015
+Constant Craving::1:Sat Dec 17 00:00:00 PST 2011
+I Won't Back Down::1:Sat Jul 16 00:00:00 PDT 2011
+Greatest Love Of All:Whitney Houston:2:Sat Mar 03 00:00:00 PST 2012
+Clouds:Zach Sobiech:2:Sat Jun 15 00:00:00 PDT 2013
+That's All She Wrote:T.I. Featuring Eminem:5:Sat Jan 01 00:00:00 PST 2011
+Undo It:Carrie Underwood:19:Sat Jul 10 00:00:00 PDT 2010
+Knock Knock:Mac Miller:1:Sat Jan 07 00:00:00 PST 2012
+Fly / I Believe I Can Fly::1:Sat Mar 10 00:00:00 PST 2012
+Let It Rain:David Nail:16:Sat Nov 05 00:00:00 PDT 2011
+What If:Colbie Caillat:1:Sat Jul 30 00:00:00 PDT 2011
+Baby Don't Lie:Gwen Stefani:6:Sat Nov 15 00:00:00 PST 2014
+Baby One More Time::1:Sat Oct 16 00:00:00 PDT 2010
+Somebody That I Used To Know:Christina Grimmie & Adam Levine:1:Sat Jun 07 00:00:00 PDT 2014
+Can't Raise A Man:K. Michelle:7:Sat Feb 22 00:00:00 PST 2014
+Firework::2:Sat Feb 26 00:00:00 PST 2011
+The Man:Aloe Blacc:20:Sat Dec 28 00:00:00 PST 2013
+Feel Again:OneRepublic:20:Sat Nov 03 00:00:00 PDT 2012
+Big Rings:Drake & Future:17:Sat Nov 28 00:00:00 PST 2015
+Lights:Ellie Goulding:57:Sat May 26 00:00:00 PDT 2012
+Firestone:Kygo Featuring Conrad:1:Sat Oct 03 00:00:00 PDT 2015
+Bills, Bills, Bills::2:Sat Feb 26 00:00:00 PST 2011
+I'm Different:2 Chainz:20:Sat Feb 09 00:00:00 PST 2013
+Rock That Body:The Black Eyed Peas:18:Sat Jul 10 00:00:00 PDT 2010
+The Worst:Jhene Aiko:20:Sat Feb 22 00:00:00 PST 2014
+I'd Just Love To Lay You Down:Barrett Baber:1:Sat Dec 19 00:00:00 PST 2015
+Drop It Low:Ester Dean Featuring Chris Brown:3:Sat Jan 09 00:00:00 PST 2010
+Budapest:George Ezra:23:Sat Mar 21 00:00:00 PDT 2015
+Why Ya Wanna:Jana Kramer:22:Sat May 26 00:00:00 PDT 2012
+Never Gonna Leave This Bed:Maroon 5:18:Sat Aug 20 00:00:00 PDT 2011
+Bet You Can't Do It Like Me:DLOW:10:Sat Nov 28 00:00:00 PST 2015
+La Isla Bonita::1:Sat Feb 25 00:00:00 PST 2012
+How To Love:Lil Wayne:24:Sat Nov 05 00:00:00 PDT 2011
+Bad Ass::1:Sat Feb 09 00:00:00 PST 2013
+Stitches:Shawn Mendes:34:Sat Nov 28 00:00:00 PST 2015
+Geronimo:Sheppard:21:Sat Mar 21 00:00:00 PDT 2015
+I Dreamed A Dream:Anne Hathaway:3:Sat Jan 19 00:00:00 PST 2013
+Stick Talk:Future:2:Sat Jan 16 00:00:00 PST 2016
+Space Oddity:David Bowie:1:null
+One Thing::1:Sat May 26 00:00:00 PDT 2012
+Honey, I'm Good.:Andy Grammer:31:Sat Mar 21 00:00:00 PDT 2015
+Same Damn Time:Future:6:Sat Jun 16 00:00:00 PDT 2012
+It Was Always You:Maroon 5:3:Sat Sep 20 00:00:00 PDT 2014
+All About Tonight:Blake Shelton:19:Sat Jul 10 00:00:00 PDT 2010
+All Me:Drake Featuring 2 Chainz & Big Sean:18:Sat Dec 28 00:00:00 PST 2013
+Cryin' For Me (Wayman's Song):Toby Keith:10:Sat Jan 30 00:00:00 PST 2010
+Red Light:David Nail:4:Sat Jan 09 00:00:00 PST 2010
+Hookah:Tyga Featuring Young Thug:11:Sat Oct 18 00:00:00 PDT 2014
+U Can't Touch This::1:Sat May 22 00:00:00 PDT 2010
+Mr. Know It All:Kelly Clarkson:23:Sat Nov 05 00:00:00 PDT 2011
+Show Out:Juicy J Featuring Big Sean And Young Jeezy:8:Sat Apr 13 00:00:00 PDT 2013
+Beautiful Life:Nick Fradiani:1:Sat May 30 00:00:00 PDT 2015
+This Ain't No Love Song:Trace Adkins:6:Sat Nov 20 00:00:00 PST 2010
+House Party:Sam Hunt:20:Sat Jul 18 00:00:00 PDT 2015
+Don't Stop Believin'::1:Sat Jun 26 00:00:00 PDT 2010
+Uptown Funk!:Mark Ronson Featuring Bruno Mars:55:Sat Mar 21 00:00:00 PDT 2015
+Lay Me Down:Sam Smith:20:Sat Mar 21 00:00:00 PDT 2015
+Stockholm Syndrome:One Direction:1:Sat Dec 06 00:00:00 PST 2014
+Let Me Love You (Until You Learn To Love Yourself):Ne-Yo:28:Sat Feb 09 00:00:00 PST 2013
+Turn The Page:The Swon Brothers:1:Sat Jun 29 00:00:00 PDT 2013
+Safe And Sound:Capital Cities:43:Sat Dec 28 00:00:00 PST 2013
+Play It Again:Luke Bryan:20:Sat Jul 19 00:00:00 PDT 2014
+Wild For The Night::1:Sat Feb 02 00:00:00 PST 2013
+Another Way To Die:Disturbed:1:Sat Jul 03 00:00:00 PDT 2010
+Turning Tables::1:Sat May 07 00:00:00 PDT 2011
+Fine China:Chris Brown:16:Sat Aug 03 00:00:00 PDT 2013
+Family Man:Craig Campbell:6:Sat May 07 00:00:00 PDT 2011
+The A Team::26:Sat Nov 03 00:00:00 PDT 2012
+Blase:Ty Dolla $ign Featuring Future & Rae Sremmurd:18:Sat Nov 28 00:00:00 PST 2015
+Halo:Jordan Smith:1:Sat Nov 28 00:00:00 PST 2015
+When A Woman Loves:R. Kelly:1:Sat Jan 01 00:00:00 PST 2011
+We Run The Night:Havana Brown Featuring Pitbull:22:Sat May 26 00:00:00 PDT 2012
+As Long As You Love Me (Acoustic):Justin Bieber:1:Sat Feb 16 00:00:00 PST 2013
+All Eyes On You:Meek Mill Featuring Chris Brown & Nicki Minaj:20:Sat Jul 18 00:00:00 PDT 2015
+Digital Dash:Drake & Future:7:Sat Oct 17 00:00:00 PDT 2015
+Safe & Sound:Taylor Swift Featuring The Civil Wars:17:Sat Mar 03 00:00:00 PST 2012
+Flex (Ooh Ooh Ooh):Rich Homie Quan:27:Sat May 09 00:00:00 PDT 2015
+50 Ways To Say Goodbye:Train:20:Sat Nov 03 00:00:00 PDT 2012
+Used To Love You Sober:Kane Brown:1:Sat Nov 14 00:00:00 PST 2015
+Live While We're Young:One Direction:16:Sat Nov 03 00:00:00 PDT 2012
+Smooth Criminal::2:Sat Feb 25 00:00:00 PST 2012
+We've Got Tonight:Phillip Phillips:1:Sat Jun 09 00:00:00 PDT 2012
+Homegrown:Zac Brown Band:20:Sat Mar 21 00:00:00 PDT 2015
+Love Me Harder:Ariana Grande & The Weeknd:22:Sat Mar 21 00:00:00 PDT 2015
+Beneath Your Beautiful:Labrinth Featuring Emeli Sande:14:Sat Aug 03 00:00:00 PDT 2013
+Pills N Potions:Nicki Minaj:18:Sat Jul 19 00:00:00 PDT 2014
+Booty Wurk (One Cheek At A Time)::7:Sat Aug 20 00:00:00 PDT 2011
+Young Forever::20:Sat Jul 10 00:00:00 PDT 2010
+Odio:Romeo Santos Featuring Drake:11:Sat Feb 22 00:00:00 PST 2014
+No Type:Rae Sremmurd:26:Sat Mar 21 00:00:00 PDT 2015
+Sunny And 75:Joe Nichols:20:Sat Dec 28 00:00:00 PST 2013
+Representin':Ludacris Featuring Kelly Rowland:4:Sat Dec 22 00:00:00 PST 2012
+Lettin' The Night Roll:Justin Moore:20:Sat Jul 19 00:00:00 PDT 2014
+Moves Like Jagger:Maroon 5 Featuring Christina Aguilera:49:Sat Nov 05 00:00:00 PDT 2011
+Life After You:Daughtry:18:Sat Jan 30 00:00:00 PST 2010
+New God Flow::1:Sat Aug 11 00:00:00 PDT 2012
+Troublemaker:Olly Murs Featuring Flo Rida:20:Sat Feb 09 00:00:00 PST 2013
+I Need A Doctor:Dr. Dre Featuring Eminem & Skylar Grey:20:Sat Mar 19 00:00:00 PDT 2011
+Live For The Night:Krewella:1:Sat Jul 20 00:00:00 PDT 2013
+Time Is Love:Josh Turner:25:Sat May 26 00:00:00 PDT 2012
+Young Girls:Bruno Mars:14:Sat Feb 22 00:00:00 PST 2014
+Bangarang:Skrillex Featuring Sirah:20:Sat Jun 16 00:00:00 PDT 2012
+Perfume:Britney Spears:6:Sat Dec 28 00:00:00 PST 2013
+Back To Back:Drake:20:Sat Nov 28 00:00:00 PST 2015
+Sing:Ed Sheeran:20:Sat Jul 19 00:00:00 PDT 2014
+Ours:Taylor Swift:20:Sat Dec 24 00:00:00 PST 2011
+Do They Know It's Christmas?::1:Sat Dec 31 00:00:00 PST 2011
+Little Red Wagon:Miranda Lambert:11:Sat Mar 21 00:00:00 PDT 2015
+Break Up With Him:Old Dominion:20:Sat Nov 28 00:00:00 PST 2015
+I Like It Like That:Hot Chelle Rae Featuring New Boyz:20:Sat Nov 05 00:00:00 PDT 2011
+What Do You Mean?:Justin Bieber:20:Sat Nov 28 00:00:00 PST 2015
+Nasty:Bandit Gang Marco Featuring Dro:9:Sat May 09 00:00:00 PDT 2015
+Alive:Sia:2:Sat Nov 28 00:00:00 PST 2015
+Hello::21:Sat Aug 20 00:00:00 PDT 2011
+Adorn:Miguel:33:Sat Feb 09 00:00:00 PST 2013
+0 To 100 / The Catch Up:Drake:20:Sat Nov 15 00:00:00 PST 2014
+Til It's Gone:Kenny Chesney:14:Sat Jan 03 00:00:00 PST 2015
+Let It Go:Demi Lovato:20:Sat Dec 28 00:00:00 PST 2013
+Rap Song:T-Pain Featuring Rick Ross:1:Sat Nov 06 00:00:00 PDT 2010
+Love Me:Lil Wayne Featuring Drake & Future:22:Sat Feb 09 00:00:00 PST 2013
+Fistful Of Tears:Maxwell:4:Sat Apr 17 00:00:00 PDT 2010
+Beez In The Trap:Nicki Minaj Featuring 2 Chainz:20:Sat May 26 00:00:00 PDT 2012
+Cannibal:Ke$ha:1:Sat Nov 27 00:00:00 PST 2010
+Blurred Lines:Robin Thicke Featuring T.I. & Pharrell:1:Sat May 04 00:00:00 PDT 2013
+Dare (La La La):Shakira:11:Sat Jul 19 00:00:00 PDT 2014
+When We Stand Together:Nickelback:16:Sat Nov 05 00:00:00 PDT 2011
+Cost Of Livin':Ronnie Dunn:8:Sat Nov 05 00:00:00 PDT 2011
+Somethin' 'Bout A Truck:Kip Moore:20:Sat May 26 00:00:00 PDT 2012
+Dark Horse:Katy Perry Featuring Juicy J:57:Sat Dec 28 00:00:00 PST 2013
+2 On:Tinashe Featuring ScHoolboy Q:24:Sat Jul 19 00:00:00 PDT 2014
+Fix You:Javier Colon:2:Sat Jul 16 00:00:00 PDT 2011
+Homegrown Honey:Darius Rucker:20:Sat Mar 21 00:00:00 PDT 2015
+Hide Away:Daya:17:Sat Nov 28 00:00:00 PST 2015
+Price Tag:Jessie J Featuring B.o.B:20:Sat Mar 19 00:00:00 PDT 2011
+Felt Good On My Lips:Tim McGraw:20:Sat Jan 01 00:00:00 PST 2011
+Highway Don't Care:Tim McGraw & Taylor Swift:1:Sat Feb 23 00:00:00 PST 2013
+Ready:Fabolous Feat. Chris Brown:1:Sat May 18 00:00:00 PDT 2013
+Candles::1:Sat Apr 02 00:00:00 PDT 2011
+Get Used To Me:Justin Bieber:1:Sat Dec 05 00:00:00 PST 2015
+Only Time:Enya:1:Sat Dec 07 00:00:00 PST 2013
+Pretty Boy Swag:Soulja Boy Tell'em:16:Sat Jul 10 00:00:00 PDT 2010
+How We Do (Party):Rita Ora:9:Sat Jun 16 00:00:00 PDT 2012
+Eyes Wide Open:Gotye:1:Sat May 05 00:00:00 PDT 2012
+Right Here:Justin Bieber Featuring Drake:1:Sat Jul 07 00:00:00 PDT 2012
+If I Had You:Adam Lambert:20:Sat Jul 10 00:00:00 PDT 2010
+Dirty Picture:Taio Cruz Featuring Ke$ha:1:Sat Jun 19 00:00:00 PDT 2010
+Ass Back Home:Gym Class Heroes Featuring Neon Hitch:23:Sat May 26 00:00:00 PDT 2012
+Slave To The Rhythm:Michael Jackson:1:Sat Jun 07 00:00:00 PDT 2014
+Hangover:PSY Featuring Snoop Dogg:1:Sat Jun 28 00:00:00 PDT 2014
+Team:Lorde:38:Sat Dec 28 00:00:00 PST 2013
+Judas:Lady Gaga:8:Sat Jun 18 00:00:00 PDT 2011
+Don't Go Breaking My Heart::1:Sat Oct 30 00:00:00 PDT 2010
+Rain Is A Good Thing:Luke Bryan:20:Sat Jul 10 00:00:00 PDT 2010
+Window Seat:Erykah Badu:3:Sat Jun 05 00:00:00 PDT 2010
+Rest Of My Life:Ludacris Featuring Usher & David Guetta:10:Sat Feb 09 00:00:00 PST 2013
+I Like It:Enrique Iglesias Featuring Pitbull:38:Sat Jan 01 00:00:00 PST 2011
+Suit & Tie:Justin Timberlake Featuring Jay Z:26:Sat Feb 09 00:00:00 PST 2013
+I Don't Mind:Usher Featuring Juicy J:23:Sat Mar 21 00:00:00 PDT 2015
+Red Nose:Sage The Gemini:20:Sat Oct 12 00:00:00 PDT 2013
+John:Lil Wayne Featuring Rick Ross:20:Sat Aug 20 00:00:00 PDT 2011
+Glory:Common & John Legend:3:Sat Jan 31 00:00:00 PST 2015
+Tapout:Lil Wayne, Birdman, Future, Mack Maine, Nicki Minaj:1:Sat Aug 10 00:00:00 PDT 2013
+Fly:Maddie & Tae:14:Sat Sep 05 00:00:00 PDT 2015
+Steal My Girl:One Direction:18:Sat Jan 03 00:00:00 PST 2015
+Bang Bang:Jessie J, Ariana Grande & Nicki Minaj:31:Sat Jan 03 00:00:00 PST 2015
+How Many Times:DJ Khaled Featuring Chris Brown, Lil Wayne & Big Sean:14:Sat Jul 18 00:00:00 PDT 2015
+Donald Trump:Mac Miller:7:Sat Jun 18 00:00:00 PDT 2011
+The Race:Wiz Khalifa:1:Sat Mar 26 00:00:00 PDT 2011
+Friday Night:Eric Paslay:20:Sat Dec 28 00:00:00 PST 2013
+Hey Baby (Drop It To The Floor):Pitbull Featuring T-Pain:31:Sat Jan 01 00:00:00 PST 2011
+Hold You Down:DJ Khaled Featuring Chris Brown, August Alsina, Future, & Jeremih:5:Sat Oct 18 00:00:00 PDT 2014
+Delirious (Boneless):Steve Aoki, Chris Lake & Tujamo Featuring Kid Ink:3:Sat Sep 20 00:00:00 PDT 2014
+Pusher Love Girl:Justin Timberlake:2:Sat Apr 13 00:00:00 PDT 2013
+Cat Daddy:Rej3ctz:1:Sat Jun 18 00:00:00 PDT 2011
+Made Me:Snootie Wild Featuring K Camp:3:Sat Nov 29 00:00:00 PST 2014
+Look At Me Now:Chris Brown Featuring Lil Wayne & Busta Rhymes:27:Sat Aug 20 00:00:00 PDT 2011
+Heart Like Mine:Miranda Lambert:20:Sat Mar 19 00:00:00 PDT 2011
+Have Yourself A Merry Little Christmas:Sam Smith:1:Sat Dec 27 00:00:00 PST 2014
+Shell Shocked::1:Sat Jan 10 00:00:00 PST 2015
+Love On Top:Beyonce:20:Sat Dec 24 00:00:00 PST 2011
+Bait A Hook:Justin Moore:10:Sat Dec 24 00:00:00 PST 2011
+You And Your Friends:Wiz Khalifa Featuring Snoop Dogg & Ty Dolla $ign:10:Sat Nov 15 00:00:00 PST 2014
+In The Dark:Dev:20:Sat Nov 05 00:00:00 PDT 2011
+Dessert:Dawin:6:Sat Jan 16 00:00:00 PST 2016
+John Cougar, John Deere, John 3:16:Keith Urban:20:Sat Jul 18 00:00:00 PDT 2015
+Rude:MAGIC!:41:Sat Jan 03 00:00:00 PST 2015
+Bottoms Up:Brantley Gilbert:25:Sat Feb 22 00:00:00 PST 2014
+To Sir With Love::1:Sat Jun 26 00:00:00 PDT 2010
+Born This Way:Lady Gaga:20:Sat Mar 19 00:00:00 PDT 2011
+Pretty Girls:Iyaz:1:Sat Jul 16 00:00:00 PDT 2011
+The Big Bang::1:Sat Nov 20 00:00:00 PST 2010
+Mine:Beyonce Featuring Drake:2:Sat Jan 11 00:00:00 PST 2014
+Outside:Calvin Harris Featuring Ellie Goulding:20:Sat Mar 21 00:00:00 PDT 2015
+Cake By The Ocean:DNCE:13:Sat Nov 28 00:00:00 PST 2015
+Don't Let Me Be Lonely:The Band Perry:16:Sat Dec 28 00:00:00 PST 2013
+Clique::2:Sat Sep 22 00:00:00 PDT 2012
+The One That Got Away:Katy Perry:24:Sat Nov 05 00:00:00 PDT 2011
+Feelin' It:Scotty McCreery:11:Sat Nov 15 00:00:00 PST 2014
+10 Bands:Drake:13:Sat Mar 21 00:00:00 PDT 2015
+Bend Ova:Lil Jon Featuring Tyga:3:Sat Sep 27 00:00:00 PDT 2014
+The Man I Want To Be:Chris Young:20:Sat Jul 10 00:00:00 PDT 2010
+Ooh La La:Britney Spears:5:Sat Aug 03 00:00:00 PDT 2013
+Hello Good Morning:Diddy - Dirty Money Featuring T.I.:20:Sat Jul 10 00:00:00 PDT 2010
+Bring It Back:Travis Porter:10:Sat May 07 00:00:00 PDT 2011
+Chandelier:Sia:46:Sat Mar 21 00:00:00 PDT 2015
+La La La:Naughty Boy Featuring Sam Smith:20:Sat Jul 19 00:00:00 PDT 2014
+Bad For You:Meek Mill Featuring Nicki Minaj:2:Sat Jul 18 00:00:00 PDT 2015
+***Flawless:Beyonce Featuring Nicki Minaj Or Chimamanda Ngozi Adichie:19:Sat Jan 03 00:00:00 PST 2015
+You:Romeo Santos:1:Sat Jun 25 00:00:00 PDT 2011
+I Lived:OneRepublic:17:Sat Mar 21 00:00:00 PDT 2015
+Forget You::5:Sat Dec 04 00:00:00 PST 2010
+I Won't Give Up:Jason Mraz:44:Sat May 26 00:00:00 PDT 2012
+Angel In Blue Jeans:Train:3:Sat Sep 27 00:00:00 PDT 2014
+Heart Attack:Trey Songz:26:Sat May 26 00:00:00 PDT 2012
+I Want To Hold Your Hand::1:Sat Oct 23 00:00:00 PDT 2010
+Old School Love:Lupe Fiasco Featuring Ed Sheeran:5:Sat Dec 28 00:00:00 PST 2013
+Birthday Cake:Rihanna:1:Sat Mar 31 00:00:00 PDT 2012
+Radioactive:Imagine Dragons:87:Sat Feb 09 00:00:00 PST 2013
+Marvin & Chardonnay:Big Sean Featuring Kanye West & Roscoe Dash:20:Sat Nov 05 00:00:00 PDT 2011
+House Of The Rising Sun:Kimberly Nichole:1:Sat May 02 00:00:00 PDT 2015
+I Don't Want This Night To End:Luke Bryan:23:Sat Nov 05 00:00:00 PDT 2011
+All Over The Road:Easton Corbin:20:Sat Aug 03 00:00:00 PDT 2013
+Shadow Days:John Mayer:3:Sat Jun 16 00:00:00 PDT 2012
+Jealous:Nick Jonas:32:Sat Mar 21 00:00:00 PDT 2015
+Red:Taylor Swift:22:Sat Nov 03 00:00:00 PDT 2012
+Love Myself:Hailee Steinfeld:16:Sat Nov 28 00:00:00 PST 2015
+Brother:NEEDTOBREATHE Featuring Gavin DeGraw:2:Sat Jul 18 00:00:00 PDT 2015
+Shell Shocked:Juicy J, Wiz Khalifa & Ty Dolla $ign Featuring Kill The Noise & Madsonik:2:Sat Aug 30 00:00:00 PDT 2014
+Erase Me:Kid Cudi Featuring Kanye West:5:Sat Oct 09 00:00:00 PDT 2010
+Give Me Everything:Pitbull Featuring Ne-Yo, Afrojack & Nayer:33:Sat Nov 05 00:00:00 PDT 2011
+Counting Stars:OneRepublic:68:Sat Dec 28 00:00:00 PST 2013
+It's A Man's, Man's, Man's World:Juliet Simms:1:Sat May 19 00:00:00 PDT 2012
+God Gave Me You:Blake Shelton:25:Sat Nov 05 00:00:00 PDT 2011
+Thank You:Estelle:1:Sat Mar 17 00:00:00 PDT 2012
+Brokenhearted:Karmin:22:Sat May 26 00:00:00 PDT 2012
+Baggage Claim:Miranda Lambert:20:Sat Nov 05 00:00:00 PDT 2011
+Burnin' Up:Jessie J Featuring 2 Chainz:5:Sat Dec 06 00:00:00 PST 2014
+Roman Reloaded:Nicki Minaj Featuring Lil Wayne:1:Sat Mar 17 00:00:00 PDT 2012
+Martians Vs Goblins:Game:1:Sat Sep 10 00:00:00 PDT 2011
+Word Crimes:Weird Al Yankovic:1:Sat Aug 02 00:00:00 PDT 2014
+We Own The Night:The Wanted:1:Sat Aug 31 00:00:00 PDT 2013
+BURN IT DOWN:Linkin Park:4:Sat Jun 16 00:00:00 PDT 2012
+Cry:Cassadee Pope:1:Sat Jan 05 00:00:00 PST 2013
+Jet Black Heart:5 Seconds Of Summer:1:Sat Sep 19 00:00:00 PDT 2015
+Girl Crush:Little Big Town:24:Sat Mar 21 00:00:00 PDT 2015
+Can't Stop Dancin':Becky G:3:Sat Feb 07 00:00:00 PST 2015
+Drop The World:Lil Wayne Featuring Eminem:20:Sat Jan 30 00:00:00 PST 2010
+Papers:Usher:7:Sat Jan 30 00:00:00 PST 2010
+Pursuit Of Happiness (Nightmare):Kid Cudi Featuring MGMT & Ratatat:1:Sat Jan 08 00:00:00 PST 2011
+Don't Ya:Brett Eldredge:20:Sat Oct 12 00:00:00 PDT 2013
+Bang Bang Bang:Selena Gomez & The Scene:1:Sat Jun 25 00:00:00 PDT 2011
+Underneath The Tree:Kelly Clarkson:3:Sat Dec 28 00:00:00 PST 2013
+Take A Back Road:Rodney Atkins:23:Sat Nov 05 00:00:00 PDT 2011
+Adore:Cashmere Cat Featuring Ariana Grande:1:Sat Mar 21 00:00:00 PDT 2015
+No Sleep:Wiz Khalifa:15:Sat Sep 24 00:00:00 PDT 2011
+Imagine:Sawyer Fredericks:1:Sat May 02 00:00:00 PDT 2015
+I Smile:Kirk Franklin:18:Sat Jun 18 00:00:00 PDT 2011
+Pretty Good At Drinkin' Beer:Billy Currington:20:Sat Jul 10 00:00:00 PDT 2010
+Everything I Didn't Say:5 Seconds Of Summer:1:Sat Aug 02 00:00:00 PDT 2014
+Like A G6::26:Sat Jan 01 00:00:00 PST 2011
+Gone, Gone, Gone:Phillip Phillips:30:Sat Apr 13 00:00:00 PDT 2013
+Freaks:French Montana Featuring Nicki Minaj:7:Sat Apr 13 00:00:00 PDT 2013
+My Best Days Are Ahead Of Me:Danny Gokey:1:Sat Mar 20 00:00:00 PDT 2010
+Save Me, San Francisco:Train:11:Sat Aug 20 00:00:00 PDT 2011
+I Can't Go For That / You Make My Dreams::1:Sat Dec 03 00:00:00 PST 2011
+4 AM:Melanie Fiona:8:Sat Mar 17 00:00:00 PDT 2012
+John Doe:B.o.B Featuring Priscilla:5:Sat Apr 12 00:00:00 PDT 2014
+Secrets:OneRepublic:33:Sat Jan 01 00:00:00 PST 2011
+Stubborn Love:The Lumineers:15:Sat Feb 09 00:00:00 PST 2013
+Redemption Song:Rihanna:1:Sat Feb 06 00:00:00 PST 2010
+Nobody To Blame:Chris Stapleton:2:Sat Jan 23 00:00:00 PST 2016
+Rich $ex:Future:1:Sat Dec 12 00:00:00 PST 2015
+Young, Wild & Free::32:Sat Nov 05 00:00:00 PDT 2011
+Girls Just Want To Have Fun:Madi Davis:1:Sat Dec 19 00:00:00 PST 2015
+The Trouble With Girls:Scotty McCreery:18:Sat Dec 24 00:00:00 PST 2011
+Called Out In The Dark:Snow Patrol:1:Sat Jan 28 00:00:00 PST 2012
+True Love:P!nk Featuring Lily Allen:14:Sat Oct 12 00:00:00 PDT 2013
+Give A Little More:Maroon 5:1:Sat Sep 04 00:00:00 PDT 2010
+A Thousand Years (Part 2):Christina Perri Featuring Steve Kazee:3:Sat Dec 01 00:00:00 PST 2012
+High School:Nicki Minaj Featuring Lil Wayne:14:Sat Apr 27 00:00:00 PDT 2013
+Get Back Up:T.I. Featuring Chris Brown:1:Sat Nov 20 00:00:00 PST 2010
+All Around The World:Justin Bieber Featuring Ludacris:9:Sat Apr 13 00:00:00 PDT 2013
+Tattoo:Van Halen:1:Sat Jan 28 00:00:00 PST 2012
+Yellow Flicker Beat:Lorde:9:Sat Jan 03 00:00:00 PST 2015
+Determinate:Bridgit Mendler, Adam Hicks, Naomi Scott & Hayley Kiyoko:3:Sat May 07 00:00:00 PDT 2011
+Maps:Maroon 5:22:Sat Nov 15 00:00:00 PST 2014
+Cowboys And Angels:Dustin Lynch:22:Sat Sep 22 00:00:00 PDT 2012
+What Makes You Beautiful:One Direction:33:Sat Sep 22 00:00:00 PDT 2012
+Midnight:Coldplay:3:Sat May 10 00:00:00 PDT 2014
+UP!:LoveRance Featuring IamSu & Skipper or 50 Cent:20:Sat May 26 00:00:00 PDT 2012
+Furthest Thing:Drake:2:Sat Oct 12 00:00:00 PDT 2013
+'Til Summer Comes Around:Keith Urban:16:Sat Jan 30 00:00:00 PST 2010
+Enchanted:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+Elevator:Eminem:1:Sat Jan 02 00:00:00 PST 2010
+Up To The Mountain:Crystal Bowersox:1:Sat Jun 12 00:00:00 PDT 2010
+It's A Man's, Man's Man's World::1:Sat Jun 19 00:00:00 PDT 2010
+Just Breathe:Pearl Jam:14:Sat Jan 30 00:00:00 PST 2010
+Bright:Echosmith:20:Sat May 09 00:00:00 PDT 2015
+Drifting:G-Eazy Featuring Chris Brown & Tory Lanez:1:Sat Dec 26 00:00:00 PST 2015
+Fight Song:Rachel Platten:31:Sat Nov 28 00:00:00 PST 2015
+God Made Girls:RaeLynn:16:Sat Jan 03 00:00:00 PST 2015
+Hollywood:Michael Buble:2:Sat Sep 25 00:00:00 PDT 2010
+No Worries:Lil Wayne Featuring Detail:22:Sat Feb 09 00:00:00 PST 2013
+Country Strong:Gwyneth Paltrow:2:Sat Jan 29 00:00:00 PST 2011
+S&M:Rihanna Featuring Britney Spears:1:Sat Apr 30 00:00:00 PDT 2011
+Oceans:Jay Z Featuring Frank Ocean:1:Sat Jul 27 00:00:00 PDT 2013
+I Keep On Loving You:Reba:10:Sat Jul 10 00:00:00 PDT 2010
+Accidental Racist:Brad Paisley Featuring LL Cool J:1:Sat Apr 27 00:00:00 PDT 2013
+Bittersweet:Fantasia:12:Sat Aug 07 00:00:00 PDT 2010
+I Do:Colbie Caillat:9:Sat May 07 00:00:00 PDT 2011
+It's Time:Imagine Dragons:47:Sat Feb 09 00:00:00 PST 2013
+Heartless:Dia Frampton:4:Sat Jul 16 00:00:00 PDT 2011
+Work Hard, Play Hard:Wiz Khalifa:20:Sat May 26 00:00:00 PDT 2012
+Over You:Miranda Lambert:20:Sat May 26 00:00:00 PDT 2012
+Daylight:Maroon 5:25:Sat Feb 09 00:00:00 PST 2013
+Live From The Gutter:Drake & Future:5:Sat Oct 17 00:00:00 PDT 2015
+Lose My Mind:Young Jeezy Featuring Plies:15:Sat Jul 10 00:00:00 PDT 2010
+Loving You No More:Diddy - Dirty Money Featuring Drake:2:Sat Jan 01 00:00:00 PST 2011
+Wildfire:John Mayer:3:Sat Aug 03 00:00:00 PDT 2013
+Run The World (Girls)::1:Sat Oct 22 00:00:00 PDT 2011
+Why:Michelle Chamuel:1:Sat Jul 06 00:00:00 PDT 2013
+Mistletoe:Justin Bieber:10:Sat Nov 05 00:00:00 PDT 2011
+Here's To Never Growing Up:Avril Lavigne:15:Sat Aug 03 00:00:00 PDT 2013
+LoveHate Thing:Wale Featuring Sam Dew:8:Sat Aug 03 00:00:00 PDT 2013
+Make It Rain:Matt McAndrew:1:Sat Dec 27 00:00:00 PST 2014
+Empire State Of Mind (Part II) Broken Down:Alicia Keys:1:Sat Jan 02 00:00:00 PST 2010
+Crash My Party:Luke Bryan:21:Sat Aug 03 00:00:00 PDT 2013
+What The Hell:Avril Lavigne:20:Sat Feb 05 00:00:00 PST 2011
+Can't Get Enough:J. Cole Featuring Trey Songz:20:Sat Dec 24 00:00:00 PST 2011
+Livin' On A Prayer:Bon Jovi:1:Sat Nov 30 00:00:00 PST 2013
+Birthday Cake:Rihanna Featuring Chris Brown:19:Sat May 26 00:00:00 PDT 2012
+Someone Else:Miley Cyrus:1:Sat Oct 26 00:00:00 PDT 2013
+I Wanna Dance With Somebody (Who Loves Me):Whitney Houston:2:Sat Mar 03 00:00:00 PST 2012
+The Moment I Knew:Taylor Swift:1:Sat Jan 26 00:00:00 PST 2013
+Something Big:Shawn Mendes:3:Sat Jan 17 00:00:00 PST 2015
+We Found Love:Rihanna Featuring Calvin Harris:41:Sat Nov 05 00:00:00 PDT 2011
+Up All Night:Jon Pardi:13:Sat Dec 28 00:00:00 PST 2013
+Love's Gonna Make It Alright:George Strait:11:Sat Mar 03 00:00:00 PST 2012
+I Really Like You:Carly Rae Jepsen:20:Sat Mar 21 00:00:00 PDT 2015
+Novacane:Frank Ocean:4:Sat Aug 13 00:00:00 PDT 2011
+Stolen Dance:Milky Chance:25:Sat Jan 03 00:00:00 PST 2015
+White Liar:Miranda Lambert:11:Sat Jan 30 00:00:00 PST 2010
+Heartbeat Song:Kelly Clarkson:20:Sat Mar 21 00:00:00 PDT 2015
+Lover's Eyes:Mumford & Sons:2:Sat Oct 20 00:00:00 PDT 2012
+Stereo Hearts::1:Sat Mar 03 00:00:00 PST 2012
+Back Up:DeJ Loaf Featuring Big Sean:15:Sat Nov 28 00:00:00 PST 2015
+Buzzin':Mann:9:Sat Mar 19 00:00:00 PDT 2011
+Everything Is AWESOME!!!:Tegan And Sara Featuring The Lonely Island:3:Sat Mar 01 00:00:00 PST 2014
+Love King:The-Dream:3:Sat May 08 00:00:00 PDT 2010
+Country Must Be Country Wide:Brantley Gilbert:21:Sat Nov 05 00:00:00 PDT 2011
+Right Hand:Drake:18:Sat Nov 28 00:00:00 PST 2015
+Really Don't Care:Demi Lovato Featuring Cher Lloyd:18:Sat Jun 01 00:00:00 PDT 2013
+Out Of My Head:Lupe Fiasco Featuring Trey Songz:17:Sat Aug 20 00:00:00 PDT 2011
+The Lazy Song:Bruno Mars:27:Sat Aug 20 00:00:00 PDT 2011
+Bad:Wale Featuring Tiara Thomas:16:Sat Apr 13 00:00:00 PDT 2013
+Lazarus:David Bowie:1:null
+Back To Black::1:Sat Jun 04 00:00:00 PDT 2011
+Ball:T.I. Featuring Lil Wayne:20:Sat Feb 09 00:00:00 PST 2013
+All Kinds Of Kinds:Miranda Lambert:5:Sat Nov 09 00:00:00 PST 2013
+I Made It (Cash Money Heroes):Kevin Rudolf Featuring Birdman, Jay Sean, & Lil Wayne:20:Sat May 22 00:00:00 PDT 2010
+Beating Heart:Ellie Goulding:3:Sat Apr 12 00:00:00 PDT 2014
+If You Only Knew:Shinedown:13:Sat Jan 30 00:00:00 PST 2010
+That's My Kind Of Night:Luke Bryan:21:Sat Dec 28 00:00:00 PST 2013
+Look At You:Big & Rich:14:Sat Nov 15 00:00:00 PST 2014
+I Dont Really Care:Waka Flocka Flame Featuring Trey Songz:1:Sat Apr 14 00:00:00 PDT 2012
+Who Do You Love?:YG Featuring Drake:20:Sat Jul 19 00:00:00 PDT 2014
+Omen:Disclosure Featuring Sam Smith:6:Sat Sep 05 00:00:00 PDT 2015
+No Love:August Alsina:18:Sat Jan 03 00:00:00 PST 2015
+Heartbreak Warfare:John Mayer:19:Sat Jan 30 00:00:00 PST 2010
+Faded:Tyga Featuring Lil Wayne:22:Sat May 26 00:00:00 PDT 2012
+You The Boss:Rick Ross Featuring Nicki Minaj:17:Sat Nov 05 00:00:00 PDT 2011
+Arms:Christina Perri:2:Sat Sep 10 00:00:00 PDT 2011
+Breakthrough:Bridgit Mendler, Adam Hicks, Naomi Scott & Hayley Kiyoko:1:Sat May 07 00:00:00 PDT 2011
+Ghost Town:Adam Lambert:17:Sat Jul 18 00:00:00 PDT 2015
+Good To Be Alive (Hallelujah):Andy Grammer:5:Sat Jan 16 00:00:00 PST 2016
+Under Pressure:Queen & David Bowie:1:null
+Now & Forever:Drake:1:Sat Mar 07 00:00:00 PST 2015
+You Belong With Me:Taylor Swift:16:Sat Jan 30 00:00:00 PST 2010
+Chillin' It:Cole Swindell:20:Sat Dec 28 00:00:00 PST 2013
+She Came To Give It To You:Usher Featuring Nicki Minaj:2:Sat Sep 20 00:00:00 PDT 2014
+You Lie:The Band Perry:20:Sat Jul 16 00:00:00 PDT 2011
+All The Right Moves:OneRepublic:24:Sat Jan 30 00:00:00 PST 2010
+Follow Your Arrow:Kacey Musgraves:1:Sat Feb 15 00:00:00 PST 2014
+A Sky Full Of Stars:Coldplay:26:Sat Jul 19 00:00:00 PDT 2014
+Strange Clouds:B.o.B Featuring Lil Wayne:20:Sat Nov 05 00:00:00 PDT 2011
+Diced Pineapples:Rick Ross Featuring Wale & Drake:16:Sat Nov 03 00:00:00 PDT 2012
+Truffle Butter:Nicki Minaj Featuring Drake & Lil Wayne:20:Sat Mar 21 00:00:00 PDT 2015
+HeadBand:B.o.B Featuring 2 Chainz:29:Sat Dec 28 00:00:00 PST 2013
+When I'm Gone:Wiz Khalifa:4:Sat Mar 03 00:00:00 PST 2012
+Knee Deep:Zac Brown Band Featuring Jimmy Buffett:20:Sat Aug 20 00:00:00 PDT 2011
+Turn Me On:David Guetta Featuring Nicki Minaj:27:Sat May 26 00:00:00 PDT 2012
+Na Na:Trey Songz:28:Sat Feb 22 00:00:00 PST 2014
+Say Aah:Trey Songz Featuring Fabolous:24:Sat Jan 30 00:00:00 PST 2010
+Hell Breaks Loose:Eminem Featuring Dr. Dre:1:Sat Jan 02 00:00:00 PST 2010
+Hotel:Kid Ink Featuring Chris Brown:1:Sat Feb 21 00:00:00 PST 2015
+Lifestyle:Rich Gang Featuring Young Thug & Rich Homie Quan:25:Sat Jan 03 00:00:00 PST 2015
+I Can Do Anything:3OH!3:1:Sat Jul 17 00:00:00 PDT 2010
+Secrets:Mary Lambert:10:Sat Nov 15 00:00:00 PST 2014
+When I Look At You:Miley Cyrus:13:Sat Jan 30 00:00:00 PST 2010
+I Will Never Let You Down:Rita Ora:6:Sat Sep 20 00:00:00 PDT 2014
+Good Kisser:Usher:19:Sat Jul 19 00:00:00 PDT 2014
+Young And Beautiful:Lana Del Rey:21:Sat Oct 12 00:00:00 PDT 2013
+Not Myself Tonight:Christina Aguilera:8:Sat May 22 00:00:00 PDT 2010
+Small Town Throwdown:Brantley Gilbert Featuring Justin Moore & Thomas Rhett:20:Sat Jul 19 00:00:00 PDT 2014
+Bionic:Christina Aguilera:1:Sat Jun 26 00:00:00 PDT 2010
+You Be Killin Em:Fabolous:18:Sat Jan 01 00:00:00 PST 2011
+Good Lovin:Ludacris Featuring Miguel:2:Sat Apr 18 00:00:00 PDT 2015
+She Knows:J. Cole Featuring Amber Coffman & The Cults:5:Sat Feb 22 00:00:00 PST 2014
+Roots:Imagine Dragons:1:Sat Sep 19 00:00:00 PDT 2015
+Free:Zac Brown Band:19:Sat Jul 10 00:00:00 PDT 2010
+Focus:Ariana Grande:11:Sat Nov 28 00:00:00 PST 2015
+I Will Always Love You:Whitney Houston:3:Sat Mar 03 00:00:00 PST 2012
+Meanwhile Back At Mama's:Tim McGraw Featuring Faith Hill:19:Sat Jul 19 00:00:00 PDT 2014
+Redneck Crazy:Tyler Farr:20:Sat Oct 12 00:00:00 PDT 2013
+Time After Time:Javier Colon:1:Sat May 14 00:00:00 PDT 2011
+Stereo Hearts:Gym Class Heroes Featuring Adam Levine:37:Sat Nov 05 00:00:00 PDT 2011
+Pray:Justin Bieber:4:Sat Mar 19 00:00:00 PDT 2011
+Someday:Rob Thomas:16:Sat Jan 30 00:00:00 PST 2010
+Poetic Justice:Kendrick Lamar Featuring Drake:24:Sat Feb 09 00:00:00 PST 2013
+Set You Free:3OH!3:1:Sat Jan 21 00:00:00 PST 2012
+Walking On Air:Katy Perry:1:Sat Oct 19 00:00:00 PDT 2013
+Bad Romance::2:Sat Jun 12 00:00:00 PDT 2010
+Show Me How You Burlesque:Christina Aguilera:1:Sat Dec 11 00:00:00 PST 2010
+Boom Clap:Charli XCX:25:Sat Nov 15 00:00:00 PST 2014
+Beautiful:Carly Rae Jepsen Featuring Justin Bieber:1:Sat Oct 06 00:00:00 PDT 2012
+Don't Wake Me Up:Chris Brown:28:Sat Nov 03 00:00:00 PDT 2012
+EW!:Jimmy Fallon Featuring will.i.am:2:Sat Oct 25 00:00:00 PDT 2014
+Marry You::2:Sat Dec 11 00:00:00 PST 2010
+El Perdon (Forgiveness):Nicky Jam & Enrique Iglesias:6:Sat Oct 17 00:00:00 PDT 2015
+Empire State Of Mind::18:Sat Jan 30 00:00:00 PST 2010
+Break Up In A Small Town:Sam Hunt:15:Sat Nov 28 00:00:00 PST 2015
+Traveller:Chris Stapleton:1:Sat Nov 28 00:00:00 PST 2015
+My Way:Fetty Wap:1:Sat Jul 18 00:00:00 PDT 2015
+Rotten To The Core:Dove Cameron, Cameron Boyce, Booboo Stewart & Sofia Carson:6:Sat Sep 05 00:00:00 PDT 2015
+Not A Bad Thing:Justin Timberlake:22:Sat Jul 19 00:00:00 PDT 2014
+Gonna:Blake Shelton:18:Sat Nov 28 00:00:00 PST 2015
+The A Team:Ed Sheeran:7:Sat Feb 09 00:00:00 PST 2013
+Animal:Neon Trees:36:Sat Jan 01 00:00:00 PST 2011
+Mary, Did You Know?:Pentatonix:6:Sat Jan 03 00:00:00 PST 2015
+Burn:Ellie Goulding:36:Sat Dec 28 00:00:00 PST 2013
+Man Down:Rihanna:14:Sat Aug 20 00:00:00 PDT 2011
+My Baby's Got A Smile On Her Face:Craig Wayne Boyd:1:Sat Jan 03 00:00:00 PST 2015
+Let Me Go:Avril Lavigne Featuring Chad Kroeger:2:Sat Nov 02 00:00:00 PDT 2013
+Try Me:DeJ Loaf:18:Sat Mar 21 00:00:00 PDT 2015
+Same Love:Macklemore & Ryan Lewis Featuring Mary Lambert:30:Sat Apr 13 00:00:00 PDT 2013
+Classic:MKTO:27:Sat Mar 01 00:00:00 PST 2014
+Bad Romance:Lady Gaga:27:Sat Jan 30 00:00:00 PST 2010
+Night Changes:One Direction:20:Sat Mar 21 00:00:00 PDT 2015
+No New Friends (SFTB Remix):DJ Khaled Featuring Drake, Rick Ross & Lil Wayne:12:Sat Aug 03 00:00:00 PDT 2013
+The Phoenix:Fall Out Boy:1:Sat Apr 13 00:00:00 PDT 2013
+Rumour Has It / Someone Like You::3:Sat Dec 03 00:00:00 PST 2011
+The Only Way I Know:Jason Aldean With Luke Bryan & Eric Church:20:Sat Feb 09 00:00:00 PST 2013
+Don't Stop The Party:The Black Eyed Peas:4:Sat Aug 20 00:00:00 PDT 2011
+Check It Out::15:Sat Nov 20 00:00:00 PST 2010
+(Kissed You) Good Night:Gloriana:20:Sat May 26 00:00:00 PDT 2012
+Tongue Tied:Grouplove:20:Sat Sep 22 00:00:00 PDT 2012
+Ulay Oh:How I Became The Bomb:1:Sat Jun 20 00:00:00 PDT 2015
+Lord Knows:Meek Mill:2:Sat Jul 25 00:00:00 PDT 2015
+Silly Love Songs::1:Sat Feb 26 00:00:00 PST 2011
+Midnight City::20:Sat May 26 00:00:00 PDT 2012
+Russian Roulette:Rihanna:6:Sat Jan 30 00:00:00 PST 2010
+C'mon:Ke$ha:1:Sat Jan 05 00:00:00 PST 2013
+Leave Right Now:Will Young:1:Sat Jun 12 00:00:00 PDT 2010
+Southern Comfort Zone:Brad Paisley:20:Sat Feb 09 00:00:00 PST 2013
+Bow Chicka Wow Wow:Mike Posner Featuring Lil Wayne:16:Sat Mar 19 00:00:00 PDT 2011
+Iris:Sawyer Fredericks:1:Sat May 09 00:00:00 PDT 2015
+Tonight (Best You Ever Had):John Legend Featuring Ludacris:12:Sat May 26 00:00:00 PDT 2012
+Barbra Streisand:Duck Sauce:1:Sat May 14 00:00:00 PDT 2011
+Stars:Amanda Brown:1:Sat Dec 08 00:00:00 PST 2012
+Nobody's Perfect:J. Cole Featuring Missy Elliott:19:Sat Sep 22 00:00:00 PDT 2012
+Sleazy:Ke$ha:1:Sat Nov 20 00:00:00 PST 2010
+Let It Go:Wiz Khalifa Featuring Akon:1:Sat Dec 22 00:00:00 PST 2012
+Make Me Wanna:Thomas Rhett:20:Sat Mar 21 00:00:00 PDT 2015
+Barefoot Blue Jean Night:Jake Owen:24:Sat Aug 20 00:00:00 PDT 2011
+Diamond Rings And Old Barstools:Tim McGraw With Catherine Dunn:17:Sat May 09 00:00:00 PDT 2015
+Beat It:Sean Kingston Featuring Chris Brown & Wiz Khalifa:18:Sat Aug 03 00:00:00 PDT 2013
+This Ole Boy:Craig Morgan:9:Sat May 26 00:00:00 PDT 2012
+Toxic::1:Sat Oct 16 00:00:00 PDT 2010
+Power:Kanye West Featuring Dwele:1:Sat Jul 17 00:00:00 PDT 2010
+Hollow:Tori Kelly:5:Sat Jan 16 00:00:00 PST 2016
+Walk Thru:Rich Homie Quan Featuring Problem:7:Sat Oct 18 00:00:00 PDT 2014
+Fire::1:Sat May 15 00:00:00 PDT 2010
+Lean On:Major Lazer X DJ Snake Featuring M0:4:Sat May 09 00:00:00 PDT 2015
+Best Friends:Sophia Grace:1:Sat Jan 24 00:00:00 PST 2015
+Coffee:Miguel:3:Sat Jul 18 00:00:00 PDT 2015
+Dog Days Are Over:Vicci Martinez:1:Sat Jul 09 00:00:00 PDT 2011
+My Hitta:YG X Jeezy X Rich Homie Quan:1:Sat Oct 19 00:00:00 PDT 2013
+Your Body:Christina Aguilera:9:Sat Nov 03 00:00:00 PDT 2012
+Lover, Lover:Jerrod Niemann:20:Sat Jul 10 00:00:00 PDT 2010
+All Me::2:Sat Nov 09 00:00:00 PST 2013
+Ain't It Fun:Paramore:24:Sat Jul 19 00:00:00 PDT 2014
+Hit It Again:3OH!3:1:Sat Jan 08 00:00:00 PST 2011
+I'm Not Gonna Miss You:Glen Campbell:1:Sat Nov 01 00:00:00 PDT 2014
+Pound Cake / Paris Morton Music 2::3:Sat Nov 09 00:00:00 PST 2013
+Beautiful Day:Lee DeWyze:2:Sat Jun 12 00:00:00 PDT 2010
+Shameless:The Weeknd:2:Sat Sep 19 00:00:00 PDT 2015
+Stranded (Haiti Mon Amour)::2:Sat Feb 06 00:00:00 PST 2010
+She's Not There::1:Sat Feb 26 00:00:00 PST 2011
+Try:Colbie Caillat:20:Sat Jan 03 00:00:00 PST 2015
+The Crow And The Butterfly:Shinedown:1:Sat Aug 14 00:00:00 PDT 2010
+Sparks Fly:Taylor Swift:20:Sat Nov 05 00:00:00 PDT 2011
+Mr. Rager:Kid Cudi:1:Sat Nov 13 00:00:00 PST 2010
+Break On Me.:Keith Urban:3:Sat Jan 16 00:00:00 PST 2016
+Waves:Mr. Probz:25:Sat Jan 03 00:00:00 PST 2015
+Anything Goes:Florida Georgia Line:18:Sat Nov 28 00:00:00 PST 2015
+I Don't Like:Chief Keef Featuring Lil Reese:3:Sat Oct 06 00:00:00 PDT 2012
+Sorry Not Sorry:Bryson Tiller:5:Sat Jan 16 00:00:00 PST 2016
+American Oxygen:Rihanna:4:Sat May 09 00:00:00 PDT 2015
+Don't It:Billy Currington:20:Sat Mar 21 00:00:00 PDT 2015
+I'm On One:DJ Khaled Featuring Drake, Rick Ross & Lil Wayne:23:Sat Nov 05 00:00:00 PDT 2011
+Don't Cry For Me Argentina (Lea Michele Version)::1:Sat Dec 18 00:00:00 PST 2010
+I Don't Get Tired (#IDGT):Kevin Gates Featuring August Alsina:9:Sat May 09 00:00:00 PDT 2015
+Na Na Na (Na Na Na Na Na Na Na Na Na):My Chemical Romance:1:Sat Oct 16 00:00:00 PDT 2010
+Hell To The No::1:Sat Apr 02 00:00:00 PDT 2011
+If Heaven Wasn't So Far Away:Justin Moore:20:Sat Aug 20 00:00:00 PDT 2011
+Pretending::1:Sat Jun 11 00:00:00 PDT 2011
+I Never Told You:Colbie Caillat:20:Sat Jul 10 00:00:00 PDT 2010
+Gotta Have It::11:Sat Mar 03 00:00:00 PST 2012
+On To The Next One::14:Sat Jan 30 00:00:00 PST 2010
+Just The Way You Are::1:Sat Dec 11 00:00:00 PST 2010
+Strip:Chris Brown Featuring Kevin McCall:6:Sat Jan 07 00:00:00 PST 2012
+No Church In The Wild::5:Sat Mar 03 00:00:00 PST 2012
+Jar Of Hearts:Christina Perri:31:Sat Jan 01 00:00:00 PST 2011
+Madness:Muse:29:Sat Feb 09 00:00:00 PST 2013
+This Is How We Roll:Florida Georgia Line Ft. Jason Derulo & Luke Bryan:11:Sat Jul 19 00:00:00 PDT 2014
+Misery:Maroon 5:20:Sat Jul 10 00:00:00 PDT 2010
+I Invented Sex:Trey Songz Featuring Drake:12:Sat Jan 30 00:00:00 PST 2010
+Kiss You:One Direction:16:Sat Feb 09 00:00:00 PST 2013
+More Than Miles:Brantley Gilbert:19:Sat Apr 13 00:00:00 PDT 2013
+Lovin' You Is Fun:Easton Corbin:20:Sat Nov 03 00:00:00 PDT 2012
+Somebody To Love:Justin Bieber Featuring Usher:3:Sat Sep 11 00:00:00 PDT 2010
+Mercy:Dave Matthews Band:1:Sat Aug 04 00:00:00 PDT 2012
+Black Skinhead:Kanye West:4:Sat Jul 20 00:00:00 PDT 2013
+Blank Space:Taylor Swift:36:Sat Mar 21 00:00:00 PDT 2015
+Please:Sawyer Fredericks:1:Sat Jun 06 00:00:00 PDT 2015
+Survivor / I Will Survive::1:Sat Dec 24 00:00:00 PST 2011
+Chinese Food::1:Sat Nov 02 00:00:00 PDT 2013
+It Goes Like This:Thomas Rhett:22:Sat Oct 12 00:00:00 PDT 2013
+Hero:Christopher Wilde:1:Sat Mar 06 00:00:00 PST 2010
+Oh My:DJ Drama Featuring Fabolous, Roscoe Dash & Wiz Khalifa:3:Sat Aug 20 00:00:00 PDT 2011
+Paper Doll:John Mayer:1:Sat Jul 06 00:00:00 PDT 2013
+Say Something::1:Sat Nov 23 00:00:00 PST 2013
+Tuesday::5:Sat Oct 18 00:00:00 PDT 2014
+Send My Love (To Your New Lover):Adele:1:Sat Dec 12 00:00:00 PST 2015
+Lean On:Major Lazer & DJ Snake Featuring M0:37:Sat Nov 28 00:00:00 PST 2015
+Bartender:Lady Antebellum:20:Sat Jul 19 00:00:00 PDT 2014
+Who Booty::15:Sat Feb 09 00:00:00 PST 2013
+Last Christmas:Ariana Grande:1:Sat Dec 07 00:00:00 PST 2013
+Falling Down:Selena Gomez & The Scene:1:Sat Jan 09 00:00:00 PST 2010
+Go Your Own Way::1:Sat May 21 00:00:00 PDT 2011
+Buzzin':Mann Featuring 50 Cent:2:Sat Feb 05 00:00:00 PST 2011
+Little Bit Of Everything:Keith Urban:20:Sat Oct 12 00:00:00 PDT 2013
+For Good::1:Sat Jun 11 00:00:00 PDT 2011
+No BS:Chris Brown:18:Sat Jan 01 00:00:00 PST 2011
+Both Of Us:B.o.B Featuring Taylor Swift:19:Sat May 26 00:00:00 PDT 2012
+Loser::1:Sat Jun 19 00:00:00 PDT 2010
+Girls Just Want To Have Fun::1:Sat Dec 17 00:00:00 PST 2011
+Another One Bites The Dust::1:Sat Jun 19 00:00:00 PDT 2010
+Bill Gates:Lil Wayne:1:Sat Oct 16 00:00:00 PDT 2010
+Beware:Big Sean Featuring Lil Wayne & Jhene Aiko:20:Sat Oct 12 00:00:00 PDT 2013
+Far Away:Tyga Featuring Chris Richardson:7:Sat Aug 20 00:00:00 PDT 2011
+Night Of Your Life:David Guetta Featuring Jennifer Hudson:1:Sat Sep 10 00:00:00 PDT 2011
+F**kin' Perfect:P!nk:30:Sat Jan 01 00:00:00 PST 2011
+I'm Single:Lil Wayne:1:Sat May 29 00:00:00 PDT 2010
+Home:Phillip Phillips:40:Sat Feb 09 00:00:00 PST 2013
+Beggin' On Your Knees:Victorious Cast Featuring Victoria Justice:4:Sat May 07 00:00:00 PDT 2011
+Get It Right::2:Sat Apr 09 00:00:00 PDT 2011
+Play No Games:Big Sean Featuring Chris Brown & Ty Dolla $ign:11:Sat Nov 28 00:00:00 PST 2015
+Loyal:Chris Brown Featuring Lil Wayne & French Montana Or Too $hort:3:Sat Mar 22 00:00:00 PDT 2014
+Someone Like You:Adele:39:Sat Nov 05 00:00:00 PDT 2011
+Best Mistake:Ariana Grande Featuring Big Sean:2:Sat Aug 30 00:00:00 PDT 2014
+Circle The Drain:Katy Perry:1:Sat Aug 28 00:00:00 PDT 2010
+I Love It:Icona Pop Featuring Charli XCX:29:Sat Apr 13 00:00:00 PDT 2013
+Our Kind Of Love:Lady Antebellum:20:Sat Jul 10 00:00:00 PDT 2010
+Throw Sum Mo:Rae Sremmurd Featuring Nicki Minaj & Young Thug:20:Sat Mar 21 00:00:00 PDT 2015
+Cop Car:Keith Urban:18:Sat Feb 22 00:00:00 PST 2014
+Around My Way (Freedom Ain't Free):Lupe Fiasco:1:Sat Jun 09 00:00:00 PDT 2012
+One Day:Matisyahu:6:Sat Mar 13 00:00:00 PST 2010
+Fly Over States:Jason Aldean:20:Sat May 26 00:00:00 PDT 2012
+American Star:Lil Wayne Featuring Shanell AKA SNL:1:Sat Feb 20 00:00:00 PST 2010
+Photograph:Ed Sheeran:30:Sat Nov 28 00:00:00 PST 2015
+I Dreamed A Dream::2:Sat Jun 12 00:00:00 PDT 2010
+My Way:Fetty Wap Featuring Monty:21:Sat Nov 28 00:00:00 PST 2015
+You And Me:Dave Matthews Band:2:Sat Feb 20 00:00:00 PST 2010
+Can't Hold Us:Macklemore & Ryan Lewis Featuring Ray Dalton:38:Sat Apr 13 00:00:00 PDT 2013
+The Big Bang:Katy Tiz:1:Sat May 17 00:00:00 PDT 2014
+Every Teardrop Is A Waterfall:Coldplay:18:Sat Aug 20 00:00:00 PDT 2011
+Really Really:Kevin Gates:4:Sat Jan 16 00:00:00 PST 2016
+Moving To Mars:Coldplay:1:Sat Jul 16 00:00:00 PDT 2011
+Shades Of Cool:Lana Del Rey:1:Sat Jun 14 00:00:00 PDT 2014
+Love Somebody:Maroon 5:21:Sat Oct 12 00:00:00 PDT 2013
+Talk That Talk:Rihanna Featuring Jay-Z:20:Sat May 26 00:00:00 PDT 2012
+Commas:Future:20:Sat May 09 00:00:00 PDT 2015
+The Way:Ariana Grande Featuring Mac Miller:26:Sat Apr 13 00:00:00 PDT 2013
+Afraid To Sleep:Vicci Martinez:1:Sat Jul 16 00:00:00 PDT 2011
+You & I (Nobody In The World):John Legend:2:Sat Aug 02 00:00:00 PDT 2014
+Ready To Run:One Direction:1:Sat Nov 22 00:00:00 PST 2014
+Bag Of Money:Wale Featuring Rick Ross, Meek Mill & T-Pain:12:Sat Sep 22 00:00:00 PDT 2012
+23::1:Sat Sep 28 00:00:00 PDT 2013
+Save It For A Rainy Day:Kenny Chesney:17:Sat Nov 28 00:00:00 PST 2015
+Say Something:A Great Big World & Christina Aguilera:25:Sat Dec 28 00:00:00 PST 2013
+Adrenalina:Wisin Featuring Jennifer Lopez & Ricky Martin:1:Sat Mar 22 00:00:00 PDT 2014
+If This Was A Movie:Taylor Swift:2:Sat Dec 03 00:00:00 PST 2011
+Dope:Lady Gaga:2:Sat Nov 30 00:00:00 PST 2013
+Levels:Avicii:20:Sat Dec 24 00:00:00 PST 2011
+Gold On The Ceiling:The Black Keys:6:Sat Jul 28 00:00:00 PDT 2012
+Nasty Freestyle:T-Wayne:20:Sat May 09 00:00:00 PDT 2015
+Somebody's Heartbreak:Hunter Hayes:20:Sat Feb 09 00:00:00 PST 2013
+Best Friend's Brother:Victorious Cast Featuring Victoria Justice:4:Sat Jun 18 00:00:00 PDT 2011
+Gettin' You Home (The Black Dress Song):Chris Young:2:Sat Jan 02 00:00:00 PST 2010
+First Love:Jennifer Lopez:3:Sat Jul 19 00:00:00 PDT 2014
+Price Tag:Xenia:1:Sat Jul 02 00:00:00 PDT 2011
+Only The Good Die Young::1:Sat Oct 23 00:00:00 PDT 2010
+Better With The Lights Off:New Boyz Featuring Chris Brown:8:Sat Aug 20 00:00:00 PDT 2011
+Wasted Love:Matt McAndrew:1:Sat Jan 03 00:00:00 PST 2015
+Drunk On A Plane:Dierks Bentley:20:Sat Jul 19 00:00:00 PDT 2014
+Gold:Britt Nicole:3:Sat Mar 23 00:00:00 PDT 2013
+Die Young:Ke$ha:22:Sat Feb 09 00:00:00 PST 2013
+Windows Down::1:Sat Jul 14 00:00:00 PDT 2012
+Clique:Kanye West, Jay-Z, Big Sean:20:Sat Feb 09 00:00:00 PST 2013
+Who I Am With You:Chris Young:19:Sat Jul 19 00:00:00 PDT 2014
+2012 (It Ain't The End):Jay Sean Featuring Nicki Minaj:12:Sat Nov 20 00:00:00 PST 2010
+No Mediocre:T.I. Featuring Iggy Azalea:20:Sat Nov 15 00:00:00 PST 2014
+Prayer In C::2:Sat Dec 27 00:00:00 PST 2014
+Earned It (Fifty Shades Of Grey):The Weeknd:43:Sat Mar 21 00:00:00 PDT 2015
+Cowboy Casanova:Carrie Underwood:7:Sat Jan 30 00:00:00 PST 2010
+TKO:Justin Timberlake:17:Sat Dec 28 00:00:00 PST 2013
+Rose's Turn::1:Sat May 29 00:00:00 PDT 2010
+Driving Me Crazy:Sam Adams:1:Sat Mar 27 00:00:00 PDT 2010
+Feel Like A Rock Star::7:Sat May 26 00:00:00 PDT 2012
+Everybody's Got Somebody But Me:Hunter Hayes Featuring Jason Mraz:9:Sat Dec 28 00:00:00 PST 2013
+Keep Me In Mind:Zac Brown Band:20:Sat Nov 05 00:00:00 PDT 2011
+Please Remember Me:Danielle Bradbery:1:Sat Jun 29 00:00:00 PDT 2013
+Kick The Dust Up:Luke Bryan:20:Sat Jul 18 00:00:00 PDT 2015
+Like We Used To:A Rocket To The Moon:1:Sat Oct 23 00:00:00 PDT 2010
+Sorry For Party Rocking:LMFAO:11:Sat Mar 03 00:00:00 PST 2012
+Picasso Baby:Jay Z:1:Sat Jul 27 00:00:00 PDT 2013
+One Of Us::1:Sat Oct 23 00:00:00 PDT 2010
+Alive:Krewella:20:Sat Apr 13 00:00:00 PDT 2013
+Steady Mobbin':Young Money Featuring Gucci Mane:20:Sat May 22 00:00:00 PDT 2010
+Used To:Drake Featuring Lil Wayne:2:Sat Feb 28 00:00:00 PST 2015
+Never Gonna Be Alone:Nickelback:10:Sat Jan 30 00:00:00 PST 2010
+Only:Nicki Minaj Featuring Drake, Lil Wayne & Chris Brown:24:Sat Mar 21 00:00:00 PDT 2015
+Neighbors Know My Name:Trey Songz:20:Sat Jul 10 00:00:00 PDT 2010
+Friday:Rebecca Black:6:Sat May 07 00:00:00 PDT 2011
+Airplanes:B.o.B Featuring Hayley Williams Of Paramore:2:Sat May 08 00:00:00 PDT 2010
+Confident:Justin Bieber Featuring Chance The Rapper:3:Sat Dec 28 00:00:00 PST 2013
+Tonight Tonight:Hot Chelle Rae:30:Sat Nov 05 00:00:00 PDT 2011
+The Catalyst:Linkin Park:10:Sat Oct 16 00:00:00 PDT 2010
+Time Of Our Lives:Pitbull & Ne-Yo:27:Sat Mar 21 00:00:00 PDT 2015
+Hot Mess:Cobra Starship:4:Sat Jan 30 00:00:00 PST 2010
+Work Out:J. Cole:28:Sat Nov 05 00:00:00 PDT 2011
+Animals:Martin Garrix:34:Sat Dec 28 00:00:00 PST 2013
+Kiss Me Kiss Me:5 Seconds Of Summer:1:Sat Jul 05 00:00:00 PDT 2014
+Let Me Love You (Until You Learn To Love Yoursel)::1:Sat Feb 16 00:00:00 PST 2013
+Been You:Justin Bieber:1:Sat Dec 05 00:00:00 PST 2015
+Nothin' On You:B.o.B Featuring Bruno Mars:28:Sat Jul 10 00:00:00 PDT 2010
+Don't Stop::1:Sat May 21 00:00:00 PDT 2011
+Masterpiece:Jessie J:3:Sat Jan 03 00:00:00 PST 2015
+Don't Stop:5 Seconds Of Summer:3:Sat Jun 07 00:00:00 PDT 2014
+Sweet Nothing:Calvin Harris Featuring Florence Welch:27:Sat Feb 09 00:00:00 PST 2013
+The Champ:Nelly:3:Sat Jan 28 00:00:00 PST 2012
+She Doesn't Mind:Sean Paul:1:Sat Apr 14 00:00:00 PDT 2012
+One Call Away:Charlie Puth:7:Sat Jan 16 00:00:00 PST 2016
+Bruises:Train Featuring Ashley Monroe:8:Sat Oct 12 00:00:00 PDT 2013
+One Time:Justin Bieber:4:Sat Jan 09 00:00:00 PST 2010
+Lucky::1:Sat Oct 30 00:00:00 PDT 2010
+Tie Me Down:New Boyz Feat. Ray J:3:Sat Jan 09 00:00:00 PST 2010
+99 Problems:Tony Lucca:1:Sat May 26 00:00:00 PDT 2012
+Drunk In Love:Beyonce Featuring Jay Z:18:Sat Feb 22 00:00:00 PST 2014
+Jump Right In:Zac Brown Band:15:Sat Aug 03 00:00:00 PDT 2013
+Back To December:Taylor Swift:20:Sat Jan 01 00:00:00 PST 2011
+Hold It Against Me:Britney Spears:17:Sat Feb 05 00:00:00 PST 2011
+Somebody:Natalie La Rose Featuring Jeremih:25:Sat Mar 21 00:00:00 PDT 2015
+I Wanna Make You Close Your Eyes:Dierks Bentley:9:Sat Jan 30 00:00:00 PST 2010
+Kyoto:Skrillex Featuring Sirah:4:Sat Jan 28 00:00:00 PST 2012
+Stay Stay Stay:Taylor Swift:1:Sat Nov 10 00:00:00 PST 2012
+It Kills Me:Melanie Fiona:16:Sat Jan 30 00:00:00 PST 2010
+Or Nah:Ty Dolla $ign Featuring Wiz Khalifa & DJ Mustard:20:Sat Jul 19 00:00:00 PDT 2014
+Lay It Down:Lloyd:19:Sat Jan 01 00:00:00 PST 2011
+Wasted:Tiesto Featuring Matthew Koma:11:Sat Jul 19 00:00:00 PDT 2014
+No Love:Eminem Featuring Lil Wayne:20:Sat Jan 01 00:00:00 PST 2011
+Valerie::1:Sat Dec 18 00:00:00 PST 2010
+When I Was Your Man:Bruno Mars:35:Sat Feb 09 00:00:00 PST 2013
+#Beautiful:Mariah Carey Featuring Miguel:16:Sat Aug 03 00:00:00 PDT 2013
+Neutron Star Collision (Love Is Forever):Muse:1:Sat Jun 05 00:00:00 PDT 2010
+Sugar:Maroon 5:42:Sat Mar 21 00:00:00 PDT 2015
+Truck Yeah:Tim McGraw:16:Sat Nov 03 00:00:00 PDT 2012
+Roll Up:Wiz Khalifa:22:Sat Jul 16 00:00:00 PDT 2011
+When I Get You Alone::1:Sat Feb 26 00:00:00 PST 2011
+No Pressure:Justin Bieber Featuring Big Sean:4:Sat Dec 19 00:00:00 PST 2015
+Roman In Moscow:Nicki Minaj:2:Sat Dec 24 00:00:00 PST 2011
+Summer Nights::1:Sat Feb 04 00:00:00 PST 2012
+Problem:Ariana Grande Featuring Iggy Azalea:25:Sat Jul 19 00:00:00 PDT 2014
+Live Like We're Dying:Kris Allen:22:Sat Jan 30 00:00:00 PST 2010
+Turning Tables:Adele:3:Sat May 07 00:00:00 PDT 2011
+Ooh Baby:Mario:1:Sat Mar 27 00:00:00 PDT 2010
+Put You In A Song:Keith Urban:20:Sat Jan 01 00:00:00 PST 2011
+Freak The Freak Out:Victorious Cast Featuring Victoria Justice:6:Sat Feb 05 00:00:00 PST 2011
+Where Have You Been:Rihanna:26:Sat May 26 00:00:00 PDT 2012
+Un-Thinkable (I'm Ready):Alicia Keys:20:Sat Jul 10 00:00:00 PDT 2010
+The Cave:Mumford & Sons:20:Sat Mar 19 00:00:00 PDT 2011
+Nothing Like Us:Justin Bieber:2:Sat Feb 16 00:00:00 PST 2013
+Raise 'Em Up:Keith Urban Featuring Eric Church:14:Sat Mar 21 00:00:00 PDT 2015
+Keep Your Head Up:Andy Grammer:20:Sat Aug 20 00:00:00 PDT 2011
+How Will I Know::1:Sat May 12 00:00:00 PDT 2012
+$ave Dat Money:Lil Dicky Featuring Fetty Wap & Rich Homie Quan:12:Sat Nov 28 00:00:00 PST 2015
+Keep On Lovin' You:Steel Magnolia:15:Sat May 22 00:00:00 PDT 2010
+Never Grow Up:Taylor Swift:1:Sat Nov 13 00:00:00 PST 2010
+Ten Feet Tall:Afrojack Featuring Wrabel:1:Sat Jul 19 00:00:00 PDT 2014
+Who I Am:Danielle Bradbery:1:Sat Jun 29 00:00:00 PDT 2013
+Demons:Imagine Dragons:61:Sat Feb 09 00:00:00 PST 2013
+Promise:Romeo Santos Featuring Usher:9:Sat Nov 05 00:00:00 PDT 2011
+This Kiss:Carly Rae Jepsen:1:Sat Sep 29 00:00:00 PDT 2012
+Replay:Zendaya:21:Sat Dec 28 00:00:00 PST 2013
+Stuck On A Feeling:Prince Royce Featuring Snoop Dogg:10:Sat Jan 31 00:00:00 PST 2015
+Everyday:A$AP Rocky Featuring Rod Stewart x Miguel x Mark Ronson:2:Sat Jun 20 00:00:00 PDT 2015
+I Wish You Would:DJ Khaled Featuring Kanye West & Rick Ross:2:Sat Sep 08 00:00:00 PDT 2012
+Outta My Head:Craig Campbell:5:Sat Oct 12 00:00:00 PDT 2013
+What We Ain't Got:Jake Owen:11:Sat Mar 21 00:00:00 PDT 2015
+Knockout:Lil Wayne Featuring Nicki Minaj:5:Sat Mar 13 00:00:00 PST 2010
+Are You Happy Now?:Cassadee Pope:1:Sat Dec 15 00:00:00 PST 2012
+Dust:Eli Young Band:9:Sat Aug 09 00:00:00 PDT 2014
+Right Thru Me:Nicki Minaj:19:Sat Jan 01 00:00:00 PST 2011
+Wiggle:Jason Derulo Featuring Snoop Dogg:20:Sat Jul 19 00:00:00 PDT 2014
+Wrong Baby Wrong:Martina McBride:15:Sat Jul 10 00:00:00 PDT 2010
+Bed Intruder Song::3:Sat Aug 28 00:00:00 PDT 2010
+oui:Jeremih:2:Sat Jan 23 00:00:00 PST 2016
+I Am Beautiful:Candice Glover:1:Sat Jun 01 00:00:00 PDT 2013
+Only One:Kanye West Featuring Paul McCartney:8:Sat Jan 31 00:00:00 PST 2015
+Come Wake Me Up:Rascal Flatts:20:Sat Nov 03 00:00:00 PDT 2012
+Stronger::1:Sat Oct 16 00:00:00 PDT 2010
+I'm Awesome:Spose:9:Sat May 22 00:00:00 PDT 2010
+Fix You::1:Sat Oct 22 00:00:00 PDT 2011
+Run Joey Run::1:Sat May 22 00:00:00 PDT 2010
+Man Of The Year:ScHoolboy Q:13:Sat Feb 08 00:00:00 PST 2014
+Gentleman:PSY:15:Sat Aug 03 00:00:00 PDT 2013
+This Ain't Nothin':Craig Morgan:13:Sat Jul 10 00:00:00 PDT 2010
+Locked Out Of Heaven:Bruno Mars:36:Sat Feb 09 00:00:00 PST 2013
+Dance (A$$):Big Sean Featuring Nicki Minaj:21:Sat Dec 24 00:00:00 PST 2011
+What's Wrong With Them:Lil Wayne Featuring Nicki Minaj:1:Sat Oct 16 00:00:00 PDT 2010
+Can't Be Tamed:Miley Cyrus:10:Sat Jul 10 00:00:00 PDT 2010
+Black Horse And The Cherry Tree:Casey Weston:1:Sat Jul 02 00:00:00 PDT 2011
+Hood Go Crazy:Tech N9Ne Featuring 2 Chainz & B.o.B:7:Sat Jul 18 00:00:00 PDT 2015
+Take A Little Ride:Jason Aldean:20:Sat Nov 03 00:00:00 PDT 2012
