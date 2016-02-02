@@ -59,7 +59,7 @@ public class Article {
 		this.artistName = artistName;
 	}
 
-	/*@Override
+	@Override
 	public boolean equals(Object obj) {
 		Article article1 = (Article) obj;
 		if (this.artistName.toLowerCase().trim().equals(article1.artistName.toLowerCase())
@@ -73,7 +73,7 @@ public class Article {
 	public int hashCode() {
 		// TODO Auto-generated method stub
 		return new String(this.artistName + "-" + this.title).hashCode();
-	}*/
+	}
 
 	public String getWeek() {
 		return week;

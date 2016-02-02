@@ -8,6 +8,7 @@ import java.util.List;
 import org.json.simple.JSONObject;
 
 import edu.isi.dr.scrapping.billboards.DataStructure.Article;
+import edu.isi.dr.scrapping.billboards.DataStructure.Movie;
 
 public class CreateJsonRead {
 
@@ -24,6 +25,28 @@ public class CreateJsonRead {
 		return obj;
 	}
 
+	public JSONObject createJsonObect(Movie movie) {
+		JSONObject obj = new JSONObject();
+		obj.put("average", movie.getAverage());
+		obj.put("budget", movie.getBudgetInMillions());
+		obj.put("change", movie.getChange());
+		obj.put("date", movie.getDate());
+		obj.put("lastweek", movie.getLastWeek());
+		obj.put("noweeks", movie.getNoWeeks());
+		obj.put("percentchange", movie.getPercentChange());
+		obj.put("studio", movie.getStudio());
+		obj.put("theatrecount", movie.getTheatreCount());
+		obj.put("thisweek", movie.getThisWeek());
+		obj.put("title", movie.getTitle());
+		obj.put("totalgross", movie.getTotalGross());
+		obj.put("weeklygross", movie.getWeeklyGross());
+		obj.put("weekNo", movie.getWeekNo());
+		obj.put("weekyearno", movie.getWeekYearNo());
+		obj.put("year", movie.getYear());
+
+		return obj;
+	}
+
 	public Article createArticle(JSONObject article, String week) {
 		Article obj = new Article();
 		obj.setWeek(week);
@@ -35,6 +58,29 @@ public class CreateJsonRead {
 		obj.setTitle((String) article.get("title"));
 		obj.setWeaksOnChart((String) article.get("totalWeeksOnChart"));
 		obj.setWeekNo((Long) article.get("weekNo"));
+		return obj;
+	}
+
+	public Movie createMovie(JSONObject movie, String week) {
+		Movie obj = new Movie();
+
+		obj.setAverage((String) movie.get("average"));
+		obj.setBudgetInMillions((String) movie.get("budget"));
+		obj.setChange((String) movie.get("change"));
+		obj.setDate((String) movie.get("date"));
+		obj.setLastWeek((String) movie.get("lastweek"));
+		obj.setNoWeeks((String) movie.get("noweeks"));
+		obj.setPercentChange((String) movie.get("percentchange"));
+		obj.setStudio((String) movie.get("studio"));
+		obj.setTheatreCount((String) movie.get("theatrecount"));
+		obj.setThisWeek((String) movie.get("thisweek"));
+		obj.setTotalGross((String) movie.get("totalgross"));
+		obj.setWeeklyGross((String) movie.get("weeklygross"));
+		obj.setWeekNo((long) movie.get("weekNo"));
+		obj.setWeekYearNo((Long) movie.get("weekyearno"));
+		obj.setYear((Long) movie.get("year"));
+		obj.setTitle((String)movie.get("title"));
+
 		return obj;
 	}
 
@@ -64,6 +110,35 @@ public class CreateJsonRead {
 						+ article.getLastWeekRank() + ","
 						+ article.getPeakPositionRank() + ","
 						+ article.getWeek());
+			}
+
+			file.close();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void writeToCsvFileMovie(List<Movie> results, String location) {
+		try {
+			PrintWriter file = new PrintWriter(location);
+			file.println("Week No,This Week,Last Week,Title,Studio,Weekly Gross,% Change,Theater Count / Change	Average,Total Gross,Budget,Week#,Date");
+			for (Movie article : results) {
+				file.println(article.getWeekNo() + ","
+						+ (article.getThisWeek()) + "," 
+						+ article.getLastWeek() +  ","+ "\"" 
+						+ article.getTitle() + "\"" + "," + "\"" 
+						+ article.getStudio() + "\"" + "," + "\"" 
+						+ article.getWeeklyGross() + "\"" + "," + "\"" 
+						+ article.getPercentChange()  + "\"" + "," + "\"" 
+						+ article.getTheatreCount() + "   "
+						+ article.getChange() + "\"" + "," + "\"" 
+						+ article.getAverage() + "\"" + "," + "\"" 
+						+ article.getTotalGross() +"\"" + "," + "\"" 
+						+ article.getBudgetInMillions() + "\"" + "," + "\"" 
+						+ article.getNoWeeks() + "\"" + "," + "\"" 
+						+article.getDate()	+"\""					
+						);
 			}
 
 			file.close();

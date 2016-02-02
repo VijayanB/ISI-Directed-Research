@@ -90,14 +90,14 @@ public class ParseJsonFields {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
 		StringBuilder contents = new StringBuilder();
 		
-		 for (Article art : filteredList.keySet()) {
+		/* for (Article art : filteredList.keySet()) {
 		  contents.append(art.getTitle() + ":" + art.getArtistName() + ":" +
-		  filteredList.get(art) +":"+art.getWeek()+ "\n"); }
+		  filteredList.get(art) +":"+art.getWeek()+ "\n"); } */
 		 
 
-	/*	for (Article art : filteredList.keySet()) {
+		for (Article art : filteredList.keySet()) {
 			contents.append(" " + filteredList.get(art) + ",");
-		}*/
+		}
 
 		String finalContent = contents.toString();
 		finalContent = finalContent.substring(0, finalContent.length() - 1);
@@ -109,11 +109,36 @@ public class ParseJsonFields {
 	public static void main(String[] args) throws FileNotFoundException,
 			IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/test");
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
 		Map<Article, Integer> objLists = obj
-				.convertFileToJsonObject(2010, 2016);
+				.convertFileToJsonObject(1958,1965);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/test/result_11.txt",
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_1958_1965.txt",
+				objLists);
+		 objLists = obj
+				.convertFileToJsonObject(1966,1975);
+		obj.processWeeksOnChart(
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_1966_1975.txt",
+				objLists);
+		 objLists = obj
+				.convertFileToJsonObject(1976,1985);
+		obj.processWeeksOnChart(
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_1976_1985.txt",
+				objLists);
+		 objLists = obj
+				.convertFileToJsonObject(1986,1995);
+		obj.processWeeksOnChart(
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_1986_1995.txt",
+				objLists);
+		objLists = obj
+				.convertFileToJsonObject(1996,2005);
+		obj.processWeeksOnChart(
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_1996_2005.txt",
+				objLists);
+		objLists = obj
+				.convertFileToJsonObject(2006,2016);
+		obj.processWeeksOnChart(
+				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_2006_2016.txt",
 				objLists);
 	}
 
