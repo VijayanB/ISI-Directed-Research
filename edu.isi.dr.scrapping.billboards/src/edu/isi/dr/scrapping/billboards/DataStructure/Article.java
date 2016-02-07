@@ -72,7 +72,7 @@ public class Article {
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
-		return new String(this.artistName + "-" + this.title).hashCode();
+		return new String(this.artistName /*+ "-" + this.title*/).hashCode();
 	}
 
 	public String getWeek() {
