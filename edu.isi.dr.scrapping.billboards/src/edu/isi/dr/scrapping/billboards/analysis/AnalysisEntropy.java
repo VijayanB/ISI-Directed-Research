@@ -9,14 +9,14 @@ import org.json.simple.parser.ParseException;
 
 import edu.isi.dr.scrapping.billboards.DataStructure.Article;
 
-public class AnalysisUniqueSongs {
+public class AnalysisEntropy {
 
-	public static void main(String[] args) throws FileNotFoundException,
-			IOException, ParseException {
+	
+	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
 				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
 		Map<Integer, List<Article>> objLists = obj.findUniqueSongs(100);
-	    obj.analyseArtistByYear(objLists);
+		Map<Integer,Double>  entropy = obj.analyseArtistByYear(objLists);
+		obj.processEntropy("/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/entropy.txt", entropy);
 	}
-
 }

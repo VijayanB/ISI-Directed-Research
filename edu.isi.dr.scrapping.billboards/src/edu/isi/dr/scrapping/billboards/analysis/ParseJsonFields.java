@@ -161,31 +161,31 @@ public class ParseJsonFields {
 	public static void main(String[] args) throws FileNotFoundException,
 			IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
 		Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(1958,
 				1965);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1958_1965.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1958_1965.txt",
 				objLists);
 		objLists = obj.convertFileToJsonObjectTop10(1966, 1975);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1966_1975.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1966_1975.txt",
 				objLists);
 		objLists = obj.convertFileToJsonObjectTop10(1976, 1985);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1976_1985.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1976_1985.txt",
 				objLists);
 		objLists = obj.convertFileToJsonObjectTop10(1986, 1995);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1986_1995.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1986_1995.txt",
 				objLists);
 		objLists = obj.convertFileToJsonObjectTop10(1996, 2005);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1996_2005.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1996_2005.txt",
 				objLists);
 		objLists = obj.convertFileToJsonObjectTop10(2006, 2016);
 		obj.processWeeksOnChart(
-				"/home/vijay/git/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_2006_2016.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_2006_2016.txt",
 				objLists);
 	}
 
@@ -244,6 +244,18 @@ public class ParseJsonFields {
 
 		writer.close();
 	}
+	
+	public void processEntropy(String fileLocation,
+			Map<Integer,Double> entropy) throws FileNotFoundException,
+			UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
+
+		for (Integer art : entropy.keySet()) {
+			writer.println(art + "," + entropy.get(art));
+		}
+
+		writer.close();
+	}
 
 	public void processUniqueSongLists(String fileLocation,
 			Map<Integer, List<Article>> objLists) throws FileNotFoundException,
@@ -262,6 +274,51 @@ public class ParseJsonFields {
 			}
 			writer.close();
 		}
+	}
+
+	public Map<Integer,Double> analyseArtistByYear(Map<Integer, List<Article>> objLists) {
+		Map<Integer,Double> result = new HashMap<>();
+		for(Integer year : objLists.keySet()){
+			Map<String,List<Article>> groupByArtist = new HashMap<>();
+			for(Article song : objLists.get(year)){
+				if(groupByArtist.containsKey(song.getArtistName())){
+					groupByArtist.get(song.getArtistName()).add(song);
+				}
+				else {
+					List<Article> songList = new ArrayList<>();
+					songList.add(song);
+					groupByArtist.put(song.getArtistName(), songList);
+				}
+			}
+			
+			double entropy = calculateEntropy(groupByArtist);
+			result.put(year,entropy);
+		}
+		
+		return result;
+		
+	}
+	
+	private double calculateLogBase2(double x){
+		return Math.log(x) / Math.log(2);
+
+
+	}
+
+	private double calculateEntropy(Map<String, List<Article>> groupByArtist) {
+		
+		double totalCount = 0;
+		double entropy = 0;
+		for (String artistName : groupByArtist.keySet()) {
+			totalCount += groupByArtist.get(artistName).size();
+		}
+		for (String artistName : groupByArtist.keySet()) {
+			double temp = groupByArtist.get(artistName).size() / totalCount;
+			entropy +=  temp * calculateLogBase2(temp);;
+		}
+		
+		return entropy * -1;
+		
 	}
 
 	
