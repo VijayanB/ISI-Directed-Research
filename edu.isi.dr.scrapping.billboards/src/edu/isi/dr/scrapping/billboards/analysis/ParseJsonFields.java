@@ -15,6 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -32,16 +33,14 @@ public class ParseJsonFields {
 		this.folder = folder;
 	}
 
-	public Map<Article, Integer> convertFileToJsonObjectTop10(int startYear,
-			int endYear) throws FileNotFoundException, IOException,
-			ParseException {
+	public Map<Article, Integer> convertFileToJsonObjectTop10(int startYear, int endYear)
+			throws FileNotFoundException, IOException, ParseException {
 		Map<Article, Integer> songLists = new HashMap<>();
 		CreateJsonRead jread = new CreateJsonRead();
 		JSONParser parser = new JSONParser();
 		File[] listFiles = new File(folder).listFiles();
 		for (File jsonFile : listFiles) {
-			JSONObject root = (JSONObject) parser
-					.parse(new FileReader(jsonFile));
+			JSONObject root = (JSONObject) parser.parse(new FileReader(jsonFile));
 			Set keySet = root.keySet();
 			Date date; // your date
 			Calendar cal = Calendar.getInstance();
@@ -50,8 +49,7 @@ public class ParseJsonFields {
 
 				if (!songDate.equals("null")) {
 					String sDate = (String) (songDate);
-					year = Integer.parseInt(sDate.substring(sDate.length() - 5)
-							.trim());
+					year = Integer.parseInt(sDate.substring(sDate.length() - 5).trim());
 				} else {
 					year = 2016;
 				}
@@ -59,12 +57,10 @@ public class ParseJsonFields {
 					JSONArray songs = (JSONArray) root.get(songDate);
 					Iterator<JSONObject> ll = songs.iterator();
 					while (ll.hasNext()) {
-						Article createArticle = jread.createArticle(ll.next(),
-								(String) songDate);
-						if (Integer.parseInt(createArticle.getRank()) <= 10) {
+						Article createArticle = jread.createArticle(ll.next(), (String) songDate);
+						if (Integer.parseInt(createArticle.getRank()) <= 100) {
 							if (songLists.containsKey(createArticle)) {
-								songLists.put(createArticle,
-										songLists.get(createArticle) + 1);
+								songLists.put(createArticle, songLists.get(createArticle) + 1);
 							} else {
 								songLists.put(createArticle, 1);
 							}
@@ -78,16 +74,36 @@ public class ParseJsonFields {
 		return songLists;
 	}
 
-	public Map<Article, Integer> convertFileToJsonObject(int startYear,
-			int endYear) throws FileNotFoundException, IOException,
-			ParseException {
+	public Double processGiniCooefficient(Map<Article, Integer> art) {
+		Double gini = 0.0;
+		List<Double> values = new ArrayList<Double>();
+		for (Integer val : art.values()) {
+			values.add(val / 260.0);
+		}
+
+		for (Double xi : values) {
+			for (Double xj : values) {
+				gini += Math.abs(xi - xj);
+			}
+		}
+		Double denom = 0.0;
+		for (Double xi : values) {
+			for (Double xj : values) {
+				denom += xi;
+			}
+		}
+
+		return gini / (2 * denom);
+	}
+
+	public Map<Article, Integer> convertFileToJsonObject(int startYear, int endYear)
+			throws FileNotFoundException, IOException, ParseException {
 		Map<Article, Integer> songLists = new HashMap<>();
 		CreateJsonRead jread = new CreateJsonRead();
 		JSONParser parser = new JSONParser();
 		File[] listFiles = new File(folder).listFiles();
 		for (File jsonFile : listFiles) {
-			JSONObject root = (JSONObject) parser
-					.parse(new FileReader(jsonFile));
+			JSONObject root = (JSONObject) parser.parse(new FileReader(jsonFile));
 			Set keySet = root.keySet();
 			Date date; // your date
 			Calendar cal = Calendar.getInstance();
@@ -96,8 +112,7 @@ public class ParseJsonFields {
 
 				if (!songDate.equals("null")) {
 					String sDate = (String) (songDate);
-					year = Integer.parseInt(sDate.substring(sDate.length() - 5)
-							.trim());
+					year = Integer.parseInt(sDate.substring(sDate.length() - 5).trim());
 				} else {
 					year = 2016;
 				}
@@ -105,11 +120,9 @@ public class ParseJsonFields {
 					JSONArray songs = (JSONArray) root.get(songDate);
 					Iterator<JSONObject> ll = songs.iterator();
 					while (ll.hasNext()) {
-						Article createArticle = jread.createArticle(ll.next(),
-								(String) songDate);
+						Article createArticle = jread.createArticle(ll.next(), (String) songDate);
 						if (songLists.containsKey(createArticle)) {
-							songLists.put(createArticle,
-									songLists.get(createArticle) + 1);
+							songLists.put(createArticle, songLists.get(createArticle) + 1);
 						} else {
 							songLists.put(createArticle, 1);
 						}
@@ -135,9 +148,8 @@ public class ParseJsonFields {
 		return res;
 	}
 
-	public void processWeeksOnChart(String fileLocation,
-			Map<Article, Integer> filteredList) throws FileNotFoundException,
-			UnsupportedEncodingException {
+	public void processWeeksOnChart(String fileLocation, Map<Article, Integer> filteredList)
+			throws FileNotFoundException, UnsupportedEncodingException {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
 		StringBuilder contents = new StringBuilder();
 
@@ -158,62 +170,82 @@ public class ParseJsonFields {
 
 	}
 
-	public static void main(String[] args) throws FileNotFoundException,
-			IOException, ParseException {
+	public void histogramFor5Years() throws FileNotFoundException, IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
 				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
-		Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(1958,
-				1965);
-		obj.processWeeksOnChart(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1958_1965.txt",
-				objLists);
-		objLists = obj.convertFileToJsonObjectTop10(1966, 1975);
-		obj.processWeeksOnChart(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1966_1975.txt",
-				objLists);
-		objLists = obj.convertFileToJsonObjectTop10(1976, 1985);
-		obj.processWeeksOnChart(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1976_1985.txt",
-				objLists);
-		objLists = obj.convertFileToJsonObjectTop10(1986, 1995);
-		obj.processWeeksOnChart(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1986_1995.txt",
-				objLists);
-		objLists = obj.convertFileToJsonObjectTop10(1996, 2005);
-		obj.processWeeksOnChart(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1996_2005.txt",
-				objLists);
-		objLists = obj.convertFileToJsonObjectTop10(2006, 2016);
-		obj.processWeeksOnChart(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_2006_2016.txt",
-				objLists);
+		for (int start = 1959; start <= 2015; start += 5) {
+			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4);
+			obj.processWeeksOnChart(
+					"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/histogram5years"+start+".txt",
+					objLists);
+		}
+
+	}
+	
+	public void plotGiniCoefficient() throws FileNotFoundException, IOException, ParseException{
+		ParseJsonFields obj = new ParseJsonFields(
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
+		Map<Integer, Double> graph = new TreeMap<>();
+		for (int start = 1959; start <= 2015; start += 5) {
+			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4);
+			graph.put(start, obj.processGiniCooefficient(objLists));
+		}
+		obj.processGeneric(
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/giniauthor.txt",
+				graph);
+	}
+
+	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
+		
+		 ParseJsonFields prog = new ParseJsonFields("");
+		 prog.histogramFor5Years();
+		/*
+		 * obj.processWeeksOnChart(
+		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1958_1965.txt"
+		 * , objLists); objLists = obj.convertFileToJsonObjectTop10(1964, 1968);
+		 * obj.processWeeksOnChart(
+		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1966_1975.txt"
+		 * , objLists); objLists = obj.convertFileToJsonObjectTop10(1969, 1973);
+		 * obj.processWeeksOnChart(
+		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1976_1985.txt"
+		 * , objLists); objLists = obj.convertFileToJsonObjectTop10(1978, 1982);
+		 * obj.processWeeksOnChart(
+		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1986_1995.txt"
+		 * , objLists); objLists = obj.convertFileToJsonObjectTop10(1983, 1987);
+		 * obj.processWeeksOnChart(
+		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1996_2005.txt"
+		 * , objLists); objLists = obj.convertFileToJsonObjectTop10(1988, 1992);
+		 * obj.processWeeksOnChart(
+		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_2006_2016.txt"
+		 * , objLists);
+		 */
 	}
 
 	public Map<Integer, List<Article>> findUniqueSongs(int rank)
 			throws FileNotFoundException, IOException, ParseException {
-		Map<Integer, List<Article>> songLists = new HashMap<>();
+		Map<Integer, List<Article>> songLists = new TreeMap<>();
 		CreateJsonRead jread = new CreateJsonRead();
 		JSONParser parser = new JSONParser();
 		File[] listFiles = new File(folder).listFiles();
 		for (File jsonFile : listFiles) {
-			JSONObject root = (JSONObject) parser
-					.parse(new FileReader(jsonFile));
+			JSONObject root = (JSONObject) parser.parse(new FileReader(jsonFile));
 			Set keySet = root.keySet();
 			int year = 0;
 			for (Object songDate : keySet) {
 
 				if (!songDate.equals("null")) {
 					String sDate = (String) (songDate);
-					year = Integer.parseInt(sDate.substring(sDate.length() - 5)
-							.trim());
+					year = Integer.parseInt(sDate.substring(sDate.length() - 5).trim());
 				} else {
 					year = 2016;
 				}
 				JSONArray songs = (JSONArray) root.get(songDate);
 				Iterator<JSONObject> ll = songs.iterator();
 				while (ll.hasNext()) {
-					Article createArticle = jread.createArticle(ll.next(),
-							(String) songDate);
+					Article createArticle = jread.createArticle(ll.next(), (String) songDate);
+					if (!createArticle.getArtistName().equals("Michael Jackson")) {
+						continue;
+					}
 					if (Integer.parseInt(createArticle.getRank()) <= rank) {
 						if (songLists.containsKey(year)) {
 							if (!songLists.get(year).contains(createArticle))
@@ -233,9 +265,8 @@ public class ParseJsonFields {
 		return songLists;
 	}
 
-	public void processUniqueSong(String fileLocation,
-			Map<Integer, List<Article>> objLists) throws FileNotFoundException,
-			UnsupportedEncodingException {
+	public void processUniqueSong(String fileLocation, Map<Integer, List<Article>> objLists)
+			throws FileNotFoundException, UnsupportedEncodingException {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
 
 		for (Integer art : objLists.keySet()) {
@@ -244,10 +275,9 @@ public class ParseJsonFields {
 
 		writer.close();
 	}
-	
-	public void processEntropy(String fileLocation,
-			Map<Integer,Double> entropy) throws FileNotFoundException,
-			UnsupportedEncodingException {
+
+	public void processEntropy(String fileLocation, Map<Integer, Double> entropy)
+			throws FileNotFoundException, UnsupportedEncodingException {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
 
 		for (Integer art : entropy.keySet()) {
@@ -257,16 +287,36 @@ public class ParseJsonFields {
 		writer.close();
 	}
 
-	public void processUniqueSongLists(String fileLocation,
-			Map<Integer, List<Article>> objLists) throws FileNotFoundException,
-			UnsupportedEncodingException {
+	public void processYear(String fileLocation, Map<Integer, List<Article>> objLists)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
+
+		for (Integer art : objLists.keySet()) {
+			writer.println(art + "," + objLists.get(art).size());
+		}
+
+		writer.close();
+	}
+
+	public void processGeneric(String fileLocation, Map<Integer, Double> objLists)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
+
+		for (Integer art : objLists.keySet()) {
+			writer.println(art + "," + objLists.get(art));
+		}
+
+		writer.close();
+	}
+
+	public void processUniqueSongLists(String fileLocation, Map<Integer, List<Article>> objLists)
+			throws FileNotFoundException, UnsupportedEncodingException {
 		for (Integer art : objLists.keySet()) {
 			File newFile = new File(fileLocation + art + ".txt");
 			PrintWriter writer = new PrintWriter(newFile, "UTF-8");
 			List<String> contents = new ArrayList<String>();
 			for (Article article : objLists.get(art)) {
-				contents.add(new String(article.getTitle() + " : "
-						+ article.getArtistName()));
+				contents.add(new String(article.getTitle() + " : " + article.getArtistName()));
 			}
 			Collections.sort(contents);
 			for (String line : contents) {
@@ -276,37 +326,33 @@ public class ParseJsonFields {
 		}
 	}
 
-	public Map<Integer,Double> analyseArtistByYear(Map<Integer, List<Article>> objLists) {
-		Map<Integer,Double> result = new HashMap<>();
-		for(Integer year : objLists.keySet()){
-			Map<String,List<Article>> groupByArtist = new HashMap<>();
-			for(Article song : objLists.get(year)){
-				if(groupByArtist.containsKey(song.getArtistName())){
+	public Map<Integer, Double> analyseArtistByYear(Map<Integer, List<Article>> objLists) {
+		Map<Integer, Double> result = new HashMap<>();
+		for (Integer year : objLists.keySet()) {
+			Map<String, List<Article>> groupByArtist = new HashMap<>();
+			for (Article song : objLists.get(year)) {
+				if (groupByArtist.containsKey(song.getArtistName())) {
 					groupByArtist.get(song.getArtistName()).add(song);
-				}
-				else {
+				} else {
 					List<Article> songList = new ArrayList<>();
 					songList.add(song);
 					groupByArtist.put(song.getArtistName(), songList);
 				}
 			}
-			
-			double entropy = calculateEntropy(groupByArtist);
-			result.put(year,entropy);
-		}
-		
-		return result;
-		
-	}
-	
-	private double calculateLogBase2(double x){
-		return Math.log(x) / Math.log(2);
 
+		}
+
+		return result;
+
+	}
+
+	private double calculateLogBase2(double x) {
+		return Math.log(x) / Math.log(2);
 
 	}
 
 	private double calculateEntropy(Map<String, List<Article>> groupByArtist) {
-		
+
 		double totalCount = 0;
 		double entropy = 0;
 		for (String artistName : groupByArtist.keySet()) {
@@ -314,12 +360,12 @@ public class ParseJsonFields {
 		}
 		for (String artistName : groupByArtist.keySet()) {
 			double temp = groupByArtist.get(artistName).size() / totalCount;
-			entropy +=  temp * calculateLogBase2(temp);;
+			entropy += temp * calculateLogBase2(temp);
+			;
 		}
-		
+
 		return entropy * -1;
-		
+
 	}
 
-	
 }

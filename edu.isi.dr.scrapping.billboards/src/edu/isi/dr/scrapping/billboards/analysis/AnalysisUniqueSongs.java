@@ -16,7 +16,9 @@ public class AnalysisUniqueSongs {
 		ParseJsonFields obj = new ParseJsonFields(
 				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
 		Map<Integer, List<Article>> objLists = obj.findUniqueSongs(100);
-	    obj.analyseArtistByYear(objLists);
+	    obj.processUniqueSongLists("/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/michael_desc.txt", objLists);
+	    obj.processYear("/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/michael.txt", objLists);
+
 	}
 
 }
