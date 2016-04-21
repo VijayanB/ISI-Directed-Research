@@ -8,6 +8,7 @@ import java.util.List;
 import org.json.simple.JSONObject;
 
 import edu.isi.dr.scrapping.billboards.DataStructure.Article;
+import edu.isi.dr.scrapping.billboards.DataStructure.Book;
 import edu.isi.dr.scrapping.billboards.DataStructure.Movie;
 
 public class CreateJsonRead {
@@ -61,7 +62,7 @@ public class CreateJsonRead {
 		return obj;
 	}
 
-	public Movie createMovie(JSONObject movie, String week) {
+	public Movie createMovie(JSONObject movie) {
 		Movie obj = new Movie();
 
 		obj.setAverage((String) movie.get("average"));
@@ -146,5 +147,45 @@ public class CreateJsonRead {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public Object createJsonObect(Book book) {
+		JSONObject obj = new JSONObject();
+		obj.put("title", book.getTitle());
+		obj.put("lastWeekRank", book.getLastWeekRank());
+		obj.put("rank", book.getRank());
+		obj.put("totalWeeksOnChart", book.getWeeksOnList());
+		obj.put("category", book.getCategory());
+		obj.put("year",book.getYear());
+		obj.put("week",book.getWeek());
+		obj.put("author",book.getAuthor());
+
+		return obj;
+	}
+	
+	public Book createBook(JSONObject article) {
+		Book obj = new Book();
+		obj.setTitle((String) article.get("title"));
+		obj.setLastWeekRank((String) article.get("lastWeekRank"));
+		obj.setRank((String) article.get("rank"));
+		obj.setWeeksOnList((String) article.get("totalWeeksOnChart"));
+		obj.setCategory((String) article.get("category"));
+		obj.setYear((String) article.get("year"));
+		obj.setWeek((String) article.get("week"));
+		if(obj.getTitle().equals("WHO KILLED THE ROBINS FAMILY?") || obj.getTitle().equals("THE REVENGE OF THE ROBINS FAMILY")){
+			obj.setAuthor("Thomas Chastain and Bill Adler");
+		}
+		else if(obj.getTitle().trim().equals("DISNEY'S POCAHONTAS.")){
+			obj.setAuthor("UNKNOWN");
+		}
+		else if(obj.getTitle().trim().equals("THE NEW JEDI ORDER: S")){
+			obj.setTitle("THE NEW JEDI ORDER: Star by Star");
+			obj.setAuthor("Troy Denning");
+		}
+		else {
+		obj.setAuthor((String) article.get("author"));
+		}
+		
+		return obj;
 	}
 }

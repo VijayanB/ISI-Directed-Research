@@ -9,9 +9,11 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -32,10 +34,10 @@ public class ParseJsonFields {
 	public ParseJsonFields(String folder) {
 		this.folder = folder;
 	}
-
-	public Map<Article, Integer> convertFileToJsonObjectTop10(int startYear, int endYear)
+	
+	public Map<Article, LinkedList<Article>> convertFileToJsonObjectList(float startYear, float endYear)
 			throws FileNotFoundException, IOException, ParseException {
-		Map<Article, Integer> songLists = new HashMap<>();
+		Map<Article, LinkedList<Article>> songLists = new HashMap<>();
 		CreateJsonRead jread = new CreateJsonRead();
 		JSONParser parser = new JSONParser();
 		File[] listFiles = new File(folder).listFiles();
@@ -60,6 +62,119 @@ public class ParseJsonFields {
 						Article createArticle = jread.createArticle(ll.next(), (String) songDate);
 						if (Integer.parseInt(createArticle.getRank()) <= 100) {
 							if (songLists.containsKey(createArticle)) {
+								songLists.get(createArticle).add(createArticle);
+							} else {
+								LinkedList<Article> arts = new LinkedList<>();
+								arts.add(createArticle);
+								songLists.put(createArticle, arts);
+							}
+						}
+					}
+				}
+
+			}
+
+		}
+		return songLists;
+	}
+
+
+	public Map<Article, Integer> convertFileToJsonObjectTop10(float startYear, float endYear, int rank)
+			throws FileNotFoundException, IOException, ParseException {
+		Map<Article, Integer> songLists = new HashMap<>();
+		CreateJsonRead jread = new CreateJsonRead();
+		JSONParser parser = new JSONParser();
+		File[] listFiles = new File(folder).listFiles();
+		for (File jsonFile : listFiles) {
+			JSONObject root = (JSONObject) parser.parse(new FileReader(jsonFile));
+			Set keySet = root.keySet();
+			Date date; // your date
+			Calendar cal = Calendar.getInstance();
+			int year = 0;
+			for (Object songDate : keySet) {
+
+				if (!songDate.equals("null")) {
+					String sDate = (String) (songDate);
+					year = Integer.parseInt(sDate.substring(sDate.length() - 5).trim());
+				} else {
+					year = 2016;
+				}
+				if (year >= startYear && year <= endYear) {
+					JSONArray songs = (JSONArray) root.get(songDate);
+					Iterator<JSONObject> ll = songs.iterator();
+					while (ll.hasNext()) {
+						Article createArticle = jread.createArticle(ll.next(), (String) songDate);
+						if (Integer.parseInt(createArticle.getRank()) <= rank) {
+							if (songLists.containsKey(createArticle)) {
+								songLists.put(createArticle, songLists.get(createArticle) + 1);
+							} else {
+								songLists.put(createArticle, 1);
+							}
+						}
+					}
+				}
+
+			}
+
+		}
+		return songLists;
+	}
+
+	public Map<Article, Integer> convertFileToJsonObjectTop100SixMonths(float startYear, float endYear,int rank)
+			throws FileNotFoundException, IOException, ParseException {
+
+		List<String> firstSixMonths = new ArrayList<>();
+		firstSixMonths.add("Jan");
+		firstSixMonths.add("Feb");
+		firstSixMonths.add("Mar");
+		firstSixMonths.add("Apr");
+		firstSixMonths.add("May");
+		firstSixMonths.add("Jun");
+
+		List<String> lastSixMonths = new ArrayList<>();
+		lastSixMonths.add("Jul");
+		lastSixMonths.add("Aug");
+		lastSixMonths.add("Sep");
+		lastSixMonths.add("Oct");
+		lastSixMonths.add("Nov");
+		lastSixMonths.add("Dec");
+
+		Map<Article, Integer> songLists = new HashMap<>();
+		CreateJsonRead jread = new CreateJsonRead();
+		JSONParser parser = new JSONParser();
+		File[] listFiles = new File(folder).listFiles();
+		for (File jsonFile : listFiles) {
+			JSONObject root = (JSONObject) parser.parse(new FileReader(jsonFile));
+			Set keySet = root.keySet();
+			Date date; // your date
+			Calendar cal = Calendar.getInstance();
+			int year = 0;
+			for (Object songDate : keySet) {
+				if (!songDate.equals("null")) {
+					String sDate = (String) (songDate);
+					year = Integer.parseInt(sDate.substring(sDate.length() - 5).trim());
+				} else {
+					year = 2016;
+				}
+				if (year >= startYear && year <= endYear) {
+					String months = ((String) songDate).split(" ")[1];
+					if (year == startYear) {
+						if (firstSixMonths.contains(months)) {
+							continue;
+						}
+					}
+					if (year == endYear) {
+						if (lastSixMonths.contains(months)) {
+							continue;
+						}
+					}
+
+					JSONArray songs = (JSONArray) root.get(songDate);
+					Iterator<JSONObject> ll = songs.iterator();
+					while (ll.hasNext()) {
+						Article createArticle = jread.createArticle(ll.next(), (String) songDate);
+						if (Integer.parseInt(createArticle.getRank()) <= rank) {
+							if (songLists.containsKey(createArticle)) {
 								songLists.put(createArticle, songLists.get(createArticle) + 1);
 							} else {
 								songLists.put(createArticle, 1);
@@ -78,6 +193,8 @@ public class ParseJsonFields {
 		Double gini = 0.0;
 		List<Double> values = new ArrayList<Double>();
 		for (Integer val : art.values()) {
+			if(val == 20)
+				continue;
 			values.add(val / 260.0);
 		}
 
@@ -170,35 +287,186 @@ public class ParseJsonFields {
 
 	}
 
+	public void processWeeksOnChartOnly20(String fileLocation, Map<Article, LinkedList<Article>> filteredList)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
+		StringBuilder contents = new StringBuilder();
+		
+
+		for (Article art : filteredList.keySet()) {
+		
+			if (filteredList.get(art).size() > 20) {
+				Collections.sort(filteredList.get(art), new Comparator<Article>() {
+
+					@Override
+					public int compare(Article o1, Article o2) {
+					return o1.getWeekNo().compareTo(o2.getWeekNo());
+					}
+				});
+			//	contents.append(art.getTitle() + ":" + art.getArtistName() + ":" + filteredList.get(art).size() +" : "+filteredList.get(art).getFirst().getRank()+" : "+filteredList.get(art).getLast().getRank());
+				Article high,low;
+				int highest = Integer.MAX_VALUE,lowest = Integer.MIN_VALUE;
+				for(Article artis : filteredList.get(art)){
+					try{
+						int temp = highest;
+					highest = Math.min(highest, Integer.valueOf(artis.getRank()));
+					if(temp != highest){
+						high = artis;
+					}
+					int low1 = lowest;
+					lowest = Math.max(lowest,Integer.valueOf(artis.getRank()));
+					if(low1 != lowest){
+						low = artis;
+					}
+					}
+					catch (NumberFormatException e){
+						
+					}
+				} 
+				
+				contents.append(lowest +" ," + highest +"\n"); 
+			}
+		}
+
+		String finalContent = contents.toString();
+	//	finalContent = finalContent.substring(0, finalContent.length() - 1);
+		writer.print(finalContent);
+		writer.close();
+
+	}
+	
+	
+	public void processWeeksOnChartOnly20All(String fileLocation, Map<Article, LinkedList<Article>> filteredList)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
+		StringBuilder contents = new StringBuilder();
+
+		for (Article art : filteredList.keySet()) {
+		
+			if (filteredList.get(art).size() == 20) {
+				Collections.sort(filteredList.get(art), new Comparator<Article>() {
+
+					@Override
+					public int compare(Article o1, Article o2) {
+					return o1.getWeekNo().compareTo(o2.getWeekNo());
+					}
+				});
+				
+			
+			contents.append("[");
+			int count = 1;
+			for(Article title : filteredList.get(art)){
+				contents.append("("+count+","+title.getRank()+")");
+				if(count < filteredList.get(art).size()){
+					contents.append(",");
+				}
+				count++;
+			}
+			contents.append("]\n");
+			}
+			
+		}
+
+		String finalContent = contents.toString();
+	//	finalContent = finalContent.substring(0, finalContent.length() - 1);
+		writer.print(finalContent);
+		writer.close();
+
+	}
+
+	
+
 	public void histogramFor5Years() throws FileNotFoundException, IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
 				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
 		for (int start = 1959; start <= 2015; start += 5) {
-			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4);
+			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4,10);
 			obj.processWeeksOnChart(
-					"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/histogram5years"+start+".txt",
+					"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/histogram5years"
+							+ start + ".txt",
 					objLists);
 		}
 
 	}
 	
-	public void plotGiniCoefficient() throws FileNotFoundException, IOException, ParseException{
+	public void findUniqueSongsList(int str) throws FileNotFoundException, IOException, ParseException {
 		ParseJsonFields obj = new ParseJsonFields(
 				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
-		Map<Integer, Double> graph = new TreeMap<>();
-		for (int start = 1959; start <= 2015; start += 5) {
-			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4);
+		Map<Integer,Integer> uniqueSongsCount = new TreeMap<Integer,Integer>();
+		for (int start = 1959; start <= 2015; start += 1) {
+			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start,str);
+			int song = 0;
+			for(int val : objLists.values()){
+				if(val == 20){
+					continue;
+				}
+				song++;
+			}
+			uniqueSongsCount.put(start, song);
+			
+		}
+		PrintWriter writer = new PrintWriter("without20/ana_art_top"+String.valueOf(str)+".txt", "UTF-8");
+
+		for (Integer art : uniqueSongsCount.keySet()) {
+			writer.println(art +","+uniqueSongsCount.get(art) );
+		}
+
+		writer.close();
+		
+
+	}
+
+	public void find20WeeksOnchartAndRank() throws FileNotFoundException, IOException, ParseException {
+		ParseJsonFields obj = new ParseJsonFields(
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
+			Map<Article, LinkedList<Article>> objLists = obj.convertFileToJsonObjectList(1959, 2015);
+			obj.processWeeksOnChartOnly20(
+					"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/songsrank/"
+							+ "scatterplot_above_20" + ".txt",
+					objLists);
+
+	}
+
+	public void plotGiniCoefficient() throws FileNotFoundException, IOException, ParseException {
+		ParseJsonFields obj = new ParseJsonFields(
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
+		Map<Float, Double> graph = new TreeMap<>();
+		for (float start = 1959; start+4 <= 2015; start += 1) {
+			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4,1);
 			graph.put(start, obj.processGiniCooefficient(objLists));
+		//	Map<Article, Integer> objLists1 = obj.convertFileToJsonObjectTop100SixMonths(start, start + 1,10);
+		//	graph.put((float) (start + 0.5), obj.processGiniCooefficient(objLists1));
 		}
 		obj.processGeneric(
-				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/result/giniauthor.txt",
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/without20/ginisongrolling_song_top1.txt",
+				graph);
+	}
+	
+	public void plotGiniCoefficientAuthor() throws FileNotFoundException, IOException, ParseException {
+		ParseJsonFields obj = new ParseJsonFields(
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/input");
+		Map<Float, Double> graph = new TreeMap<>();
+		for (float start = 1959; start+4 <= 2015; start += 1) {
+			Map<Article, Integer> objLists = obj.convertFileToJsonObjectTop10(start, start + 4,1);
+			graph.put(start, obj.processGiniCooefficient(objLists));
+		//	Map<Article, Integer> objLists1 = obj.convertFileToJsonObjectTop100SixMonths(start, start + 4,100);
+		//	graph.put((float) (start + 0.5), obj.processGiniCooefficient(objLists1));
+		}
+		obj.processGeneric(
+				"/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/without20/ginisongrolling_author_5years_top1.txt",
 				graph);
 	}
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
-		
-		 ParseJsonFields prog = new ParseJsonFields("");
-		 prog.histogramFor5Years();
+
+		ParseJsonFields prog = new ParseJsonFields("input");
+		prog.plotGiniCoefficientAuthor();
+		//prog.find20WeeksOnchartAndRank();
+		//prog.find20WeeksOnchartAndRank();
+		/*prog.findUniqueSongsList(100);
+		prog.findUniqueSongsList(10);
+		prog.findUniqueSongsList(40);
+		prog.findUniqueSongsList(1); */
 		/*
 		 * obj.processWeeksOnChart(
 		 * "/Users/vijayan/Documents/Directed Research/ISI-Directed-Research/edu.isi.dr.scrapping.billboards/analysis/analysis_10_1958_1965.txt"
@@ -243,9 +511,6 @@ public class ParseJsonFields {
 				Iterator<JSONObject> ll = songs.iterator();
 				while (ll.hasNext()) {
 					Article createArticle = jread.createArticle(ll.next(), (String) songDate);
-					if (!createArticle.getArtistName().equals("Michael Jackson")) {
-						continue;
-					}
 					if (Integer.parseInt(createArticle.getRank()) <= rank) {
 						if (songLists.containsKey(year)) {
 							if (!songLists.get(year).contains(createArticle))
@@ -298,11 +563,11 @@ public class ParseJsonFields {
 		writer.close();
 	}
 
-	public void processGeneric(String fileLocation, Map<Integer, Double> objLists)
+	public void processGeneric(String fileLocation, Map<Float, Double> objLists)
 			throws FileNotFoundException, UnsupportedEncodingException {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
 
-		for (Integer art : objLists.keySet()) {
+		for (Float art : objLists.keySet()) {
 			writer.println(art + "," + objLists.get(art));
 		}
 

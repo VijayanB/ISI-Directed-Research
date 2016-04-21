@@ -1,0 +1,119 @@
+<!DOCTYPE HTML SYSTEM>
+<HTML lang="en">
+<HEAD>
+
+<TITLE> Adult New York Times Best Seller Listings </TITLE>
+
+<META name="keywords" content="custom, address, label, screen saver, out of print, book, buy, sell, photo, photograph, printing, graphic, picture, name, mailing, animation, family, vacation, how to, business, entrepreneur, report, help, search, find, old ">
+
+<!-- The following keeps this page out of another site's frames -->
+<META http-equiv="window-target" content="_top">
+
+<LINK REL="SHORTCUT ICON" HREF="images/favicon.ico">
+
+</HEAD>
+
+<BODY BACKGROUND="images/marble.jpg" BGPROPERTIES=FIXED TEXT="000000" LINK="0000CF" VLINK="C80000" ALINK="0000CF" style="background-attachment: fixed;">
+
+<FONT FACE="Arial">
+
+<CENTER><IMG SRC="images/hawes.gif" ALT="Hawes"><IMG SRC="images/public.gif" ALT="Publications"></CENTER>
+
+<FONT FACE="Arial" SIZE=-1>
+
+<CENTER>
+You can <A HREF="mailto:comments@hawes.com"> contact us</A> at any time.
+Copyright (c) Hawes Publications. All rights reserved.
+
+<BR>
+
+Site last updated
+
+<SCRIPT type="text/javascript">
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Original:  Andy Angrick/Mike Barone -->
+<!-- Web Site:  http://www.cgiscript.net/datetoday.htm -->
+<!-- Begin
+// Get today's current date.
+var now = new Date();
+
+// Array list of days.
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+
+// Array list of months.
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+
+// Calculate the number of the current day in the week.
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+
+// Calculate four digit year.
+function fourdigits(number)        {
+        return (number < 1000) ? number + 1900 : number;
+                                                                }
+
+// Join it all together
+today =  days[now.getDay()] + ", " +
+              months[now.getMonth()] + " " +
+               date + ", " +
+                (fourdigits(now.getYear())) ;
+
+// Print out the data.
+document.write("" +today+ ".");
+//  End -->
+</script>
+<BR>
+
+View our <A HREF="privacy.htm">privacy policy</A>.<BR><BR>
+
+If you enjoy researching and using our site, please consider helping us defray some of the costs. We appreciate any donation, no matter how small. Credit cards are accepted.<BR><BR>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="R3VGLFTALXNK8">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></form>
+
+</CENTER>
+</FONT>
+
+<IMG SRC="images/colorbar.gif" HEIGHT=3 WIDTH="100%" ALT="Rainbow Line"><BR>
+
+<FONT FACE="Arial">
+
+<CENTER><H1>Adult New York Times Best Seller Listings</H1></CENTER>
+
+<IMG SRC="images/colorbar.gif" HEIGHT=3 WIDTH="100%" ALT="Rainbow Line"><BR><BR>
+
+<CENTER>Sorry! We are missing this week. It will be uploaded as soon as it can be located.</CENTER></FONT>
+<BR>
+
+<IMG SRC="images/colorbar.gif" HEIGHT=3 WIDTH="100%" ALT="Rainbow Line"><BR><BR>
+
+<CENTER>
+<A HREF="pastlist.htm"><IMG SRC="images/return.gif" ALT="back"></A>
+<A HREF="mailto:comments@hawes.com"><IMG BORDER=0 SRC="images/emailed2.gif" ALT="comments@hawes.com"></A>
+<A HREF="index.htm"><IMG SRC="images/home.gif" ALT="Home"></A><BR><BR></CENTER>
+
+<CENTER>
+<TABLE BORDER=1>
+     <TR>
+          <TD height=20 width=70 align=center><IMG HEIGHT=50 SRC="images/usaflag.gif" ALT="U S A"></TD>
+          <TD height=20 width=70 align=center bgcolor="FFFFFF"><A HREF="index.htm"><font  size=-2 face=Arial color="#000000"><B>Home</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="FF0000"><A HREF="ny_times.htm"><font size=-2 face=Arial color="#000000"><B>New York Times Best Seller List</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="FF31CE"><A HREF="salelist.htm"><font size=-2 face=Arial color="#000000"><B>E-Books<BR>For Sale</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="9C00FF"><A HREF="glitternames.htm"><font size=-2 face=Arial color="#000000"><B>Your Name or Slogan in Glitter</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="0000FF"><A HREF="labels.htm"><font size=-2 face=Arial color="#000000"><B>Custom Address Labels</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="00CEFF"><A HREF="reports.htm"><font size=-2 face=Arial color="#000000"><B>Business Reports</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="00FF63"><A HREF="savers.htm"><font size=-2 face=Arial color="#000000"><B>Personalized Screen Savers</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="FFFF00"><A HREF="calendar.htm"><font size=-2 face=Arial color="#000000"><B>Free Perpetual Calendar</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="FF9400"><A HREF="bible.htm"><font size=-2 face=Arial color="#000000"><B>The<BR>Holy Bible</B></FONT></A></TD>
+          <TD height=20 width=70 align=center bgcolor="FFFFFF"><font size=-2 face=Arial color="#000000"><B><U><font color=red>We Will Not Forget</font><BR><font color=blue>September 11</font></U></B></FONT></TD>
+          <TD height=20 width=70 align=center bgcolor="FFFFFF"><font size=-2 face=Arial color="#000000"><B><U><font color=red>We Will Not Forget</font><BR><font color=blue>03/21/2010</font></U></B></FONT></TD>
+     </TR>
+</TABLE>
+</CENTER>
+
+</FONT>
+</BODY>
+</HTML>

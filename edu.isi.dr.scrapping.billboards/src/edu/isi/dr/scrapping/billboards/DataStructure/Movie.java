@@ -147,4 +147,19 @@ public class Movie {
 		this.date = date;
 	}
 
+	@Override
+	public boolean equals(Object obj) {
+		Movie cmp = ((Movie) obj);
+		if (this.getTitle().equalsIgnoreCase(cmp.getTitle()) && this.getStudio().equalsIgnoreCase(cmp.getStudio())) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	@Override
+	public int hashCode() {
+		return new String(this.getTitle().toLowerCase() + "-" + this.getStudio().toLowerCase()).hashCode();
+	}
+
 }

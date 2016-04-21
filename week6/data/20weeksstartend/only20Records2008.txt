@@ -1,0 +1,97 @@
+Whatever It Takes:Lifehouse:20 : 97 : 58:33 :97
+I Don't Care:Fall Out Boy:20 : 21 : 66:21 :88
+Run This Town:Jay-Z, Rihanna & Kanye West:20 : 88 : 32:2 :88
+Human:The Killers:20 : 32 : 70:32 :70
+Love Drunk:Boys Like Girls:20 : 46 : 45:22 :52
+Sex On Fire:Kings Of Leon:20 : 87 : 58:56 :87
+The Boss:Rick Ross Featuring T-Pain:20 : 84 : 64:17 :88
+1, 2, 3, 4:Plain White T's:20 : 91 : 47:34 :91
+Roll With Me:Montgomery Gentry:20 : 96 : 75:33 :96
+All Summer Long:Kid Rock:20 : 80 : 65:23 :80
+Diva:Beyonce:20 : 96 : 99:19 :99
+If I Were A Boy:Beyonce:20 : 100 : 68:3 :100
+Every Girl:Young Money:20 : 96 : 79:10 :96
+Swagga Like Us:Jay-Z & T.I. Featuring Kanye West & Lil Wayne:20 : 5 : 100:5 :100
+She Got It:2 Pistols Featuring T-Pain & Tay Dizm:20 : 98 : 73:24 :98
+New Divide:Linkin Park:20 : 6 : 63:6 :63
+You're Gonna Miss This:Trace Adkins:20 : 95 : 55:12 :95
+If I Never See Your Face Again:Maroon 5 Featuring Rihanna:20 : 57 : 99:51 :99
+Her Diamonds:Rob Thomas:20 : 42 : 61:23 :61
+Mercy:Duffy:20 : 87 : 95:27 :97
+She Wouldn't Be Gone:Blake Shelton:20 : 99 : 68:43 :99
+Home:Blake Shelton:20 : 91 : 88:41 :91
+She Got Her Own:Ne-Yo Featuring Jamie Foxx & Fabolous:20 : 93 : 94:54 :97
+Teardrops On My Guitar:Taylor Swift:20 : 23 : 49:13 :49
+Should've Said No:Taylor Swift:20 : 84 : 90:33 :90
+Picture To Burn:Taylor Swift:20 : 91 : 89:28 :91
+Untouched:The Veronicas:20 : 62 : 81:17 :81
+Paper Planes:M.I.A.:20 : 55 : 45:4 :55
+Do You Believe Me Now:Jimmy Wayne:20 : 96 : 96:36 :96
+I'm On A Boat:The Lonely Island Featuring T-Pain:20 : 86 : 78:56 :90
+Rockin' That Thang:The-Dream:20 : 99 : 46:22 :99
+I Luv Your Girl:The-Dream:20 : 97 : 49:20 :97
+How Do You Sleep?:Jesse McCartney Featuring Ludacris:20 : 94 : 93:26 :94
+Take You Down:Chris Brown:20 : 99 : 90:43 :99
+Ice Cream Paint Job:Dorrough:20 : 92 : 60:27 :92
+River Of Love:George Strait:20 : 94 : 100:59 :100
+I Saw God Today:George Strait:20 : 54 : 85:33 :86
+Light On:David Cook:20 : 17 : 48:17 :91
+The Time Of My Life:David Cook:20 : 3 : 53:3 :53
+All The Above:Maino Featuring T-Pain:20 : 54 : 58:39 :58
+Heaven Sent:Keyshia Cole:20 : 83 : 72:28 :83
+Just Got Started Lovin' You:James Otto:20 : 93 : 69:27 :93
+Need U Bad:Jazmine Sullivan:20 : 73 : 81:37 :81
+Imma Star (Everywhere We Are):Jeremih:20 : 96 : 88:51 :100
+Birthday Sex:Jeremih:20 : 91 : 39:4 :91
+Already Gone:Kelly Clarkson:20 : 70 : 15:13 :89
+It's America:Rodney Atkins:20 : 98 : 96:44 :99
+Best Days Of Your Life:Kellie Pickler:20 : 50 : 81:46 :81
+I Hate This Part:The Pussycat Dolls:20 : 79 : 51:11 :79
+When I Grow Up:The Pussycat Dolls:20 : 76 : 56:9 :76
+Come On Get Higher:Matt Nathanson:20 : 89 : 78:59 :89
+All Around Me:Flyleaf:20 : 93 : 72:40 :94
+Feels Like Tonight:Daughtry:20 : 89 : 51:24 :89
+What About Now:Daughtry:20 : 18 : 85:18 :94
+Last Name:Carrie Underwood:20 : 86 : 90:19 :90
+All-American Girl:Carrie Underwood:20 : 84 : 78:27 :84
+Just A Dream:Carrie Underwood:20 : 98 : 72:29 :98
+You're A Jerk:New Boyz:20 : 32 : 100:24 :100
+Turn My Swag On:Soulja Boy Tell'em:20 : 98 : 69:19 :98
+It Happens:Sugarland:20 : 97 : 93:33 :97
+My Life:The Game Featuring Lil Wayne:20 : 21 : 74:21 :74
+Don't:Billy Currington:20 : 89 : 86:52 :91
+People Are Crazy:Billy Currington:20 : 90 : 63:27 :90
+Never Say Never:The Fray:20 : 90 : 51:32 :90
+Toes:Zac Brown Band:20 : 95 : 55:25 :95
+Whatever It Is:Zac Brown Band:20 : 94 : 45:26 :94
+She's Country:Jason Aldean:20 : 90 : 49:29 :90
+Big Green Tractor:Jason Aldean:20 : 85 : 49:18 :85
+Cowgirls Don't Cry:Brooks & Dunn Featuring Reba McEntire:20 : 85 : 77:44 :85
+Waitin' On A Woman:Brad Paisley:20 : 99 : 80:44 :99
+I'm Still A Guy:Brad Paisley:20 : 86 : 83:33 :86
+Then:Brad Paisley:20 : 35 : 61:28 :61
+Small Town Southern Man:Alan Jackson:20 : 91 : 96:42 :96
+Good Time:Alan Jackson:20 : 99 : 94:40 :99
+I'm In Miami Trick:LMFAO:20 : 73 : 96:51 :96
+Sweet Thing:Keith Urban:20 : 43 : 62:30 :93
+Kiss A Girl:Keith Urban:20 : 51 : 71:16 :89
+Put On:Young Jeezy Featuring Kanye West:20 : 36 : 53:12 :58
+God In Me:Mary Mary Featuring Kierra "KiKi" Sheard:20 : 91 : 90:68 :100
+Pop Champagne:Jim Jones & Ron Browz Featuring Juelz Santana:20 : 96 : 60:22 :96
+Swing:Savage Featuring Soulja Boy Tell'em:20 : 91 : 69:45 :91
+4 Minutes:Madonna Featuring Justin Timberlake:20 : 68 : 69:3 :69
+21 Guns:Green Day:20 : 55 : 60:22 :60
+Touch My Body:Mariah Carey:20 : 57 : 59:1 :59
+If U Seek Amy:Britney Spears:20 : 86 : 64:19 :94
+What Kinda Gone:Chris Cagle:20 : 94 : 96:54 :98
+God Love Her:Toby Keith:20 : 89 : 79:36 :89
+She Never Cried In Front Of Me:Toby Keith:20 : 72 : 85:42 :85
+Handlebars:Flobots:20 : 100 : 54:37 :100
+Small Town USA:Justin Moore:20 : 88 : 68:44 :89
+She Wolf:Shakira:20 : 34 : 41:11 :65
+Lolli Lolli (Pop That Body):Three 6 Mafia Featuring Project Pat, Young D & Superpower:20 : 79 : 65:18 :79
+It Won't Be Like This For Long:Darius Rucker:20 : 100 : 88:36 :100
+Alright:Darius Rucker:20 : 91 : 76:30 :91
+Don't Think I Don't Think About It:Darius Rucker:20 : 91 : 52:35 :92
+Sideways:Dierks Bentley:20 : 90 : 81:35 :90
+Out Last Night:Kenny Chesney:20 : 100 : 92:16 :100

@@ -62,8 +62,8 @@ public class Article {
 	@Override
 	public boolean equals(Object obj) {
 		Article article1 = (Article) obj;
-		if (this.artistName.toLowerCase().trim().equals(article1.artistName.toLowerCase())
-				&& this.title.toLowerCase().equals(article1.title.toLowerCase().trim()))
+		if (this.artistName.toLowerCase().trim().equals(article1.artistName.toLowerCase()))
+				//&& this.title.toLowerCase().equals(article1.title.toLowerCase().trim()))
 			return true;
 		else
 			return false;
@@ -72,7 +72,7 @@ public class Article {
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
-		return new String(this.artistName /*+ "-" + this.title*/).hashCode();
+		return new String(this.artistName.toLowerCase()).hashCode();//+ "-" + this.title.toLowerCase()).hashCode();
 	}
 
 	public String getWeek() {
