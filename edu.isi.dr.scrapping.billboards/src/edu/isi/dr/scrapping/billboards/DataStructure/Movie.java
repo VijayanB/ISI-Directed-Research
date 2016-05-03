@@ -147,10 +147,16 @@ public class Movie {
 		this.date = date;
 	}
 
+	/*
+	 * @Override public boolean equals(Object obj) { Movie cmp = ((Movie) obj);
+	 * if (this.getTitle().equalsIgnoreCase(cmp.getTitle()) &&
+	 * this.getStudio().equalsIgnoreCase(cmp.getStudio())) { return true; } else
+	 * { return false; } }
+	 */
+
 	@Override
 	public boolean equals(Object obj) {
-		Movie cmp = ((Movie) obj);
-		if (this.getTitle().equalsIgnoreCase(cmp.getTitle()) && this.getStudio().equalsIgnoreCase(cmp.getStudio())) {
+		if (this.getWeekNo() == (long)obj) {
 			return true;
 		} else {
 			return false;
@@ -159,7 +165,18 @@ public class Movie {
 
 	@Override
 	public int hashCode() {
-		return new String(this.getTitle().toLowerCase() + "-" + this.getStudio().toLowerCase()).hashCode();
+		return (int) this.getWeekNo();
 	}
+	
+	public double getWeeklyShare() {
+		return weeklyShare;
+	}
+
+	public void setWeeklyShare(double d) {
+		this.weeklyShare = d;
+	}
+
+	private double weeklyShare;
+	
 
 }

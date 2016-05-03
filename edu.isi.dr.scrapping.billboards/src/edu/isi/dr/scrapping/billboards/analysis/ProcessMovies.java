@@ -25,10 +25,60 @@ import edu.isi.dr.scrapping.billboards.DataStructure.Movie;
 import edu.isi.dr.scrapping.billboards.json.CreateJsonRead;
 
 public class ProcessMovies {
+	class Percentage {
+		Double low;
+		Double high;
+
+		public Percentage(Double low, Double high) {
+			this.low = low;
+			this.high = high;
+		}
+	}
+
 	private String folder;
 
 	public ProcessMovies(String folder) {
 		this.folder = folder;
+	}
+
+	public Map<Long, LinkedList<Movie>> convertFileToJsonObjectListWeek(float startYear, float endYear)
+			throws FileNotFoundException, IOException, ParseException {
+
+		Map<Long, LinkedList<Movie>> movieListsOnWeek = new HashMap<>();
+		CreateJsonRead jread = new CreateJsonRead();
+		JSONParser parser = new JSONParser();
+		File[] listFiles = new File(folder).listFiles();
+		for (File jsonFile : listFiles) {
+			JSONObject root = (JSONObject) parser.parse(new FileReader(jsonFile));
+			Set keySet = root.keySet();
+
+			for (Object movieDate : keySet) {
+				int year = Integer.parseInt(((String) movieDate).split(",")[1].trim());
+				if (year >= startYear && year <= endYear) {
+				JSONArray movies = (JSONArray) root.get(movieDate);
+				Iterator<JSONObject> ll = movies.iterator();
+				while (ll.hasNext()) {
+					Movie createMovie = jread.createMovie(ll.next());
+					try {
+						if (Integer.parseInt(createMovie.getThisWeek()) > 10)
+							continue;
+					} catch (Exception e) {
+						continue;
+					}
+					if (movieListsOnWeek.containsKey(createMovie)) {
+						movieListsOnWeek.get(createMovie).add(createMovie);
+					} else {
+						LinkedList<Movie> arts = new LinkedList<>();
+						arts.add(createMovie);
+						movieListsOnWeek.put(createMovie.getWeekNo(), arts);
+					}
+				}
+			}
+			}
+		}
+
+		return movieListsOnWeek;
+
 	}
 
 	public Map<Movie, LinkedList<Movie>> convertFileToJsonObjectList(float startYear, float endYear)
@@ -111,31 +161,60 @@ public class ProcessMovies {
 		return MovieLists;
 	}
 
-	public Double processWeeksOnChartPercentage(String fileLocation, Map<Movie, LinkedList<Movie>> filteredList)
+	public Percentage processWeeksOnChartPercentage(String fileLocation, Map<Movie, LinkedList<Movie>> filteredList)
 			throws FileNotFoundException, UnsupportedEncodingException {
 		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
-		List<Integer> contents = new ArrayList<>();
+		List<Long> contents = new ArrayList<>();
 		List<String> checkList = new ArrayList<String>();
+		Double totalRevenue = 0.0;
 		for (Movie art : filteredList.keySet()) {
-			contents.add(filteredList.get(art).size());
+			long revenue = 0L;
+			for (Movie art1 : filteredList.get(art)) {
+				try {
+					if (Integer.parseInt(art1.getWeeklyGross().replace("$", "").replace(",", "")) < 1)
+						continue;
+				} catch (Exception e) {
+					continue;
+				}
+				revenue += Integer.parseInt(art1.getWeeklyGross().replace("$", "").replace(",", ""));
+			}
+			totalRevenue += revenue;
+			contents.add(revenue);
+
 			// checkList.add(art.getTitle() + " " + );
 		}
-		Collections.sort(contents);
+		List<Double> finalRes = new ArrayList<>();
+		for (Long l : contents) {
+			finalRes.add(l / totalRevenue);
+		}
+		Collections.sort(finalRes);
 		/*
 		 * Collections.sort(checkList); for (String line : checkList) {
 		 * writer.println(line); }
 		 */
 		// writer.close();
-		int lowPercentage = contents.size() * 20 / 100;
-		Double res = 0.0;
-		for (int i = 0; i < lowPercentage; i++) {
 
-			res += contents.get(i);
+		int lowPercentage = finalRes.size() * 20 / 100;
+		Double res = 0.0;
+		if (lowPercentage % 2 != 0) {
+			res = finalRes.get(lowPercentage / 2);
+		} else {
+			res = (finalRes.get(lowPercentage / 2) + finalRes.get((lowPercentage + 1) / 2)) / 2;
 		}
-		for (int j = contents.size() -1; j > contents.size() - lowPercentage; j--) {
-			res += contents.get(j);
+
+		Double low = res;
+		res = 0.0;
+		List<Double> results = new ArrayList<>();
+		for (int j = finalRes.size() - 1; j > finalRes.size() - lowPercentage; j--) {
+			results.add(finalRes.get(j));
 		}
-		return res / (2 * lowPercentage )  ;
+		if (results.size() % 2 != 0) {
+			res = results.get(results.size() / 2);
+		} else {
+			res = (results.get(results.size() / 2) + results.get((results.size() + 1) / 2)) / 2;
+		}
+
+		return new Percentage(low, res);
 
 	}
 
@@ -212,15 +291,74 @@ public class ProcessMovies {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 		ProcessMovies movieMojo = new ProcessMovies("movies");
-		// movieMojo.histogramsWeeksOnChart();
-	//	movieMojo.uniqueMoviesByYearChart();
-	//	movieMojo.plotGiniCoefficient();
-		movieMojo.plotMovingAverage();
+		//Map<Movie,List<Movie>> movieweek = movieMojo.weeklyRevenue();
+	//	 movieMojo.histogramsWeeksOnChart();
+		// movieMojo.uniqueMoviesByYearChart();
+		 movieMojo.plotGiniCoefficient();
+		// movieMojo.plotMovingAverage();
+	}
+
+	private Map<String, Float> weeklyRevenue(int start,int end) throws FileNotFoundException, IOException, ParseException {
+			Map<Long, LinkedList<Movie>> graph = new TreeMap<>();
+		graph = this.convertFileToJsonObjectListWeek(start,end );
+		for (Long weekno : graph.keySet()) {
+			Double revenue = 0.0;
+			for (Movie art1 : graph.get(weekno)) {
+				try {
+					if (Integer.parseInt(art1.getWeeklyGross().replace("$", "").replace(",", "")) < 1)
+						continue;
+				} catch (Exception e) {
+					continue;
+				}
+				revenue += Integer.parseInt(art1.getWeeklyGross().replace("$", "").replace(",", ""));
+			}
+			Iterator<Movie> weekiter = graph.get(weekno).iterator();
+			while (weekiter.hasNext()) {
+				Movie temp = weekiter.next();
+				Double revenue1 = 0.0;
+				try {
+					if (Integer.parseInt(temp.getWeeklyGross().replace("$", "").replace(",", "")) < 1)
+						continue;
+				} catch (Exception e) {
+					continue;
+				}
+				revenue1 = (double) Integer.parseInt(temp.getWeeklyGross().replace("$", "").replace(",", ""));
+
+				temp.setWeeklyShare(revenue1 / revenue);
+			}
+		}
+		Map<String, List<Movie>> movieLists = new HashMap<>();
+		for (Long weekno : graph.keySet()) {
+			Double revenue = 0.0;
+			for (Movie art1 : graph.get(weekno)) {
+
+
+				if (movieLists.containsKey(art1.getTitle().toLowerCase())) {
+					movieLists.get(art1.getTitle().toLowerCase()).add(art1);
+				} else {
+					List<Movie> songArray = new ArrayList<Movie>();
+					songArray.add(art1);
+					movieLists.put(art1.getTitle().toLowerCase(), songArray);
+				}
+			}
+
+		}
+		Map<String,Float> res = new HashMap<>();
+		for(String mov : movieLists.keySet()){
+			float sum = 0.0f;
+			for(Movie mv : movieLists.get(mov)){
+				sum += mv.getWeeklyShare();
+			}
+			res.put(mov,sum);
+		}
+
+		return res;
+
 	}
 
 	private void uniqueMoviesByYearChart() throws FileNotFoundException, IOException, ParseException {
 		// Map<Movie, LinkedList<Movie>> convertFileToJsonObjectList =
-		// this.convertFileToJsonObjectList(1985, 2015);
+		// this.o(1985, 2015);
 		Map<Integer, List<Movie>> findUniqueMovies = this.findUniqueMovies();
 		persistUniqueMoviesByYear("movieanalytics/top10/uniqueMovies.txt", findUniqueMovies);
 
@@ -237,38 +375,47 @@ public class ProcessMovies {
 
 	// Gini co-efficient
 	public void plotGiniCoefficient() throws FileNotFoundException, IOException, ParseException {
-		Map<Float, Double> graph = new TreeMap<>();
-		for (float start = 1985; start + 4 <= 2015; start += 1) {
-			Map<Movie, Integer> objLists = this.convertFileToJsonObjectCount(start, start + 4);
-			graph.put(start, this.processGiniCooefficient(objLists));
+		Map<Integer, Double> graph = new TreeMap<>();
+		for (int start = 1982; start + 4 <= 2015; start += 1) {
+			Map<String, Float> objLists = this.weeklyRevenue(start, start + 4);
+			graph.put(start, this.processGiniCooefficient(objLists,true));
 			// Map<Movie, Integer> objLists1 =
 			// this.convertFileToJsonObjectTop100SixMonths(start, start + 1);
 			// graph.put((float) (start + 0.5),
 			// this.processGiniCooefficient(objLists1));
 		}
-		this.processGeneric("movieanalytics/top10/gini_movies_top10.txt", graph);
+		 this.processGeneric("movieanalytics/top10/gini_movies_top10_mshare.txt",
+		 graph);
 	}
 
 	// Gini co-efficient
 	public void plotMovingAverage() throws FileNotFoundException, IOException, ParseException {
-		Map<Float, Double> graph = new TreeMap<>();
+		Map<Float, Percentage> graph = new TreeMap<>();
 		for (float start = 1982; start <= 2014; start += 1) {
 			Map<Movie, LinkedList<Movie>> convertFileToJsonObjectList = this.convertFileToJsonObjectList(start,
 					start + 4);
-			graph.put(start,this.processWeeksOnChartPercentage("movieanalytics/top10/" + start + "-" + (start + 4), convertFileToJsonObjectList));
+			graph.put(start, this.processWeeksOnChartPercentage("movieanalytics/top10/" + start + "-" + (start + 4),
+					convertFileToJsonObjectList));
 		}
-		this.processGeneric("movieanalytics/top10/rollingaverage.txt", graph);
+	//	this.processGeneric("movieanalytics/week11/rollingmedianmarketshrae", graph);
 	}
 
-	public void processGeneric(String fileLocation, Map<Float, Double> objLists)
+	public void processGeneric(String fileLocation, Map<Integer, Double> objLists)
 			throws FileNotFoundException, UnsupportedEncodingException {
-		PrintWriter writer = new PrintWriter(fileLocation, "UTF-8");
+		PrintWriter writer = new PrintWriter(fileLocation + "_mshare.txt", "UTF-8");
 
-		for (Float art : objLists.keySet()) {
+		for (Integer art : objLists.keySet()) {
 			writer.println(art + "," + objLists.get(art));
 		}
 
 		writer.close();
+	/*	writer = new PrintWriter(fileLocation + "_high.txt", "UTF-8");
+
+		for (Integer art : objLists.keySet()) {
+			writer.println(art + "," + objLists.get(art).high);
+		} */
+
+		//writer.close();
 	}
 
 	public Map<Movie, Integer> convertFileToJsonObjectTop100SixMonths(float startYear, float endYear)
@@ -329,6 +476,31 @@ public class ProcessMovies {
 		}
 		return MovieLists;
 	}
+	
+	public Double processGiniCooefficient(Map<String, Float> art,boolean a) {
+		Double gini = 0.0;
+		List<Double> values = new ArrayList<Double>();
+		for (Float val : art.values()) {
+			values.add(val / 261.0);
+		}
+
+		for (Double xi : values) {
+			for (Double xj : values) {
+				gini += Math.abs(xi - xj);
+			}
+		}
+		Double denom = 0.0;
+		for (Double xi : values) {
+			for (Double xj : values) {
+				denom += xi;
+			}
+		}
+
+		return gini / (2 * denom);
+	}
+
+
+
 
 	public Double processGiniCooefficient(Map<Movie, Integer> art) {
 		Double gini = 0.0;

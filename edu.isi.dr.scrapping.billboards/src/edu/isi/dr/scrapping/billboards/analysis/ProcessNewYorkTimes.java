@@ -25,9 +25,21 @@ import org.json.simple.parser.ParseException;
 
 import edu.isi.dr.scrapping.billboards.DataStructure.Article;
 import edu.isi.dr.scrapping.billboards.DataStructure.Book;
+import edu.isi.dr.scrapping.billboards.DataStructure.Movie;
+import edu.isi.dr.scrapping.billboards.analysis.ProcessMovies.Percentage;
 import edu.isi.dr.scrapping.billboards.json.CreateJsonRead;
 
 public class ProcessNewYorkTimes {
+	class Percentage {
+		Double low;
+		Double high;
+
+		public Percentage(Double low, Double high) {
+			this.low = low;
+			this.high = high;
+		}
+	}
+
 	private String folder;
 
 	public ProcessNewYorkTimes(String folder) {
@@ -53,7 +65,7 @@ public class ProcessNewYorkTimes {
 					Iterator<JSONObject> ll = books.iterator();
 					while (ll.hasNext()) {
 						Book createBook = jread.createBook(ll.next());
-						if(Integer.parseInt(createBook.getRank()) > 10)
+						if (Integer.parseInt(createBook.getRank()) > 10)
 							continue;
 						if (bookLists.containsKey(createBook)) {
 							bookLists.get(createBook).add(createBook);
@@ -90,7 +102,7 @@ public class ProcessNewYorkTimes {
 					Iterator<JSONObject> ll = books.iterator();
 					while (ll.hasNext()) {
 						Book createArticle = jread.createBook(ll.next());
-						if(Integer.parseInt(createArticle.getRank()) > 10)
+						if (Integer.parseInt(createArticle.getRank()) > 10)
 							continue;
 						if (bookLists.containsKey(createArticle)) {
 							bookLists.put(createArticle, bookLists.get(createArticle) + 1);
@@ -113,7 +125,7 @@ public class ProcessNewYorkTimes {
 		List<String> checkList = new ArrayList<String>();
 		for (Book art : filteredList.keySet()) {
 			// contents.append(filteredList.get(art).size()
-			 //+ ",");
+			// + ",");
 			checkList.add(art.getTitle() + " " + filteredList.get(art).size());
 		}
 		Collections.sort(checkList);
@@ -121,10 +133,11 @@ public class ProcessNewYorkTimes {
 			writer.println(line);
 		}
 		writer.close();
-		/*String finalContent = contents.toString();
-		finalContent = finalContent.substring(0, finalContent.length() - 1);
-		writer.print(finalContent);
-		writer.close(); */
+		/*
+		 * String finalContent = contents.toString(); finalContent =
+		 * finalContent.substring(0, finalContent.length() - 1);
+		 * writer.print(finalContent); writer.close();
+		 */
 
 	}
 
@@ -143,7 +156,7 @@ public class ProcessNewYorkTimes {
 				Iterator<JSONObject> ll = songs.iterator();
 				while (ll.hasNext()) {
 					Book createBook = jread.createBook(ll.next());
-					if(Integer.parseInt(createBook.getRank()) > 10)
+					if (Integer.parseInt(createBook.getRank()) > 10)
 						continue;
 					if (bookLists.containsKey(year)) {
 						if (!bookLists.get(year).contains(createBook))
@@ -173,9 +186,21 @@ public class ProcessNewYorkTimes {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
 		ProcessNewYorkTimes nytimes = new ProcessNewYorkTimes("books");
-		nytimes.histogramsWeeksOnChart();
-		nytimes.uniqueBooksByYearChart();
-		nytimes.plotGiniCoefficient();
+		// nytimes.histogramsWeeksOnChart();
+		// nytimes.uniqueBooksByYearChart();
+		// nytimes.plotGiniCoefficient();
+		nytimes.plotMovingAverage();
+	}
+
+	// Gini co-efficient
+	public void plotMovingAverage() throws FileNotFoundException, IOException, ParseException {
+		Map<Float, Percentage> graph = new TreeMap<>();
+		for (float start = 1950; start+4 <= 2015; start += 1) {
+			Map<Book, LinkedList<Book>> convertFileToJsonObjectList = this.convertFileToJsonObjectList(start,
+					start + 4);
+			graph.put(start, this.processWeeksOnChartPercentage(convertFileToJsonObjectList));
+		}
+		this.processGeneric("ny_times_statistics/top10/book", graph, true);
 	}
 
 	private void uniqueBooksByYearChart() throws FileNotFoundException, IOException, ParseException {
@@ -189,8 +214,8 @@ public class ProcessNewYorkTimes {
 			throws FileNotFoundException, IOException, ParseException, UnsupportedEncodingException {
 		for (int start = 1950; start <= 2011; start += 1) {
 			Map<Book, LinkedList<Book>> convertFileToJsonObjectList = this.convertFileToJsonObjectList(start,
-					start+1);
-			this.processWeeksOnChart("ny_times_statistics/analysis/hist/uniq_Book_top10" + start ,
+					start + 1);
+			this.processWeeksOnChart("ny_times_statistics/analysis/hist/uniq_Book_top10" + start,
 					convertFileToJsonObjectList);
 		}
 	}
@@ -198,13 +223,34 @@ public class ProcessNewYorkTimes {
 	// Gini co-efficient
 	public void plotGiniCoefficient() throws FileNotFoundException, IOException, ParseException {
 		Map<Float, Double> graph = new TreeMap<>();
-		for (float start = 1950; start+4  <= 2015; start += 1) {
+		for (float start = 1950; start + 4 <= 2015; start += 1) {
 			Map<Book, Integer> objLists = this.convertFileToJsonObjectCount(start, start + 4);
 			graph.put(start, this.processGiniCooefficient(objLists));
-		//	Map<Book, Integer> objLists1 = this.convertFileToJsonObjectTop100SixMonths(start, start + 1);
-		//	graph.put((float) (start + 0.5), this.processGiniCooefficient(objLists1));
+			// Map<Book, Integer> objLists1 =
+			// this.convertFileToJsonObjectTop100SixMonths(start, start + 1);
+			// graph.put((float) (start + 0.5),
+			// this.processGiniCooefficient(objLists1));
 		}
-		this.processGeneric("ny_times_statistics/gini/gini_author_new_10.txt", graph);
+		// this.processGeneric("ny_times_statistics/gini/gini_author_new_10.txt",
+		// graph);
+	}
+
+	public void processGeneric(String fileLocation, Map<Float, Percentage> objLists, boolean a)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter writer = new PrintWriter(fileLocation + "_low", "UTF-8");
+
+		for (Float art : objLists.keySet()) {
+			writer.println(art + "," + objLists.get(art).low);
+		}
+
+		writer.close();
+
+		writer = new PrintWriter(fileLocation + "_high", "UTF-8");
+
+		for (Float art : objLists.keySet()) {
+			writer.println(art + "," + objLists.get(art).high);
+		}
+		writer.close();
 	}
 
 	public void processGeneric(String fileLocation, Map<Float, Double> objLists)
@@ -297,6 +343,43 @@ public class ProcessNewYorkTimes {
 		}
 
 		return gini / (2 * denom);
+	}
+
+	public Percentage processWeeksOnChartPercentage(Map<Book, LinkedList<Book>> filteredList)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		List<Integer> contents = new ArrayList<>();
+		List<String> checkList = new ArrayList<String>();
+		Double totalRevenue = 0.0;
+		for (Book art : filteredList.keySet()) {
+			contents.add(filteredList.get(art).size());
+			totalRevenue += filteredList.get(art).size();
+		}
+
+		// checkList.add(art.getTitle() + " " + );
+
+		/*
+		 * Collections.sort(checkList); for (String line : checkList) {
+		 * writer.println(line); }
+		 */
+		// writer.close();
+		Collections.sort(contents);
+		int lowPercentage = contents.size() * 20 / 100;
+		Float res = 0.0f;
+		for (int i = 0; i < lowPercentage; i++) {
+			res += contents.get(i);
+		}
+		Double lowVal = (double) res / lowPercentage;
+
+		res = 0.0f;
+		List<Integer> results = new ArrayList<>();
+		for (int j = contents.size() - 1; j > contents.size() - lowPercentage; j--) {
+			res += contents.get(j);
+		}
+
+		Double highVal = (double) res / lowPercentage;
+
+		return new Percentage(lowVal, highVal);
+
 	}
 
 }

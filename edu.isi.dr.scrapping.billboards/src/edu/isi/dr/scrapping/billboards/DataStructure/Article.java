@@ -62,8 +62,8 @@ public class Article {
 	@Override
 	public boolean equals(Object obj) {
 		Article article1 = (Article) obj;
-		if (this.artistName.toLowerCase().trim().equals(article1.artistName.toLowerCase()))
-				//&& this.title.toLowerCase().equals(article1.title.toLowerCase().trim()))
+		if (this.artistName.toLowerCase().trim().equals(article1.artistName.toLowerCase())
+				&& this.title.toLowerCase().equals(article1.title.toLowerCase().trim()))
 			return true;
 		else
 			return false;

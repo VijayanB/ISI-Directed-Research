@@ -54,11 +54,11 @@ public class Book implements Comparable<Book> {
 
 	public void setTitle(String title) {
 		this.title = title;
-		if(this.title.charAt(this.title.length()-1) == ',') {
-			this.title = this.title.substring(0, this.title.length()-1);
+		if (this.title.charAt(this.title.length() - 1) == ',') {
+			this.title = this.title.substring(0, this.title.length() - 1);
 		}
-		if(this.title.contains("(")){
-		this.title = this.title.substring(0,this.title.indexOf("("));
+		if (this.title.contains("(")) {
+			this.title = this.title.substring(0, this.title.indexOf("("));
 		}
 	}
 
@@ -67,12 +67,8 @@ public class Book implements Comparable<Book> {
 	}
 
 	public void setAuthor(String author) {
-		
 		this.author = author;
-		if(this.author != null && this.author.charAt(this.author.length()-1) == '.') {
-			this.author = this.author.substring(0, this.author.length()-1);
-		}
-		
+
 	}
 
 	public String getDescription() {
@@ -105,33 +101,30 @@ public class Book implements Comparable<Book> {
 	@Override
 	public boolean equals(Object obj) {
 		Book cmp = (Book) obj;
-		if(cmp.getAuthor() == null || this.getAuthor() == null){
-			return false;
-		}
-		return(cmp.getAuthor().trim().replace(" ","").equalsIgnoreCase(this.getAuthor().trim().replace(" ", "")));
+		return (cmp.getTitle().trim().replace(" ", "").equalsIgnoreCase(this.getTitle().trim().replace(" ", "")));
 		/*
-		if (cmp.getTitle() != null && this.getTitle() != null) {
-			if (cmp.getAuthor() != null && this.getAuthor() != null) {
-				if(cmp.getAuthor().contains("Dominick") && this.getAuthor().contains("Dominick")){
-					if(!cmp.getTitle().trim().replace(" ","").equalsIgnoreCase(this.getTitle().trim().replace(" ", ""))
-						&& cmp.getAuthor().trim().replace(" ","").equalsIgnoreCase(this.getAuthor().trim().replace(" ", ""))){
-						System.out.println("interested");
-					}
-				}
-				return (cmp.getTitle().trim().replace(" ","").equalsIgnoreCase(this.getTitle().trim().replace(" ", ""))
-						&& cmp.getAuthor().trim().replace(" ","").equalsIgnoreCase(this.getAuthor().trim().replace(" ", "")));
-			} else {
-				return (cmp.getTitle().trim().replace(" ","").equalsIgnoreCase(this.getTitle().trim()));
-			}
-		}*/
+		 * if (cmp.getTitle() != null && this.getTitle() != null) { if
+		 * (cmp.getAuthor() != null && this.getAuthor() != null) {
+		 * if(cmp.getAuthor().contains("Dominick") &&
+		 * this.getAuthor().contains("Dominick")){
+		 * if(!cmp.getTitle().trim().replace(" "
+		 * ,"").equalsIgnoreCase(this.getTitle().trim().replace(" ", "")) &&
+		 * cmp.getAuthor().trim().replace(" "
+		 * ,"").equalsIgnoreCase(this.getAuthor().trim().replace(" ", ""))){
+		 * System.out.println("interested"); } } return
+		 * (cmp.getTitle().trim().replace(" "
+		 * ,"").equalsIgnoreCase(this.getTitle().trim().replace(" ", "")) &&
+		 * cmp.getAuthor().trim().replace(" "
+		 * ,"").equalsIgnoreCase(this.getAuthor().trim().replace(" ", ""))); }
+		 * else { return (cmp.getTitle().trim().replace(" "
+		 * ,"").equalsIgnoreCase(this.getTitle().trim())); } }
+		 */
 	}
 
 	@Override
 	public int hashCode() {
 		// TODO Auto-generated method stub
-		if(this.getAuthor() == null)
-			return new String("").hashCode();
-		return new String(this.getAuthor().trim().replace(" ","").toLowerCase()).hashCode();
+		return new String(this.getTitle().trim().replace(" ", "").toLowerCase()).hashCode();
 	}
 
 	@Override
